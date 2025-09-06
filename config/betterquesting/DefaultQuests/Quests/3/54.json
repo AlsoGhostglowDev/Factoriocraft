@@ -1,0 +1,50 @@
+{
+  "preRequisites:11": [
+    130
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "If you\u0027re going to make §5Mekanism§r machinery, you\u0027re most likely going to need a §6Steel Casing§r to craft it.\n\nSteel Casings are relatively simple to craft, only taking 1 §6Osmium Ingot§r, 4 §6Glass§r, and 4 §6Steel Ingot§rs.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 8,
+        "id:8": "mekanism:basicblock"
+      },
+      "ismain:1": 1,
+      "name:8": "Steel Casing",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 54,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "id:8": "mekanism:basicblock"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

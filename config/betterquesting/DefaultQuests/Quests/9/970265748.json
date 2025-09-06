@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    151878906,
+    151323393
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the standard §6Capacitor Bank§r serves the same functionality as the Basic Tier but with a §alot more capacity§r that is §e5MRf per Capacitor Bank§r.\n\nTo craft one, you\u0027d need a §6Redstone Block§r, 4 §6Electrical Steel Ingot§rs, and 4 §6Double-Layered Capacitor§rs. \nYou can also craft it with 2 of the §6Basic Capacitor Bank§rs, 6 §6Energetic Alloy§rs, and a Double-Layered Capacitor.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "enderio:block_cap_bank",
+        "tag:10": {
+          "enderio:energy:3": 5000000
+        }
+      },
+      "name:8": "Standard Capacitor Bank"
+    }
+  },
+  "questID:3": 970265748,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "enderio:block_cap_bank"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

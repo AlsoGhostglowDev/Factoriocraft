@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    67
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "If you have followed the quests from before, you should\u0027ve gotten an §6Osmium Pickaxe§r, which is also one of the first pickaxe types to be able to mine §6Obsidian§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:obsidian"
+      },
+      "name:8": "Obtain Obsidian"
+    }
+  },
+  "questID:3": 12,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:obsidian"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

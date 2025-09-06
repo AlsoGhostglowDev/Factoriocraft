@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    2122280596
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Stellar Energy Conduit§r is the §efinal tier of the §6Energy Conduit§rs and is capable of §eoutputting a maximum of 2M µI/t§r.\n\nTo make the Stellar Energy Conduit, you will need six §6Conduit Binder§rs, two §6Infinity Reagent§r, and a §6Stellar Alloy Ingot§r.\nTo make a Stellar Alloy Ingot, throw four §6Clay§r, a §6Nether Star§r, and a §6Melodic Alloy Ingot§r into an §6Alloy Smelter§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 11,
+        "id:8": "enderio:item_endergy_conduit"
+      },
+      "name:8": "Stellar Energy Conduit"
+    }
+  },
+  "questID:3": 1854700648,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 11,
+          "id:8": "enderio:item_endergy_conduit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

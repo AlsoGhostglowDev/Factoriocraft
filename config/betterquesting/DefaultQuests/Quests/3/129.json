@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    120
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Atomic Alloy§r is the §elast level of alloy§r that can be made in the §6Metallurgic Infuser§r. To make one, infuse §eRefined Obsidian related item§r into a §6Reinforced Alloy§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mekanism:atomicalloy"
+      },
+      "name:8": "Atomic Alloy"
+    }
+  },
+  "questID:3": 129,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mekanism:atomicalloy"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

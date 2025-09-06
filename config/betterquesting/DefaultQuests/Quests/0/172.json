@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    156,
+    171
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Supremium Ingot§r is a key material to §emake the Supremium Tier Tools§r.\n\nYou can craft one using a §6Superium Ingot§r and §e2 §6Supremium Essence§r. ",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 37,
+        "id:8": "mysticalagriculture:crafting"
+      },
+      "name:8": "Supremium Ingot"
+    }
+  },
+  "questID:3": 172,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 37,
+          "id:8": "mysticalagriculture:crafting"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

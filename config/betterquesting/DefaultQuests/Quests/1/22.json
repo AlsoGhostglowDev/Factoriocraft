@@ -1,0 +1,19 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§o\"Oh dong!\"\n\n§rDid you know that if you hold down the §eGRAVE §7[`] §rto veinmine various things?\nIt is not limited to only the ores, you can veinmine other blocks such as §7Stone, Dirt, etc.\n\n§eThis can only be done with the right harvest level§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:knowledge_book"
+      },
+      "name:8": "Did you know we have veinminer?"
+    }
+  },
+  "questID:3": 22,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

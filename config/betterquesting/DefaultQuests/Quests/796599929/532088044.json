@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    1981596359,
+    1185951243
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Fluxed Phyto-Gro§r is the §elast variant of it\u0027s kind§r. It acts as the §eultimate fertilizer in the §6Phytogenic Insulator§r, giving you both §amaximum output§r and §aefficiency§r. It\u0027s charged with §cRedstone Flux§r.\n\nTo obtain such fertilizer, you\u0027ll need the §6Rich Phyto-Gro§r in a §6Energetic Infuser§r. This will infuse §cRedstone Flux§r into the Rich Phyto-Gro, giving you the §efinest of plant food§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "thermalfoundation:fertilizer"
+      },
+      "name:8": "Fluxed Phyto-Gro"
+    }
+  },
+  "questID:3": 532088044,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 2,
+          "id:8": "thermalfoundation:fertilizer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

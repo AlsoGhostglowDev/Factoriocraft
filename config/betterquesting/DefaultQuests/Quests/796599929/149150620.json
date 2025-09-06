@@ -1,0 +1,28 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§b§oIs it me or is it really cold here..?§r\n\n§6Cryotheum §ris an §eice elemental dust§r. Commonly used to make §9Gelid Cryotheum§r, which is it\u0027s fluid from.\nIt\u0027s also used in making §eSignalum-related items§r, §eaugments§r, §efreezing fluids§r, and §eitems directly in the Crafting Grid§r. For instance, a §6Water Bucket§r can be combined with it to make §6Ice§r.\n\nTo obtain Cryotheum, you\u0027ll need a §6Snowball§r, §6Redstone Dust§r, and 2 §6Blizz Powder§r, which can be obtained with §6Blizz Rod§rs which is from the Blizz mob. You can also make one of these in a §6Centrifugal Seperator§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1025,
+        "id:8": "thermalfoundation:material"
+      },
+      "name:8": "§bCryotheum"
+    }
+  },
+  "questID:3": 149150620,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 1025,
+          "id:8": "thermalfoundation:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

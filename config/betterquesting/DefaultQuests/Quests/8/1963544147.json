@@ -1,0 +1,34 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    2
+  ],
+  "preRequisites:11": [
+    220891238,
+    1783620457
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\"Unmanned Mission\" has the same process of launching a rocket but §ewithout you on-board§r. In order to execute such plan, you\u0027d need to get the §6Rocket Monitoring Station§r. This machine is used to §emonitor the unmanned rocket§r, giving you information of §eit\u0027s altitude§r, §evelocity§r and §efuel§r. It can also §elaunch the rocket remotely with a click of a button§e in the machine\u0027s GUI.\n\nTo connect the said machine to an assembled rocket, you\u0027d need a §6Linker§r. Link both of them together and they will work §ewirelessly throughout all planets§r.\n\nIt\u0027s commonly used to send §6Satellite Bay§r to space.\n\nTo make the Rocket Monitoring Station, you\u0027ll need six §6Copper Rod§rs, a §6Machine Structure§r, a Battery (§7known in §eJEI§7 by §6item.battery.0.name§r), and an §6Optical Sensor§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:monitoringstation"
+      },
+      "name:8": "Unmanned Mission"
+    }
+  },
+  "questID:3": 1963544147,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:monitoringstation"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

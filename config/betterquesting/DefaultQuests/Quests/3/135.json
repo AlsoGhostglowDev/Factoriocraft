@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    54
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Digital Miner§r is a §emining machine that can collect ores and add them into it\u0027s inventory§r. Not only can you set it\u0027s range and it\u0027s depth, but you can also §efilter out unwanted ores§r. You can set it to silk touch ores, but this §cwill cost more energy§r to do.\n\nTo craft the Digital Miner, you will need two §6Teleportation Core§rs, two §6Atomic Alloy§rs, two §6Logistical Sorter§rs, one §6Steel Casing§r, one §6Robit§r, and a §6Basic Control Circuit§r.\n\nThe two plugs on the left and right of the Miner is the §epower source§r, and the back plug is §efor the output§r (§7like a chest§r), and the top plug is §eoptional for input items for the use of replace the block that is mined with another block§r. \n\nTo set a block to mine, click the [§7Config§r] button. Here you can see the §eRadi§r (Radius of the miner) and §eMin/Max§r (§7Y level of the miner§r). Click on [§7New Filter§r] to add an item filter.\n\n§7§oThe following are the types of filters you can use:§r\n\n§b§n§lItem Stack:§r The default type, place the block of your choice in the left slot.\n§7§n§lOre Dictionary:§r Useful for blocks §ethat have an OreDict§r. Type in the key of the block you want to mine in the prompt (§7Example: oreIron§r).\n§d§n§lMaterial:§r Same as Item Stack.\n§c§n§lMod ID:§r Useful for §emining every block from a certain mod§r. type in the mod name in the prompt.\n\nOnce you\u0027re done making your filter, click the [§7Save§r] button and the §aminer will collect the blocks you\u0027ve specified§r. To Start up the miner, click the [§7Start§r] button on the miner.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "mekanism:machineblock"
+      },
+      "name:8": "Digital Miner"
+    }
+  },
+  "questID:3": 135,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 20,
+          "id:8": "minecraft:iron_ore"
+        },
+        "1:10": {
+          "Count:3": 20,
+          "id:8": "mekanism:oreblock"
+        },
+        "2:10": {
+          "Count:3": 20,
+          "id:8": "minecraft:redstone_ore"
+        },
+        "3:10": {
+          "Count:3": 20,
+          "id:8": "minecraft:coal_ore"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "mekanism:machineblock"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

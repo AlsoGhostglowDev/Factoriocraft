@@ -1,0 +1,125 @@
+{
+  "preRequisites:11": [
+    25,
+    31,
+    35
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Wyvern Gear§r is the §efirst step into the §5Draconic Evolution§e gear§r, the second and last one being §aDraconic Tier§r.\n\nThis gear provides you protection with the §ahelp of RF-Powered Energy Shield§r. The gear are also §acharged with energy to be used properly§r. This enables you to §eavoid needing to spend materials and experience§r when repairing such item. To craft it, you\u0027ll need to unlock the §6Combination Crafting§r from §5Extended Crafting§r.\n\nThe §aWyvern Set of Armor§r needs the variants of many materials. \nThis includes: \n- §6Iron§r, §6Gold§r, §6Diamond§r, \n- §6NanoSuit§r, §6QuantumSuit§r (§5IC2§r)\n- §6Wither Bone§r (§5NetherEx§r)\n- §6Tough Alloy§r, §6Hard Carbon§r (§5NuclearCraft§r)\n- §6Dark Steel§r, §6Ender§r, §6Stellar§r (§5EnderIO§r)\n\nand additional materials for base Wyvern Gears which are the §6Wyvern Core§r, §6Energy Core§r and the §6Draconium Ingot§rs.\n\nThe Wyvern Set of Tools on the other hand would need:\n- Stellar Variant of the Tool (§7except §6Shovel§r)\n- §6Draconic Core§r\n- Wyvern Core\n- §6Wyvern Energy Core§r\n- Draconium Ingot\n\nCrafting this will give you §agreater power§r in both §ehandling the Parasites and other rivals§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:wyvern_chest",
+        "tag:10": {
+          "Energy:3": 4000000
+        }
+      },
+      "name:8": "Wyvern Gear"
+    }
+  },
+  "questID:3": 36,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        },
+        "1:10": {
+          "Count:3": 5,
+          "id:8": "draconicevolution:draconium_ingot"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:wyvern_helm"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:wyvern_chest"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:wyvern_legs"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:wyvern_boots"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:wyvern_sword"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:wyvern_bow"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Items:9": {},
+              "Size:3": 9
+            }
+          },
+          "id:8": "draconicevolution:wyvern_pick"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Items:9": {},
+              "Size:3": 9
+            }
+          },
+          "id:8": "draconicevolution:wyvern_axe"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Items:9": {},
+              "Size:3": 9
+            }
+          },
+          "id:8": "draconicevolution:wyvern_shovel"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:draconium_capacitor"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

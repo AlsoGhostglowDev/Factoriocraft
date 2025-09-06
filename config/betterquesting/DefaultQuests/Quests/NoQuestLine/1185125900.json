@@ -1,0 +1,18 @@
+{
+  "preRequisites:11": [
+    1580931766,
+    184345014
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "environmentaltech:nano_cont_personal_6"
+      },
+      "name:8": "T6 Personal Nanobot Beacon"
+    }
+  },
+  "questID:3": 1185125900,
+  "tasks:9": {}
+}

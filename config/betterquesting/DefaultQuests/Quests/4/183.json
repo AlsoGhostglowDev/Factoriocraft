@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    1799109483,
+    686415817
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6ME Controller§r is essentially §ethe heart of your to-be ME Storage System§r. Even though you can still make one without one, it\u0027s still recommended for you to get as it gives you an amount of §e32 channels for each of the block\u0027s sides§r, thus maximizing the amount of channels used. It can also work as a multiblock when you §econnect it together with other ME Controllers§r. If it shows as it\u0027s normal form then you\u0027re good to go. If it\u0027s §ccolored red then there\u0027s something wrong with your multiblock structure§r.\n\nTo craft it, you\u0027ll need four §6Sky Stone Block§rs, four §6Pure Fluix Crystal§rs, and an §6Engineering Processor§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:controller"
+      },
+      "ismain:1": 1,
+      "name:8": "ME Controller",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 183,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:controller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

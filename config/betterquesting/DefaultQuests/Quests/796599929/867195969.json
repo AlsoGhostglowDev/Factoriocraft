@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    2100312162
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §eUpgrade Kits§r are used to §eincrementally upgrade blocks to higher tiers§r. These blocks are §5Thermal Expansion§r\u0027s §emachines, Dynamos, Portable Tanks§r, etc.\nHardened is the §efirst tier§r of the Upgrades.\n\nTo craft one, you\u0027ll need 4 §6Invar Ingot§rs, a §6Copper Gear§r, and 2 §6Redstone Dust§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermalfoundation:upgrade"
+      },
+      "name:8": "Hardened Tier"
+    }
+  },
+  "questID:3": 867195969,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thermalfoundation:upgrade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

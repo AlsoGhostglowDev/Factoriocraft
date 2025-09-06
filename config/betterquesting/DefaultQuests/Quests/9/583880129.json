@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    1549470421
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Pressurized Fluid Conduit§r is the §enext tier of the Fluid Conduits§r and is capable of §eoutputting a maximum of 400 mB/T§r.\n\nTo make the Pressurized Fluid Conduit, you\u0027ll need six §6Conduit Binder§rs and three §6Fused Quartz§r.\nTo make Fused Quartz, throw four §6Nether Quartz§r into the §6Alloy Smelter§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "enderio:item_liquid_conduit"
+      },
+      "name:8": "Pressurized Fluid Conduit"
+    }
+  },
+  "questID:3": 583880129,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 1,
+          "id:8": "enderio:item_liquid_conduit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

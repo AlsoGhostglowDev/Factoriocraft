@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    2
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Straightforward. Getting your first wooden tools in the vast Minecraft World.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:wooden_pickaxe"
+      },
+      "name:8": "Tools",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 1,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:wooden_pickaxe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

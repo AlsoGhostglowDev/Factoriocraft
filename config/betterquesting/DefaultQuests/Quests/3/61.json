@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    56
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This is §eTier 0 of Ore Processing§r which produces the same amount inputted.\n\nThis is just your ol\u0027 smelting, nothing special. Throw in some ore in a §6Furnace§r or an §6Energized Smelter§r and you\u0027ll get it\u0027s ingot. \n\n§n§lProsedure:§r\n1. Ore  \u003e  §6Energized Smelter§r  \u003e  Ingot",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:iron_ingot"
+      },
+      "name:8": "Ore Processing T0 (1x)"
+    }
+  },
+  "questID:3": 61,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

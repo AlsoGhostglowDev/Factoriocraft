@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [
+    134224987
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§eExtracts nearby §9water§r from it\u0027s surrounding.\n\nTo craft it, you\u0027ll need a §6Device Frame§r, a §6Redstone Servo§r, a §6Bucket§r, 2 §6Iron Gear§rs and 2 §6Glass§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermalexpansion:device",
+        "tag:10": {
+          "Creative:1": 0,
+          "Facing:1": 5,
+          "Level:1": 0,
+          "RSControl:1": 0,
+          "SideCache:7": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "name:8": "Aqueous Accumulator"
+    }
+  },
+  "questID:3": 1500231081,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thermalexpansion:device",
+          "tag:10": {
+            "Energy:3": 0,
+            "Facing:1": 3,
+            "RSControl:1": 0,
+            "SideCache:7": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "preRequisites:11": [
+    1527030534
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Precision Assembler§r is used to make many components that you need to craft in §5Advanced Rocketry§r. This machine makes crafting those components §emore cheaper and more efficiently§r.\n\nIt is commonly used to §ecreate many of the circuits ubiquitous within the mod for cheaper§r, with often a §a4x cost reduction in their main resource sink§r; a removal of a §6Diamond§r for a bit of §6Silicon§r. \n\nSome recipes might require you have §emore than 4 item inputs§r, this would mean you\u0027ll need an additional §6Input Hatch§r on the bottom layer of your multiblock.\n\nThe machine is a §aMultiblock Structure§r; §eThe multiblock\u0027s materials are in the task itself§r.\n\nTo craft the Precision Assembler, you\u0027ll need a §6Redstone Repeater§r, a Diamond, a §6User Interface§r, a §6Machine Structure§r, an §6Item IO Circuit Board§r, a §6Control Circuit Board§r, a §6Furnace§r, a §6Dropper§r, and a §6Steel Gear§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:precisionassemblingmachine"
+      },
+      "name:8": "Precision Assembler"
+    }
+  },
+  "questID:3": 1340122196,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:precisionassemblingmachine"
+        },
+        "1:10": {
+          "Count:3": 20,
+          "id:8": "libvulpes:structuremachine"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "OreDict:8": "blockMotor",
+          "id:8": "libvulpes:motor"
+        },
+        "3:10": {
+          "Count:3": 2,
+          "Damage:2": 2,
+          "OreDict:8": "blockCoil",
+          "id:8": "libvulpes:coil0"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "libvulpes:hatch"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "libvulpes:hatch"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "libvulpes:hatch"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "libvulpes:hatch"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "id:8": "libvulpes:forgepowerinput"
+        },
+        "9:10": {
+          "Count:3": 2,
+          "id:8": "minecraft:glass"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

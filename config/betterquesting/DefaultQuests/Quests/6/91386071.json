@@ -1,0 +1,67 @@
+{
+  "preRequisites:11": [
+    892899340,
+    177
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the Tier 2 is nothing special, but this time you\u0027ll find out that you can §eget a new crystal§r: \"§6Kyronite§r\"\n\nTo build one, refer to the §6Digital Guide§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "environmentaltech:void_ore_miner_cont_2"
+      },
+      "name:8": "T2 Void Ore Miner"
+    }
+  },
+  "questID:3": 91386071,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 32,
+          "id:8": "environmentaltech:structure_frame_2"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "id:8": "environmentaltech:structure_panel"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "id:8": "environmentaltech:modifier_null"
+        },
+        "3:10": {
+          "Count:3": 3,
+          "id:8": "environmentaltech:laser_core"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "OreDict:8": "etLaserLens",
+          "id:8": "environmentaltech:laser_lens"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "environmentaltech:void_ore_miner_cont_2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aClick on the checkbox§r to get started with the §eQuestline Gates §rand §r§5OpenComputers§r.\n\n§5OpenComputers§r is a mod that introduces §ecomputer programming and robotics§r into §7Factoriocraft§r. More specifically, §5OpenComputers§r offers §enew mechanical blocks, robots to automate everyday tasks, and even a whole system for controlling your computers§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "opencomputers:case1"
+      },
+      "ismain:1": 1,
+      "name:8": "Gate: OpenComputers"
+    }
+  },
+  "questID:3": 50,
+  "rewards:9": {
+    "0:10": {
+      "command:8": "#Script Comment\nsay VAR_NAME has unlocked the gate to OpenComputers!",
+      "description:8": "Run a command script",
+      "index:3": 0,
+      "rewardID:8": "bq_standard:command"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

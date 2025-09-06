@@ -1,0 +1,32 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    86
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "With this tool, you can §ecopy-paste blocks anywhere, anytime with ease§r; allowing access to §aendless amounts of the copied block§r. ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:creative_exchanger"
+      },
+      "name:8": "Creative Block Exchanger"
+    }
+  },
+  "questID:3": 812443200,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:creative_exchanger"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

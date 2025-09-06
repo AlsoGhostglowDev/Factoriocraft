@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    35
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Basic Fusion Crafting Injector§r is another block §einvolved in the §6Fusion Crafter§e multiblock§r, as it serves as the §eleft and right column of the Crafter§r and can take one type of item for each injector.\n\nTo craft it, you will need five §6Obsidian§r, two §6Ionite Crystal§r, one §6§6Mica §7§7(Obtained from the §6§6Void Resource Miner§7§7)§r§r and a §6Draconic Core§r.\n\nTo make the Fusion Crafter, §eplace the Fusion Crafting Core in the middle§r, make §etwo plus signs out of the Injectors§r (§7facing towards the Crafting Core§r) and then §eplace them at most two blocks away from the Core§r. It doesn\u0027t matter where they are, they can be on the bottom and top or the left and right side of it.\n\nNow that you have the basic shape down, §esupply all of the injectors with energy§r (§7You may need the §6Cryo-Stabilized Fluxduct§r§7 for the best transfer rate§r).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:crafting_injector"
+      },
+      "name:8": "Basic Fusion Crafting"
+    }
+  },
+  "questID:3": 34,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 10,
+          "id:8": "draconicevolution:crafting_injector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

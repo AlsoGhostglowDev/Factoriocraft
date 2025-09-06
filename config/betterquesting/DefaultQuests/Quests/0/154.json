@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    153,
+    166
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Intermedium§r is a §etier above §6Prudentium§r and can be crafted using four Prudentium Essences and an §6Infusion Crystal§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "mysticalagriculture:crafting"
+      },
+      "name:8": "Intermedium"
+    }
+  },
+  "questID:3": 154,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "mysticalagriculture:crafting"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

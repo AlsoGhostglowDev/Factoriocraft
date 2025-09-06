@@ -1,0 +1,31 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§c§l§oKeep Yourself Safe. KYS.\n\n§r...that\u0027s what the §5Construct\u0027s Armory§r mod does! Just like regular §5Tinkers\u0027 Construct§r tools, §7Factoriocraft§r also includes an addon to the mod that adds Tinkers\u0027 Armor!\n\nPlease read the §6Materials and You - Armory Addendum§r book for §emore information on the subject§r, as it does prove §ato come in handy§r!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "conarm:book"
+      },
+      "name:8": "Keep Yourself Safe."
+    }
+  },
+  "questID:3": 21,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "conarm:book"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

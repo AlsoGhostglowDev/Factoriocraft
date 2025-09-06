@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    54
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Osmium Compressor§r is a §ekey machine in making refined materials§r. Refined materials are §amore stronger, can be used to make more powerful items, and can even be used to make the Tinkers\u0027 \"reinforced\" modifier§r.\n\nTo craft the compressor, you will need four §6Enriched Alloy§rs, two §6Advanced Circuit§rs, two §6Bucket§rs, and a §6Steel Casing§r.\n\nPlace §6Osmium Ingot§rs in the purple slot to create §6Liquid Osmium§r, this will be §eyour fuel§r. Then place a material of your choice in the red slot and the §acompressor will begin to convert your material into it\u0027s refined counterpart§r (§7assuming it\u0027s §econnected to a power source§r).",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "mekanism:machineblock"
+      },
+      "name:8": "Osmium Compressor"
+    }
+  },
+  "questID:3": 60,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "mekanism:machineblock"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

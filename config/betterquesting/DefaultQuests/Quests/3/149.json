@@ -1,0 +1,50 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    54
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Chemical Infuser§r is a machine that allows you to §einfuse two different chemicals into one§r. For example, §einfusing §6Hydrogen§r §eand §6Oxygen§e makes §6Water§r. This machine is also involved in §emaking §6D-T Fuel§e for the §6Fusion Reactor§r and also §ethe fourth tier of §6Ore Processing§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "mekanism:machineblock2"
+      },
+      "name:8": "Chemical Infuser"
+    }
+  },
+  "questID:3": 149,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "mekanism:machineblock2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

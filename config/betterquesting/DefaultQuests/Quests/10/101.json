@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    53
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Able to dispense infinite of the set item, essentially giving you §cinfinite amount of the item§r.\n§eCan be duped by placing it in the Crafting Grid.\n\n§6This is where the journey ends. You have completed every single task possible in §9Factorio§acraft §6and achieved infinite amounts of items and fluids, there\u0027s nothing left for you to do other than watch as the world fall in the Parasite\u0027s hand... or will you save it? Who knows...\n\n...Of course, the fun won\u0027t end here. There is surely more to come in the near future that will test your skills!\n\n§3Thank you for playing §9Factorio§acraft §3and using it to it\u0027s fullest potential.\nI\u0027m surprised you even got here, that\u0027s some true dedication..\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n§8\"can you touch grass or smth now\"\n- ghostglow\n\n\"I\u0027m definitely going to get a raise after this\"\n- T-Bar",
+      "frame:8": "JAGGED",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "storagedrawers:upgrade_creative"
+      },
+      "ismain:1": 1,
+      "name:8": "Creative Vending Upgrade"
+    }
+  },
+  "questID:3": 101,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "storagedrawers:upgrade_creative"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

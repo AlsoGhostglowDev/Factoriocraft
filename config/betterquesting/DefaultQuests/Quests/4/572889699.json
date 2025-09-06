@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    614954418,
+    183
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Similar to the §6ME Terminal§r, this is to §especifically access and view fluids in your ME Storage System§r.\nIf you aren\u0027t familiar how to get fluids into your ME System, try §epiping your fluid pipes into a ME Fluid Interface that is connected to your ME Storage§r.\n\nTo craft it, you\u0027ll need an ME Terminal, §6Lapis Lazuli§r, and a §6Logic Processor§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 520,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "Fluid Terminal"
+    }
+  },
+  "questID:3": 572889699,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 520,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

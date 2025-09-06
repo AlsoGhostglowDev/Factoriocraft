@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    46,
+    45
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Obtain the §6Draconium Ingot§r to get started with §5Draconic Evolution§r.\n\n§5Draconic Evolution§r is one of the final mods in §7Factoriocraft§r, with it being end-game content for those who have braved through §cparasites§r, §9space travel§r, and mor§5§re.\n\n§5Draconic Evolution§r (§5DE§r for short) introduces §§§anew armor, energy storage systems, and many more things§r undocumented by our scientists at §1§9NeoTechnologies§r. All we know are §etales of the mod§r, like §aarmor that defends you against even the §cstrongest of enemies§r and §atools that hold the great§5 power of chaos§r, which we dubbed the §6Draconic Equipment§r.\n\nThere are many more tales to be told about this mod, so what\u0027s stopping you from §astarting this questline§r and §8documenting the undocumented§r?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:draconic_core"
+      },
+      "name:8": "Gate: Draconic Evolution",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 41,
+  "rewards:9": {
+    "0:10": {
+      "command:8": "#Script Comment\nsay VAR_NAME has unlocked the gate to Draconic Evolution!",
+      "description:8": "Run a command script",
+      "index:3": 0,
+      "rewardID:8": "bq_standard:command"
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:info_tablet"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:draconium_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    1826314094
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Ender Gas Conduit§r is the §efinal tier of the Gas Conduits§r and is capable of outputting a §emaximum of 16384 mB/T§r.\n\nTo make the Ender Gas Conduit, you\u0027ll need eight §6Pressurized Gas Conduit§rs and an §6Atomic Alloy§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "enderio:item_gas_conduit"
+      },
+      "name:8": "Ender Gas Conduit"
+    }
+  },
+  "questID:3": 1414609993,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 2,
+          "id:8": "enderio:item_gas_conduit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

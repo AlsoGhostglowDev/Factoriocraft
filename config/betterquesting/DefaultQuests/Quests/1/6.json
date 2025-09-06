@@ -1,0 +1,119 @@
+{
+  "preRequisites:11": [
+    3
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Okay maybe I should\u0027ve told you about the vanilla tools, that\u0027s on me gang :wilted_rose: :sob:.\n\nTime to make your first pickaxe that won\u0027t break immediately.\n\n§5§5§0§6§rFirst, you craft a §6Blank Pattern§r and use it on the §6§6Stencil Table§r. From there, you will be given a table of different patterns that §ayou can make the §§§aBlank Pattern into.\n\n§rNormally your §c§a§e§e§6Tool Station§r will tell you what parts you need and what those parts look like. §9§1§2Let\u0027s make a pickaxe!§r To do this, we will need to make a §6Tool Rod Pattern§r, a §6Pickaxe Head Pattern§r, and a Binding Pattern. \n\nThe§6 Part Builder§r will allow you to §aturn materials into usable tool parts from blank patterns§r. In the left box, add the pattern you want to use, then put the material (§7in our case, cobblestone§r) of your choice in one of the two boxes next to the pattern box. Do this for all of the patterns you made.\n\n(§7Please note that some patterns may take more materials to make than others. Refer to the pattern\u0027s description to see it\u0027s material consumption§r).\n\nAnd finally, in the Tool Station, click on the Pickaxe button on the left and place the tool parts that you made in their respective slots.\n\nAnd if you\u0027ve done everything correctly, §ayou should get a (§7legit§a)§7 stone pickaxe!§r\n\n\n\nThese tools §edon\u0027t break when they lose durability§r. Instead, they are simply damaged and\n§ecan be repaired§r by putting the tool in the Tool Station and putting the tool\u0027s material in\none of the slots around the middle one.\n\nYou can also use this to make yourself a §6Broadsword§r, a §6Hatchet§r, and §a§eother tools§r!\n",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "plustic::10": {
+            "Items:9": {},
+            "Size:3": 1
+          },
+          "plustic:fruitsalad_cap:10": {
+            "Items:9": {},
+            "Size:3": 5
+          },
+          "plustic:musicofthespheres_cap:10": {
+            "Items:9": {},
+            "Size:3": 1
+          }
+        },
+        "id:8": "tconstruct:pickaxe",
+        "tag:10": {
+          "Modifiers:9": {
+            "0:10": {
+              "color:3": -7444965,
+              "identifier:8": "ecological",
+              "level:3": 1
+            },
+            "1:10": {
+              "color:3": -6710887,
+              "identifier:8": "cheapskate",
+              "level:3": 1
+            },
+            "2:10": {
+              "color:3": 16777215,
+              "identifier:8": "toolleveling",
+              "level:3": 1
+            }
+          },
+          "Special:10": {
+            "Categories:9": {
+              "0:8": "harvest",
+              "1:8": "aoe",
+              "2:8": "tool"
+            }
+          },
+          "Stats:10": {
+            "Attack:5": 3.0,
+            "AttackSpeedMultiplier:5": 1.0,
+            "Durability:3": 128,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 1,
+            "MiningSpeed:5": 4.0
+          },
+          "StatsOriginal:10": {
+            "Attack:5": 3.0,
+            "AttackSpeedMultiplier:5": 1.0,
+            "Durability:3": 160,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 1,
+            "MiningSpeed:5": 4.0
+          },
+          "TinkerData:10": {
+            "Materials:9": {
+              "0:8": "wood",
+              "1:8": "stone",
+              "2:8": "wood"
+            },
+            "Modifiers:9": {
+              "0:8": "toolleveling"
+            }
+          },
+          "Traits:9": {
+            "0:8": "ecological",
+            "1:8": "cheapskate",
+            "2:8": "toolleveling"
+          }
+        }
+      },
+      "name:8": "Your First (REAL) Pickaxe",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 6,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:pick_head",
+          "tag:10": {
+            "Material:8": "stone"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

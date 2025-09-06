@@ -1,0 +1,32 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    86
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "bro idk figure it out yrself atp\n\nadded by §5RFTools§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:creative_screen"
+      },
+      "name:8": "Creative Screen"
+    }
+  },
+  "questID:3": 412213049,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:creative_screen"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

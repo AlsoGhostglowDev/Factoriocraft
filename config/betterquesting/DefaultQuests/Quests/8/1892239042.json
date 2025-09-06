@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1167259382
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Guidance Computer§r is placed on the rocket to §elet it know what the target destination is§r. This block §cMUST be included in your rocket§r, otherwise it would not work. \n\nThe GUI has one slot for an §6ID Chip§r. This can either be a §eSpace Station§r or a §6Planet ID Chip§r, depending on where you\u0027re going.\n\nTo craft it, you\u0027ll need four §6Tracking Circuit§rs, three §6Redstone Dust§r, a §6Tritanium Plate§r, and a §6Machine Structure§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:guidancecomputer"
+      },
+      "name:8": "Guidance Computer"
+    }
+  },
+  "questID:3": 1892239042,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:guidancecomputer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

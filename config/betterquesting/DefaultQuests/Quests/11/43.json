@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    46,
+    50,
+    45
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This dimension is not only home to a brand new world, but §eseveral new ones§r as well!\n\nBuild yourself a §erocket§r and §etake to the skies§r... and §ebeyond§r. Who knows what you\u0027ll find out there...\n\n...but be careful, as those §cpesky parasites wont stop at a little space travel to spread their influence§r.\n\n§eCollect the §6Machine Structure§e to begin this questline§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:rocketbuilder"
+      },
+      "name:8": "Gate: Advanced Rocketry",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 43,
+  "rewards:9": {
+    "0:10": {
+      "command:8": "#Script Comment\nsay VAR_NAME has unlocked the gate to Advanced Rocketry!",
+      "description:8": "Run a command script",
+      "index:3": 0,
+      "rewardID:8": "bq_standard:command"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "libvulpes:structuremachine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    184452152
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Simple Alloy Smelter§r is an §5EnderIO§r machine that can be used to §ecreate alloys for energy§r, similar to §emixing materials§r in the §3Smeltery§r.\n\nA §6Simple Machine Chassis§r, two §6Stone Gear§rs, a §6Bucket§r, two §6Furnace§rs, and three §6Iron Ingot§rs.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_simple_alloy_smelter"
+      },
+      "name:8": "Simple Alloy Smelter",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1387185278,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_simple_alloy_smelter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

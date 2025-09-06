@@ -1,0 +1,82 @@
+{
+  "preRequisites:11": [
+    5,
+    2
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "As you find stone tools to be close to useless, §5§3§4§5Tinkers\u0027 Construct§r §atools are the alternative to take§r.\n\n§5Tinkers\u0027 Construct§r tools are way more §aversatile to use and create than vanilla tools§r, like with how you can mix n\u0027 match a tool\u0027s materials to make your tool have better §estats and traits§r.\n\nIf you are interested in learning about the world of Tinkers, then gain the following\nitems to complete the quest and to get started on making a §epersonalized tool for yourself§r.\n\n(§7and if you are not interested, well... §c§4good luck with that§c§r)",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "tconstruct:tooltables"
+      },
+      "name:8": "Use Tinkers Construct!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 3,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "tconstruct:pattern"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "tic_stencilTable",
+          "id:8": "tconstruct:tooltables",
+          "tag:10": {
+            "textureBlock:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "minecraft:planks"
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "tic_partBuilder",
+          "id:8": "tconstruct:tooltables",
+          "tag:10": {
+            "textureBlock:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "minecraft:log"
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": "tic_toolStation",
+          "id:8": "tconstruct:tooltables"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "OreDict:8": "tic_craftingStation",
+          "id:8": "tconstruct:tooltables"
+        },
+        "4:10": {
+          "Count:3": 4,
+          "id:8": "tconstruct:pattern"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

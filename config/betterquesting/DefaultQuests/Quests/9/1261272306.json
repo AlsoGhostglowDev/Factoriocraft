@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    872693761,
+    517953273
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6The Enhanced Vat§r has the same functionality as it\u0027s last tier with the advantage of it §ahaving faster processing rate than the Industrial tier§r.\n\nTo craft it, you\u0027ll need an §6Enhanced Machine Chassis§r, two §6End Steel Ingot§rs, two §6Pressurized Fluid Tank§rs (§5EnderIO§r), two §6Electrical Steel Ingot§rs, a §6Furnace§r, and a §6Cauldron§r.\nIf you already have §6The Vat§r, then you only need The Vat, two End Steel Ingots, two Pressurized Fluid Tanks (§5EnderIO§r), and an Enhanced Machine Chassis.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_enhanced_vat"
+      },
+      "name:8": "The Enhanced Vat"
+    }
+  },
+  "questID:3": 1261272306,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_enhanced_vat"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

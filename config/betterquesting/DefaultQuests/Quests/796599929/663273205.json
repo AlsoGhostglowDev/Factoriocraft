@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    134224987
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Unrelated to the mod itself, but you\u0027d need this to actually craft §5Thermal Expansion§r\u0027s §6Machine Frame§r.\n\nTo make one, you\u0027ll need 4 §6Iron Plate§rs, 2 §6Gold Ingot§rs and 2 §6Blue Dyes§r (§7or §6Lapis Lazuli§r).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:machine_frame"
+      },
+      "name:8": "RFTools: Machine Frame"
+    }
+  },
+  "questID:3": 663273205,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:rftools_manual"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:machine_frame"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

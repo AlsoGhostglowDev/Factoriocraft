@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    63,
+    116
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This is Tier 3 of Ore Processing which outputs §equadruple the amount inputted§r. Wow, now this is real profit.\n\nIn order to process the ores in this tier, we now need the §6Thermal Evaporation Chamber§r and §6Chemical Infuser§r in order to make §6Hydrogen Chloride§r. Firstly, to make Hydrogen Chloride, you must first §eseperate §6Water§e in an §6Electrolytic Seperator§e to get §6Hydrogen§r. Now, you\u0027ll need Water again to §eproduce §6Brine§r which you\u0027ll input into another Electrolytic Seperator to get §6Chlorine§r. With this, we can now §einfuse them together§r by §eputting Hydrogen and Chlorine together in a Chemical Infuser§r to get Hydrogen Chloride.\nTo actually process the ore, §eput it in the Chemical Injection Chamber together with the newly made Hydrogen Chloride to get 4 shards§r. These shards now go into the §6Purification Chamber§r alongside §6Oxygen§r to be §apurified into Clumps§r. The rest are the same as the last tier.\n   \n§n§lProsedure:§r\n§7§nOre Processing:§r\n1. Ore + §bHydrogen Chloride§r  \u003e  §6C. Inj. Chamber§r  \u003e  Shard\n1. Shard + §bOxygen§r  \u003e  §6Purification Chamber§r  \u003e  Clump\n2. Clump  \u003e  §6Crusher§r  \u003e  Dust\n3. Dust  \u003e  §6Energized Smelter§r  \u003e  Ingot\n\n§7§nHydrogen Chloride:§r\n1.1.  §9Water§r  \u003e  §6Electrolytic Seperator§r  \u003e  [§e§lHydrogen§7 | Oxygen§r]\n1.2.1. §9Water§r  \u003e  §6TEP§r  \u003e  §9Brine§r\n1.2.2. §9Brine§r  \u003e  §6Electrolytic Seperator§r  \u003e  [§7Sodium | §e§lChlorine§r] \n2. §bHydrogen + Chlorine§r  \u003e  §6Chemical Infuser§r  \u003e  §bHydrogen Chloride§r",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mekanism:shard"
+      },
+      "name:8": "Ore Processing T3 (4x)"
+    }
+  },
+  "questID:3": 117,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "mekanism:tierinstaller"
+        }
+      }
+    }
+  },
+  "tasks:9": {}
+}

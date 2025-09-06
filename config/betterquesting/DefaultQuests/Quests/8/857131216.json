@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    1869169115
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Warp Controller§r is §eused in the Space Station§r to §ewarp to other planets§r. This is §eNEEDED to have access to all the planets offered in §5Advanced Rocketry§r. You\u0027d also need an §6Active Warp Core§r in your Space Station in order to use this machine. You must §efeed the Warp Core §6Dillithium Crystals§e as fuel in order to warp to other places§r.\n\nTo craft one, you\u0027ll need four §6Steel Plate§rs, two §6Control Circuit Board§rs, an §6Advanced Circuit§r, a §6User Interface§r, and a §6Machine Structure§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:warpmonitor"
+      },
+      "name:8": "Warp Controller"
+    }
+  },
+  "questID:3": 857131216,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:warpmonitor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    667150240
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§9Rocket Fuel§r serves as the §efuel of your rocket§r (§7duh§r).\n\nTo make it, you\u0027ll need to combine §eOxygen§r and §eHydrogen§r in the §6Chemical Reactor§r. ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "rocketfuel"
+        }
+      },
+      "name:8": "Rocket Fuel"
+    }
+  },
+  "questID:3": 1755212687,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "rocketfuel"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    122
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Can be made by throwing a §6Diamond§r into the §6Enrichment Chamber§r.\n\n§6Compressed Diamond§rs can be used in the §6Metallurgic Infuser§r with §6Obsidian Dust§r to create §6Refined Obsidian Dust§r. Compressed Diamonds are §eworth 8 times more than a standard Diamond§r in the §6Metallurgic Infuser§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mekanism:compresseddiamond"
+      },
+      "name:8": "Compressed Diamond"
+    }
+  },
+  "questID:3": 131,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mekanism:compresseddiamond"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

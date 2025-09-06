@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    46,
+    45
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This level houses several... §eweird properties§r. Including a §ecrystal shard§r that is said to be used in §emaking a seed§r that can §o§egrow the ungrowable§r.\n\nWe at §9NeoTechnologies§r don\u0027t know much about this weird seed, so making some and playing around with the plant would prove to be quite useful in our studies.\n\n§eCollect a §6Prosperity Shard§e to begin this questline§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "mysticalagriculture:crafting"
+      },
+      "name:8": "Gate: Mystical Agriculture",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 44,
+  "rewards:9": {
+    "0:10": {
+      "command:8": "#Script Comment\nsay VAR_NAME has unlocked the gate to Mystical Agriculture!",
+      "description:8": "Run a command script",
+      "index:3": 0,
+      "rewardID:8": "bq_standard:command"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "mysticalagriculture:crafting"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

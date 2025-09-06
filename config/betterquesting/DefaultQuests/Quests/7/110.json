@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    106
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Microcontroller§rs§r are §amore compact versions of computers§r that can §einteract with their environment similarly to a drone§r, although it is §cjust as limiting§r. It’s less mobile and is §aalways ready to go as soon as you place it§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 21,
+        "id:8": "opencomputers:material"
+      },
+      "name:8": "Compact Computing"
+    }
+  },
+  "questID:3": 110,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "opencomputers:microcontroller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

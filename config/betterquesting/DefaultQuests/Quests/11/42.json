@@ -1,0 +1,50 @@
+{
+  "preRequisites:11": [
+    46,
+    50,
+    45
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§5Environmental Tech§r allows you to use the §o§einfinite vast of the void§r to your abilities, by using a §epowerful laser§r to collect §eresources and ores from the void§r.\n\nThere are also many other blocks too, like a §6Lighting Controller§r, a §6Solar Array§r, etc.\n\n§eCollect a §6Litherite Crystal§e to begin this questline§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "environmentaltech:litherite_crystal"
+      },
+      "name:8": "Gate: Environmental Tech",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 42,
+  "rewards:9": {
+    "0:10": {
+      "command:8": "#Script Comment\nsay VAR_NAME has unlocked the gate to Environmental Tech!",
+      "description:8": "Run a command script",
+      "index:3": 0,
+      "rewardID:8": "bq_standard:command"
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "valkyrielib:guide"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "environmentaltech:litherite_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

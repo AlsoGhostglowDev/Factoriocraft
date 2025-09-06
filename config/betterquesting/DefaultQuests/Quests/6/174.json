@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    42
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Litherite§r is a crystal that can be crafted using four §6Flint§r, two §6Green Dye§r, two §6Lime Dye§r, and a §6Infused Diamond§r. It is useful in making §emachine modifiers§r, the §6Assembler§r, the §6Solar Cell§r, etc. Litherite can also be used make §5Tinkers\u0027 Construct§r tools, which has the §etrait of absorbing stone for durability§r.",
+      "frame:8": "DIAMOND_ON_SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "environmentaltech:litherite_crystal"
+      },
+      "name:8": "Litherite"
+    }
+  },
+  "questID:3": 174,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "environmentaltech:litherite_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    220891238
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Linker§r is often used to §econnect up machines to other machines§r or to §eassembled rockets§r. For instance, it can be used to connect the §6Fueling Station§r to an Assembled Rocket to §efuel up the said rocket§r. It is used by [§7Shift + R-Clicking§r] the first target and the second target afterwards.\n\nTo craft it, you\u0027ll need §6Redstone Dust§r, an §6Iron Ingot§r, and a §6Gold Ingot§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "libvulpes:linker"
+      },
+      "name:8": "Linker"
+    }
+  },
+  "questID:3": 1783620457,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "libvulpes:linker"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

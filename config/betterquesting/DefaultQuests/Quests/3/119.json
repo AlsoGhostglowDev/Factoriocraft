@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    54
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Chemical Crystallizer§r is a machine that is specialized in well.. crystallizing chemicals. For instance, take §6Iron Slurry§r. Iron Slurry is a chemical that came from §edissolving Iron Ore§r and this machine is one way to §econvert it back into an item§r, in this example; §6Iron Crystal§r. This machine is crucial for the Tier 4 Ore Processing line.\n\nTo craft one, you\u0027ll need four §6Basic Control Circuit§rs, two §6Atomic Alloy§rs, two §6Basic Gas Tank§rs, and a §6Steel Casing§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 8,
+        "id:8": "mekanism:machineblock2"
+      },
+      "name:8": "Chemical Crystallizer"
+    }
+  },
+  "questID:3": 119,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "id:8": "mekanism:machineblock2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

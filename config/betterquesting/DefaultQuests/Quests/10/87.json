@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    86
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§eAbilities:§r\n- §6Night Vision§r\n\n§4The §cFull Set of Infinity Armor§4 grants you the ultimate protection from everything. You will never die while wearing this armor, not even §d/kill§4 and of course not those §cpathetic parasites§4.  ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "avaritia:infinity_helmet"
+      },
+      "name:8": "§dInfinity Helmet"
+    }
+  },
+  "questID:3": 87,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "avaritia:infinity_helmet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

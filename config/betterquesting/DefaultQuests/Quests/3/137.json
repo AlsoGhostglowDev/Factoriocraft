@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    45
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "If you\u0027re going to make Mekanism machines, then you will need a §ereliant power source to connect your machines to§r. A generator is sure to solve that issue.\n\nLet\u0027s make a §6Heat Generator§r, which will output energy (§7energy is measured in §cRF§r§7, or §cRedstone Flux§7§7§r§7, here§r) depending on the §esurrounding temperature§r, like lava or fire.\n\nTo make one, you need §6Iron Ingot§rs, a §6Furnace§r, §6Osmium Ingot§r, §6Copper Ingot§rs, and §6Wood Planks§r. Other than that, you connect Mekanism cables to the back of the Generator and §eadd a §eheat source on any side of the generator§r, your cables should now be §efilled with energy§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mekanismgenerators:generator"
+      },
+      "ismain:1": 1,
+      "name:8": "First Generator",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 137,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mekanismgenerators:generator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

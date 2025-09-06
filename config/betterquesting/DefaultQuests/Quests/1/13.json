@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    12
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Obsidian§r is a material that will ready you to get into a §ototally new dimension:§r\n\n§4§lTHE NETHER §c:speaking_head: :fire:§r\n\nThis dimension is accessed by §etravelling down from the §aOverworld §eto §athe Beneath§r, and lastly §cThe Nether§r, a §4harsh and destructive hell§r. You\u0027ll need obsidian tiered tools to get ready for §cThe Nether§r. §eGood luck.§r\n\n§8(PS: Nether Portals does not work.)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:netherrack"
+      },
+      "name:8": "The Nether"
+    }
+  },
+  "questID:3": 13,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 1,
+          "id:8": "tconstruct:ingots"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "id:8": "tconstruct:ingots"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "advancement_id:8": "minecraft:story/enter_the_nether",
+      "index:3": 0,
+      "taskID:8": "bq_standard:advancement"
+    }
+  }
+}

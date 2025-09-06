@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    183
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "An §6Interface Terminal§r allows you to §eaccess all your ME Interfaces that are connected to your ME System§r. Whether it\u0027s for §eauto-crafting patterns§r or something else.\n\nTo craft it, you\u0027ll need an §6Illuminated Panel§r, an §6ME Interface§r, and an §6Engineering Processor§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 480,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "Interface Terminal"
+    }
+  },
+  "questID:3": 2072091552,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 480,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

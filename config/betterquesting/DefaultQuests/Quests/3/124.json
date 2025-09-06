@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    60
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Glowstone Ingot§rs (§7or Refined Glowstone§r) are a refined material that can be made in the §6Osmium Compressor§r. It can be used in §emaking a §6Teleporter§r and §erefined Glowstone tools§r.\n\nTo make it, simply throw §6Glowstone Dust§r into the Osmium Compressor.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "mekanism:ingot"
+      },
+      "name:8": "Refined Glowstone"
+    }
+  },
+  "questID:3": 124,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "mekanism:ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

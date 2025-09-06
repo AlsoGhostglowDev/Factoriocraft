@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    153,
+    168
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Prudentium Ingot§r is a key material to §emake the Prudentium Tier Tools§r.\n\nYou can craft one using a §6Inferium Ingot§r and §e2 §6Prundentium Essence§r. ",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 34,
+        "id:8": "mysticalagriculture:crafting"
+      },
+      "name:8": "Prudentium Ingot"
+    }
+  },
+  "questID:3": 169,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 34,
+          "id:8": "mysticalagriculture:crafting"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

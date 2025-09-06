@@ -1,0 +1,63 @@
+{
+  "preRequisites:11": [
+    174,
+    1843640930
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Void Ore Miner§r can mine §eall the ore types in the game§r using the Void. This can be done by §econstructing the multiblock§r. You can use the §6Assembler§r to help build it automatically (§7with the materials in your inventory§r).\n\nThe §ehigher the tier, the higher chance the rare ores gets mined§r. It will automatically transfer items onto any storage that are available at it\u0027s faces and §eneeds energy to function properly§r. I recommend connecting the storage up to an ME Storage System or a bunch of §6Storage Drawer§rs. The crystals also differs in tiers. This tier only offers §6Litherite§r, §6Lonsdaleite§r and §6Erodium§r.\n\nTo build one, refer to the §6Digital Guide§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "environmentaltech:void_ore_miner_cont_1"
+      },
+      "name:8": "T1 Void Ore Miner"
+    }
+  },
+  "questID:3": 892899340,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 24,
+          "id:8": "environmentaltech:structure_frame_1"
+        },
+        "1:10": {
+          "Count:3": 20,
+          "id:8": "environmentaltech:structure_panel"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "id:8": "environmentaltech:laser_core"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "OreDict:8": "etLaserLens",
+          "id:8": "environmentaltech:laser_lens"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "environmentaltech:void_ore_miner_cont_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

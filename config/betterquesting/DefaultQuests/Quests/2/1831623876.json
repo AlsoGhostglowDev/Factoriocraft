@@ -1,0 +1,26 @@
+{
+  "preRequisites:11": [
+    1228377968
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You can let the parasites evolve §eto get strong armor and weapons§r (§7or if you\u0027re just a complete idiot§r). You can craft a §eliving weapon and living armor§r (§eor find it through dungeons§r).\n\nKill a couple of §cyelloweyes§r, §clongarms§r, §cany assimilated creature§r (§7do this very early as assimilated creatures evolve into feral ones later on§r), §creekers§r, §csummoners§r and §cmanducaters§r.\n",
+      "frame:8": "CIRCLE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "srparasites:weapon_sword"
+      },
+      "name:8": "Parasite Tools"
+    }
+  },
+  "questID:3": 1831623876,
+  "rewards:9": {
+    "0:10": {
+      "amount:3": 300,
+      "index:3": 0,
+      "isLevels:1": 0,
+      "rewardID:8": "bq_standard:xp"
+    }
+  },
+  "tasks:9": {}
+}

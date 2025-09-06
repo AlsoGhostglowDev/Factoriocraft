@@ -1,0 +1,65 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Hello fellow NT staff!\n\nWelcome to \"§3Level -2784§r\"! You are sent by the §9NeoTechnologies Alternate Reality Research Subdivision§r (§9NTARS§7 for short§r) into this dimension to experiment the safety of other realities as our §etrue reality§r is becoming unstable due to §k[REDACTED INFORMATION]§r.\n\nBest course of action would be to §ainspect the area that you begun from§r and to §astart building shelter§r.\n\nOur §9§dReality Inspection Systems§r (§dRIS§r) have detected §cdangerous levels of anomalous activities§r in this reality and are therefore recommended that you and your team §ccontain it as soon as possible§r.\n\n§aClick on the checkbox to finish this first mission§r, and\nthe following objectives will §aguide you through how things work and advance in various ways§r.\n\nYour guide has been fully written by our newly hired Intern, code named \"§9T-BAR§r\".",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:grass"
+      },
+      "ismain:1": 1,
+      "name:8": "The Beginning"
+    }
+  },
+  "questID:3": 2,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:helm_hazmat"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:chest_hazmat"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:legs_hazmat"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:boots_hazmat"
+        }
+      }
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "techguns:pistol",
+          "tag:10": {
+            "ammo:2": 18,
+            "ammovariant:8": "default",
+            "camo:1": 0
+          }
+        },
+        "1:10": {
+          "Count:3": 5,
+          "Damage:2": 11,
+          "id:8": "techguns:itemshared"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

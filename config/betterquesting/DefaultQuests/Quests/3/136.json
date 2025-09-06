@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    54
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Energy Cube§r is a §ereally useful Mekanism block§r because it is able to §estore and transport a lot of energy§r, with each advancing tier being §ecapable of storing more energy§r.\n\nTo craft a Tier 1 Energy Cube (§6Basic Energy Cube§r): Four §6Redstone Dust§r, two §6Iron Ingot§rs, two §6Energy Tablet§rs, and a §6Steel Casing§r.\n\nTo craft a Tier 2 Energy Cube (§6Advanced Energy Cube§r): Four §6Enriched Alloy§rs, two Energy Tablets, two §6Osmium Ingot§rs, and a Basic Energy Cube (T1).\n\nTo craft a Tier 3 Energy Cube (§6Elite Energy Cube§r): Four §6Reinforced Alloy§rs, two Energy Tablets, two §6Gold Ingot§rs, and an Advanced Energy Cube (T2).\n\nTo craft a Tier 4 Energy Cube (§6Ultimate Energy Cube§r): Four §6Atomic Alloy§rs, two §6Diamond§rs, two Energy Tablets, and an Elite Energy Cube (T3).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mekanism:energycube",
+        "tag:10": {
+          "tier:3": 0
+        }
+      },
+      "name:8": "Energy Cube"
+    }
+  },
+  "questID:3": 136,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mekanism:energycube",
+          "tag:10": {
+            "tier:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

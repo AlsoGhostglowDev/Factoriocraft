@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    50
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§5Applied Energistics 2§r (§7or §5AE2§7 for short§r) is a mod that adds a way to not only house §enearly-infinite storage§r, but plenty of §eother cool mechanics§r as well! \n\n§eCollect the §6Certus Quartz Crystal§e to begin this questline§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:controller"
+      },
+      "name:8": "Gate: Applied Energistics 2",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 46,
+  "rewards:9": {
+    "0:10": {
+      "command:8": "#Script Comment\nsay VAR_NAME has unlocked the gate to Mekanism!",
+      "description:8": "Run a command script",
+      "index:3": 0,
+      "rewardID:8": "bq_standard:command"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

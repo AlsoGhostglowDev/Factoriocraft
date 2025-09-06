@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    104
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Your robot might §csuffer from being unable to be charged§r. You can §afix this issue§r by §ahaving an active charger next to your robot§r.\n\nBut since you can’t place chargers on the go, §9§1§9NT§r presents you with a §6Generator Upgrade§r, the schematics of which you already have.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 16,
+        "id:8": "opencomputers:upgrade"
+      },
+      "name:8": "Readily Available Power Generation"
+    }
+  },
+  "questID:3": 107,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 16,
+          "OreDict:8": "oc_generators",
+          "id:8": "opencomputers:upgrade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

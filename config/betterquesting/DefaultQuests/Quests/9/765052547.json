@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    1387185278,
+    927102538
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Alloy Smelter§r is an §eupgraded version§r of the §6Simple Alloy Smelter§r with a few new additions, including:\n\n - The ability to §etoggle between §6Furnace§e, §6Alloy§e or both modes§r.\n - the ability to configure it\u0027s side\u0027s IO.\n - the ability to configure the §eredstone control§r.\n - the ability to §eadd in capacitors for more energy capacity and speed efficiency§r.\n\nYou can craft it using one of two crafting recipes, which includes:\n - Two §6Dark Bimetal Gear§rs, two §6Dark Steel Ingot§rs, a Simple Alloy Smelter, a §6Simple Powered Furnace§r, and an §6Industrial Machine Chassis§r.\n - Three Furnaces, a §6Cauldron§r, two Dark Steel Ingots, two Dark Bimetal Gears, and an Industrial Machine Chassis.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_alloy_smelter"
+      },
+      "name:8": "Alloy Smelter"
+    }
+  },
+  "questID:3": 765052547,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_alloy_smelter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

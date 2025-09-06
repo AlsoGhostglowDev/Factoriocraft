@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    54
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Enrichment Chamber§r allows you to do various of things; this includes: making §ecompressed materials§r, §eore processing§r, converting §edirty dust into it\u0027s normal form§r, etc.\n\nThis machine is particularly used in ore processing line, being able to §aclean the dust and double the profit when inputted with ores§r. The Enrichment Chamber also has a §afactory variant§r, so you\u0027ll be able to enrich items much faster in the context of mass production.\n\nTo craft one, you\u0027ll need four §6Redstone Dust§r, two §6Iron Ingot§rs, two §6Basic Control Circuit§rs, and a §6Steel Casing§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mekanism:machineblock"
+      },
+      "name:8": "Enrichment Chamber"
+    }
+  },
+  "questID:3": 58,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mekanism:machineblock"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

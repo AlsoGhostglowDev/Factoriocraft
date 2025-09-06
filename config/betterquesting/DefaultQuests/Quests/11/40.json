@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    41,
+    42,
+    43,
+    44,
+    51,
+    77,
+    30,
+    126,
+    163
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §9true end-game of §7Factoriocraft Season 6§r...\n\nIf you have gotten here, this has truly shown your §etrue power§r and §edetermination§r throughout this season...\n\nAre you ready for the §efinal questline§r? If so...\n\n§ecollect the §6Ultimate Crafting Table§e to begin this questline§r!",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "extendedcrafting:table_ultimate"
+      },
+      "ismain:1": 1,
+      "name:8": "Gate: Bragging Rights",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40,
+  "rewards:9": {
+    "0:10": {
+      "command:8": "#Script Comment\nsay VAR_NAME has unlocked the last chapter of the Questlines: Bragging Rights.",
+      "description:8": "Run a command script",
+      "index:3": 0,
+      "rewardID:8": "bq_standard:command"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extendedcrafting:table_ultimate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

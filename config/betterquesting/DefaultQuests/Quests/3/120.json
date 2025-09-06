@@ -1,0 +1,48 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    54,
+    57
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "As we already know, the §6Metallurgic Infuser§r can make §ealloys for us to use in machine making§r and §ecomputer related stuff§r.\n\nThe following quests will go over the §amost common and most useful alloys§r to make using the Infuser.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 8,
+        "id:8": "mekanism:machineblock"
+      },
+      "name:8": "Metallurgic Infuser: Alloys"
+    }
+  },
+  "questID:3": 120,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "mekanism:enrichedalloy"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "mekanism:reinforcedalloy"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "mekanism:atomicalloy"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

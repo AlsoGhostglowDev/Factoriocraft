@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    51
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "It\u0027s in the name. the §6Portable Fluid Tank§r is a convinient way to §acarry lots of §9fluids§a somewhere§r. The Basic Tier has the §ecapacity of 20 buckets§r. \nI personally find it especially useful when I want to carry 500 buckets of chocolate milk on-the-go!\n\nTo craft, you\u0027ll simply need a §6Redstone Servo§r, §6Copper Ingot§r, and 3 §6Glass§r.\n\n(§7TIP: You can instantly break it by dismantling it with a §6Crescent Hammer§r)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermalexpansion:tank",
+        "tag:10": {
+          "Level:1": 0,
+          "RSControl:1": 0
+        }
+      },
+      "name:8": "Portable Fluid Tank",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 715999445,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thermalexpansion:tank",
+          "tag:10": {
+            "Level:1": 0,
+            "RSControl:1": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

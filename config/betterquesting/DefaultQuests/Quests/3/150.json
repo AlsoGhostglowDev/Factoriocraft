@@ -1,0 +1,55 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    54
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Laser§r can be used for various things such as §ebreaking blocks, making laser doors and others§r.\n\nThough, another use for it is to §eheat up the §6Fusion Reactor §ewith massive amount of heat energy§r. This is done by pointing a §6Laser§r into a §6Laser Amplifier§r which redirects to the reactor\u0027s §6Focus Matrix§r. To start up the §6Fusion Reactor §rwith enough heat, §eset the front-most Laser Amplifier\u0027s redstone mode to §cHigh§r. This will make it so that it only §eemits the laser once it\u0027s powered with §credstone§r. Activate all the lasers and wait until it §ereaches about §a500kRf§e in the front-most Amplifier§r and §eactivate it once it\u0027s above the rate and when you\u0027re ready§r.\n\nTo craft one, you\u0027ll need a §6Steel Casing§r, §e3 §6Reinforced Alloy§rs, §e2 §6Energy Tablet§es and a §6Diamond§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 13,
+        "id:8": "mekanism:machineblock2"
+      },
+      "name:8": "Laser"
+    }
+  },
+  "questID:3": 150,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 13,
+          "id:8": "mekanism:machineblock2"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 14,
+          "id:8": "mekanism:machineblock2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

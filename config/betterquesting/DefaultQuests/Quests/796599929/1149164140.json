@@ -1,0 +1,59 @@
+{
+  "preRequisites:11": [
+    2100312162
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Magma Crucible§r allows you to §emelt down items into §9fluids§r.\n\nTo craft one, you\u0027ll need a §6Machine Frame§r, §6Hardened Glass§r of any kind, a §6Redstone Reception Coil§r, 2 §6Copper Gear§rs and 2 §6Nether Bricks§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 6,
+        "id:8": "thermalexpansion:machine",
+        "tag:10": {
+          "Energy:3": 0,
+          "Facing:1": 3,
+          "Level:1": 0,
+          "RSControl:1": 0,
+          "SideCache:7": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      "name:8": "Magma Crucible"
+    }
+  },
+  "questID:3": 1149164140,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "thermalexpansion:machine",
+          "tag:10": {
+            "Energy:3": 0,
+            "Facing:1": 3,
+            "Level:1": 0,
+            "RSControl:1": 0,
+            "SideCache:7": [
+              1,
+              1,
+              2,
+              2,
+              2,
+              2
+            ]
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

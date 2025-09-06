@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    1406602717
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "It\u0027s in the name. It\u0027s the cell you\u0027re supposed to put inside an §6ME Drive§r. It serves as a §edigital storage for specifically Items§r. Each tier §evaries in their item capacity§r, but all §6ME Storage Drive§rs have a consistent amount of §eonly 63 item types stored§r.\n\nTo craft it, refer to the §eJEI§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:storage_cell_1k",
+        "tag:10": {}
+      },
+      "name:8": "ME Storage Cell"
+    }
+  },
+  "questID:3": 863635334,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "meStorageCell",
+          "id:8": "appliedenergistics2:storage_cell_1k",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

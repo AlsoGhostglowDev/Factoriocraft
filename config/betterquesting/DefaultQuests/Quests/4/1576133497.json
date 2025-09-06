@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    46
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Charged Certus Quartz§r is a §evariant of the normal §6Certus Quartz§r that is §emore rare to find naturally§r. It\u0027s §aore glows§r, unlike it\u0027s normal counterpart, and spawn in §esmaller chunks§r. \n\n(§7TIP: You can also obtain the charged variant by throwing normal Certus Quartz into the §6Energetic Infuser§7!§r)",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Charged Certus Quartz",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1576133497,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 1,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

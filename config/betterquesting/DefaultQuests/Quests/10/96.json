@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    86
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§eAbilities:§r\n- §6Arrow Rain on Miss§r\n\n§4The Longbow that came down from Heaven. You don\u0027t need arrows for this.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "avaritia:infinity_bow"
+      },
+      "name:8": "§4Longbow of the Heavens"
+    }
+  },
+  "questID:3": 96,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "avaritia:infinity_bow"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

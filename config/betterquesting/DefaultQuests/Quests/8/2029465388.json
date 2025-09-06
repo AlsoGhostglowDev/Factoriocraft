@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    2114070141,
+    678452573,
+    1963544147
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Space Station can be used as a §epersonal or team base that hovers between planets§r. The Space Station is basically a Skyblock dimension where you could §ebuild anywhere and everywhere without a worry in the world§r. It has the ability to §arotate it\u0027s orientation§r and to §aset the gravity of the said station using machines§r. \n\nThe §eSpace Station is also NEEDED if you\u0027re looking to travel far away from your own planet\u0027s orbit§r. This can be achieved with the §6Warp Core§r to §ewarp to other planets§r anywhere in §5Advanced Rocketry§r\u0027s space bubble.\n\nIf you\u0027re looking to live in the Space Station, it is heavily recommended for you to get the §6CO2 Scrubber§r and the §6Oxygen Vents§r in your Space Station for §aessential life support systems§r. The Oxygen Vents would also need §epower to operate§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:stationbuilder"
+      },
+      "ismain:1": 1,
+      "name:8": "Building a Space Station"
+    }
+  },
+  "questID:3": 2029465388,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:stationbuilder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:oxygenscrubber"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:oxygenvent"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

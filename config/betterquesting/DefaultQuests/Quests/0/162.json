@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    161
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Base Crafting Seeds§r are the §ekey component§r in crafting §aseeds that can grow what you desire§r. To craft some, you will need four §6Prosperity Shard§rs and some §6Seeds§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 16,
+        "id:8": "mysticalagriculture:crafting"
+      },
+      "name:8": "Base Seed"
+    }
+  },
+  "questID:3": 162,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 16,
+          "id:8": "mysticalagriculture:crafting"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

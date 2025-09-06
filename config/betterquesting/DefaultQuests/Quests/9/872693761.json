@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    927102538
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6The Vat§r is a §erefinery-like machine§r that can produce §evarious types of Liquids by combining 2 items into a fluid§r. It is commonly used to make §9Firewater§r for the §6Grains of Infinity§r and §9Nutrient Distillation§r for the §6Killer Joe§r. There is also different items that can be used for a §ebetter multiplier§r.\n\nIt can be crafted with an §6Industrial Machine Chassis§r, a §6Cauldron§r, a §6Furnace§r, 2 §6Electrical Steel Ingot§rs, 2 §6Fluid Tank§rs (§5EnderIO§r) and 2 §6Dark Steel Ingot§rs. ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_vat"
+      },
+      "name:8": "The Vat"
+    }
+  },
+  "questID:3": 872693761,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_vat"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "a §6Fluid Orb§r, or simply the §6Florb§r, is basically like the §6Morb§r but for §9Fluids§r. Though, you can\u0027t just simply throw it to collect the fluid. You\u0027d need to put it in a §6Fluid Transposer§r to fill it up. Florb has two variants: the normal one and the §eMagmatic§r one. The §6Magmatic Florb§r is a Florb for §eMolten Fluids§r or just generally hot fluids like §eLava§r. Once filled, you can also §ethrow it to release the fluid inside it§r. However, §cthere\u0027s no Reusable Florbs§r.\n\nTo craft one, you\u0027ll need §6Sawdust§r, §6Slag§r, and a §6Slimeball§r. Similarly to the Morb, you can also use §6Rosin§r in place of Slimeball.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermalexpansion:florb"
+      },
+      "name:8": "Florb"
+    }
+  },
+  "questID:3": 1893311049,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "thermalexpansion:florb"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

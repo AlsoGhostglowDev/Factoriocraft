@@ -1,0 +1,19 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "If you\u0027re happy \u0026 you know it clap your hands §o:clap: :clap:§r\n\nIf you are §ehaving trouble crafting something§r (like wood planks), wanting to §efind more information on an item§r, or are just curious, then check §eJEI§r for §einfo on all items in the game§r!\n\nYou can find the §eJEI§r by §achecking your inventory on the right side of the screen§r. You can §e§ause the search bar on the bottom to search for a specific item§r.\n\nFrom there, §a§5§bclick on an item to find out all the different ways on how you can craft the selected item§r, §eRight-click on an item to find out all the different ways it can be used§r, and §a§9§8§3double click the search bar to highlight all the items that match the search bar\u0027s quota§r (§7useful for trying to find a matching item in your chests§r).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:knowledge_book"
+      },
+      "name:8": "JEI. JEI. J. E. I."
+    }
+  },
+  "questID:3": 19,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

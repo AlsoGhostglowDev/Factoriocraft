@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    113,
+    145,
+    149
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§5D-T Fuel §ris the fuel needed to §epower the §6Fusion Reactor§r.\n\nThis can be obtained by §efusing §cDeuterium §eand §aTritium §etogether in a §6Chemical Infuser§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "extracells:pattern.fluid",
+        "tag:10": {
+          "Fluid:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "liquidfusionfuel"
+          }
+        }
+      },
+      "name:8": "D-T Fuel"
+    }
+  },
+  "questID:3": 114,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "liquidfusionfuel"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

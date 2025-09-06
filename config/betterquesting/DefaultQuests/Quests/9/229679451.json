@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    49
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Capacitors§r are used for §ecrafting various types of blocks and items§r within the mod but it is often used to §eincrease the efficiency of the machines§r. The higher §aGlobal Level§r will give you a better advantage at utilizing your §5EnderIO§r machines.\n\n§nBasic:§r\n- Global Level: §a1.0§r\n- Power Usage: §c30 µI/t§r",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:item_basic_capacitor"
+      },
+      "name:8": "T1 Capacitor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 229679451,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_basic_capacitor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

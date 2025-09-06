@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    174,
+    1843640930
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Personal Nanobot Beacon§r works the same the ranged one. The only difference is that §erange does not apply and it only applies to the owner§r. As long as this §emachine is chunkloaded§r and given sufficient power, it will §estay activated wherever you are§r. This will be useful in some instances.\n\nTo build one, refer to the §6Digital Guide§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "environmentaltech:nano_cont_personal_1"
+      },
+      "name:8": "Personal Nanobot Beacon"
+    }
+  },
+  "questID:3": 1439213944,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {}
+}

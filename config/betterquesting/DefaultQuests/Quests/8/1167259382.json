@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    577300123
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Planet ID Chip§r is used in the §6Guidance Computer§r to tell the rocket §ewhat planet it should go to§r. These §6ID Chip§rs can also be §eduplicated in a §6Satellite Builder§r. Learn more in it\u0027s own quest description.\n\nTo craft one, you\u0027ll simply need two §6Basic Circuit§rs and a §6Satellite ID Chip§r (§7which can be made using only one Basic Circuit§r).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:planetidchip"
+      },
+      "name:8": "Planet ID Chip"
+    }
+  },
+  "questID:3": 1167259382,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:planetidchip"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

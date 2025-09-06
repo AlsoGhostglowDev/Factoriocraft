@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    8
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Acquire some §6Iron Ingot§rs for tool forging.\n\n§6Iron Ore§r spawns at §eY: 64§r to §eY: 3§r in the Overworld. Once you have found Iron, smelt it in a §6Furnace§r or throw the Ore block in the §3Smeltery§r and pour the iron into the §6Ingot Cast§r to §aobtain it\u0027s Ingot form§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:iron_ingot"
+      },
+      "name:8": "Acquire Hardware",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:iron_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

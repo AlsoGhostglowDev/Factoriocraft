@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    1658836330,
+    1085222250
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Powered Spawner§r is used like a normal spawner except it §eneeds power in order to spawn mobs§r. \n\nTo make a §eproper working Powered Spawner§r, you\u0027d need a §6Broken Spawner§r of the mob you want to spawn. If the Broken Spawner does not have what you wish to spawn, you have to §econvert the Broken Spawner\u0027s Mob Type by combining the Broken Spawner and a §6Soul Vial§e that has the corresponding mob in a §6Soul Binder§r. This will §achange the Broken Spawner\u0027s Mob to the Soul Vial\u0027s mob instead§r. \n\nTo actually set the Powered Spawner\u0027s mob, you\u0027ll need to §emerge the Broken Spawner with it in an §6Anvil§r.\n\nTo make one of these, you\u0027ll need four §6Electrical Steel Ingot§rs, two §6Vibrant Crystal§rs, a §6Z-Logic Controller§r, a §6Soul Machine Chassis§r, and §eany Mob Head§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_powered_spawner"
+      },
+      "name:8": "Powered Spawner"
+    }
+  },
+  "questID:3": 509113995,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_powered_spawner"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

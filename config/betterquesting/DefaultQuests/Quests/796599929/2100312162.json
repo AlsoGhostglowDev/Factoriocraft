@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    663273205
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Machine Frame§r is the main crafting ingredient for §5Thermal Expansion§r\u0027s machines. These machines would §econsume §cRedstone Flux§r for your convenience. §5Thermal Expansion§r\u0027s machines are §agreat for mid-game progression§r, you\u0027ll find various other ways to make your life easier with these machines.\n\nTo craft it, you\u0027d need §5RFTools§r\u0027 §6Machine Frame§r, a §6Device Frame§r, 4 §6Iron Plate§rs and 3 §6Glass§r.",
+      "frame:8": "JAGGED",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermalexpansion:frame"
+      },
+      "name:8": "Machine Frame"
+    }
+  },
+  "questID:3": 2100312162,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thermalexpansion:frame"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

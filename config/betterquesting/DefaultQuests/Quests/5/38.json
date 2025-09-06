@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    27,
+    33
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Draconic Reactor Core§r is a reactor that emits §emassive amounts of energy§r.\n\nTo make the Draconic Reactor Core in fusion crafting, you will need §a§rtwo §6Awakened Core§e§rs and two §6Awakened Draconium Ingot§e§rs on both sides§r, and a §6Chaos Shard§r in the §6Fusion Crafting Core§r.\n\nTo make the §6Reactor Stabilizer§r in fusion crafting, you will need one §6Reactor Stabilizer Rotor Assembly§r, a §6Chaotic Core§r, and two Awakened Draconium Ingots on the left column, and a §6Reactor Stabilizer Focus Ring§r, a §6Draconic Energy Core§r, and two Awakened Draconium Ingots on the right side, with a §6Reactor Stabilizer Frame§r in the Fusion Crafting Core.\n\nTo make a Reactor Energy Injector in fusion crafting, you will need two §6Draconium Ingot§rs, two §6Iron Ingot§rs, and a §6Reactor Stabilizer Inner Rotor§r on the left column, and three Reactor Stabilizer Inner Rotors and two Draconium Ingots on the right column, with a §6Wyvern Core§r in the Fusion Crafting Core.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:reactor_core"
+      },
+      "name:8": "Draconic Reactor Core"
+    }
+  },
+  "questID:3": 38,
+  "rewards:9": {
+    "0:10": {
+      "amount:3": 50,
+      "index:3": 0,
+      "isLevels:1": 0,
+      "rewardID:8": "bq_standard:xp"
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:reactor_core"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "draconicevolution:reactor_component"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "draconicevolution:reactor_component"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

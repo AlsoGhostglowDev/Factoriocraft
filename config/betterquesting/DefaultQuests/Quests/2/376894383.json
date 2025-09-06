@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [
+    1228377968
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Your first actual evolution task. Wait until §eEvolution Phase 6§r and wait for a §cBeckon§r to §eevolve to Stage 4§r so it can spawn a §4Node§r. Make sure §eyour base is encased inside of a hardened tritanium shell§r, or any other particularly hard material. §eSeparate all ground from the outside to prevent infecting your base§r and ruining it.\n\nAfter that, §eenter the biome and locate the Node using the §6Node Compass§r you have obtained before. You can let the biome expand to §ecollect some §6Essential Segment§rs which §ecreate powerful lures§r later on.\n\nCollect the §6Hive Core§r in order to complete this objective.",
+      "frame:8": "CIRCLE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "srparasites:nodecompass"
+      },
+      "name:8": "Dangerous Expedition"
+    }
+  },
+  "questID:3": 376894383,
+  "rewards:9": {
+    "0:10": {
+      "amount:3": 1000,
+      "index:3": 0,
+      "isLevels:1": 0,
+      "rewardID:8": "bq_standard:xp"
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "srparasites:biomeheart"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "id:8": "srparasites:lurecomponent6"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

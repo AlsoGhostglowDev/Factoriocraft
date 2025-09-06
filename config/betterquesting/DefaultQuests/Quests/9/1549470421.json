@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    1166991187
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Fluid Conduit§r is a cable that can §etransport fluids§r. It\u0027s §emaximum output is 200 mB/T§r.\n\nTo make the Fluid Conduit, you\u0027ll need six §6Conduit Binder§rs and three §6Quite Clear Glass§r.\nTo make Quite Clear Glass, throw §6Glass§r into the §6Alloy Smelter§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:item_liquid_conduit"
+      },
+      "name:8": "Fluid Conduit",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1549470421,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "enderio:item_liquid_conduit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    137
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Gas-Burning Generator§r is an energy source that §etakes in Gas and produces energy§r. Gases include §6Hydrogen§r, §6Ethylene§r (§7obtained by processing §6Bio Fuel§7 in a §6Pressurized Reaction Chamber§r), etc.\n(§eJEI §7Note: buckets that appear upside-down are gases!§r)\n\nTo craft the Generator, you will need two §6Steel Casing§rs, four §6Osmium Ingot§rs, two §6Enriched Alloy§rs, and an §6Electrolytic Core§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "mekanismgenerators:generator"
+      },
+      "name:8": "Something Gassy?"
+    }
+  },
+  "questID:3": 62,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "mekanismgenerators:generator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

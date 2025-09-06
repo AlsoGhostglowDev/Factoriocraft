@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    1755212687,
+    1783620457
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Fueling Station§r allows you to, get this, §efuel up your Rocket§r. You can do this by putting §9Rocket Fuel§r in it by piping it using §5EnderIO§e conduits§r or §emanually using buckets§r. \n\nYou\u0027ll also need to §econnect the Fueling Station with the Assembled Rocket§r. To do that, you\u0027d need to [§7Shift + R-Click§r] the Fueling Station and then [§7Shift + R-Click§r] with the Assembled Rocket.\nPlease be aware that the rocket §emust be assembled§r prior to the fueling process.\n\nTo make one, you\u0027ll need three §6Tin Plate§rs, three §6Machine Structure§rs, a §6Liquid IO Circuit Board§r, a §6Steel Fan§r, and a §6User Interface§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:fuelingstation"
+      },
+      "name:8": "Fueling Station"
+    }
+  },
+  "questID:3": 24699367,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:fuelingstation"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

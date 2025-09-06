@@ -1,0 +1,18 @@
+{
+  "preRequisites:11": [
+    1938351555,
+    179
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "environmentaltech:void_res_miner_cont_3"
+      },
+      "name:8": "T3 Void Resource Miner"
+    }
+  },
+  "questID:3": 995705699,
+  "tasks:9": {}
+}

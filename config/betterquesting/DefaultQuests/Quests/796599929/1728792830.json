@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    149150620,
+    605955761
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This is the single best way to transport §cRedstone Flux§r throughout your machines in all of §7Factoriocraft§r. This is because it has an §ainfinite amount of transfer rate§r. That means, §cRF§r will §ainstantly go to where it needs to be§r.\n\nTo craft one, you can throw an empty §6Cryo-Stabilized Fluxduct§r into the §6Fluid Transposer§r with §9Gelid Cryotheum§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "thermaldynamics:duct_0"
+      },
+      "name:8": "Cryo-Stabilized Fluxduct"
+    }
+  },
+  "questID:3": 1728792830,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 6,
+          "Damage:2": 5,
+          "id:8": "thermaldynamics:duct_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

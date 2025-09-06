@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    147
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Tritium§r is one of the §echemical needed to activate the §6Fusion Reactor§r in order to §efuse with §cDeuterium§r together for large energy outputs. \n\nYou can obtain Tritium by putting in §6Lithium§r in a §6Solar Neutron Activator§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "extracells:pattern.fluid",
+        "tag:10": {
+          "Fluid:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "liquidtritium"
+          }
+        }
+      },
+      "name:8": "Tritium"
+    }
+  },
+  "questID:3": 113,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "liquidtritium"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

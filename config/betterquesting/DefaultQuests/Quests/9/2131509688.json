@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    184452152
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Simple Crafter§r is a machine that is §ecapable of auto crafting recipies for you and takes energy as a result§r.  To use it, §aset the crafting recipe of your choice in the left crafting grid§r and then simply §athrow in the materials on the right side§r (§7no particular order, just throw in the required materials§r) and it will automatically craft it for you.\n\nTo craft it, you will need one §6Crafting Table§r, two §6Stone Gear§rs (or Stone Compound Gear§rs), two §6Iron Ingot§rs, three §6Silicon§r, and a §6Simple Machine Chassis§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_simple_crafter"
+      },
+      "name:8": "Simple Crafter",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 2131509688,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_simple_crafter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

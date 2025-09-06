@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    1669731591
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Provides §emore §6Crafting Storage§r so §emore Crafting can be done§e.\n\nYou\u0027ll need a §6Crafting Unit§r and a §61k ME Storage Component§r to craft one.\n(§7These can also be upgraded to 4k, 16k, 64k.§r)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:crafting_storage_1k"
+      },
+      "name:8": "Crafting Storage"
+    }
+  },
+  "questID:3": 80093580,
+  "rewards:9": {
+    "0:10": {
+      "amount:3": 30,
+      "index:3": 0,
+      "isLevels:1": 0,
+      "rewardID:8": "bq_standard:xp"
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "appliedenergistics2:crafting_storage_1k"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
