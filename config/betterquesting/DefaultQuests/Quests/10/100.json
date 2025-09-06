@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    86
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aInfinite EU §r(§cEnergy Unit§r). \nPower your §5IndustrialCraft2§r machines with §a§oendless amounts of energy units§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 86,
+        "id:8": "ic2:te"
+      },
+      "name:8": "Infinite EU"
+    }
+  },
+  "questID:3": 100,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 86,
+          "id:8": "ic2:te"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

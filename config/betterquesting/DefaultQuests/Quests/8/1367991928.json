@@ -1,0 +1,36 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    220891238
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Satellite Builder§r is a machine commonly §eused to make satellites and to duplicate Space Station or Planet §6ID Chips§r.\n\nThe machine is a §aMultiblock Structure§r; §eThe multiblock\u0027s materials are in the task itself§r.\n\nTo craft the Satellite Builder, you\u0027ll need two §6Basic Circuit§rs, a §6Data Storage Unit§r, a §6Hopper§r, a §6Titanium Plate§r, a §6Machine Structure§r, §eany kind of §6Moter§r, an §6Anvil§r, and a §6Saw Blade Assembly§r.\n\n\nRefer to this website for the slot\u0027s usage: {Embed}TypeLink;http://arwiki.dmodoomsirius.me/AdvancedRocketry/1.12.2/blocks/SatelliteAssemblingMachine.php;300;15;AR Wiki - Satellite Builder{Embed}",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:satellitebuilder"
+      },
+      "name:8": "Satellite Builder"
+    }
+  },
+  "questID:3": 1367991928,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:satellitebuilder"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "libvulpes:forgepowerinput"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

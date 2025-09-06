@@ -1,0 +1,58 @@
+{
+  "preRequisites:11": [
+    134224987
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§eUses up coolants to speed up adjacent machines and dynamos§r. Examples include: §9Gelid Cryotheum§r, §9Distilled Water§r and §9IC2 Coolant§r.\n\nTo craft one, you\u0027ll need a §6Device Frame§r, §6Copper§r, a §6Redstone Servo§r, 2 §6Iron Gear§r and 2 §6Invar Ingot§rs.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "thermalexpansion:device",
+        "tag:10": {
+          "Creative:1": 0,
+          "Facing:1": 5,
+          "Level:1": 0,
+          "RSControl:1": 0,
+          "SideCache:7": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ]
+        }
+      },
+      "name:8": "Thermal Mediator"
+    }
+  },
+  "questID:3": 334356561,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "thermalexpansion:device",
+          "tag:10": {
+            "Energy:3": 0,
+            "Facing:1": 3,
+            "RSControl:1": 0,
+            "SideCache:7": [
+              0,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,478 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    1228377968
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§cDispatchers§r are a lot more dangerous than §cBeckons§r, they can §ecall out other parasites and distribute them§r between eachother, §estoring and upgrading lower grade§r, harmless parasites into §cmore dangerous ones§r.",
+      "frame:8": "HEXAGON",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "srparasites:dispatcher_drop"
+      },
+      "name:8": "Nest Hunting: Dispatchers"
+    }
+  },
+  "questID:3": 1323041588,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "target:8": "srparasites:dispatcher_si",
+      "targetNBT:10": {
+        "AABB:9": {
+          "0:6": -1.350000023841858,
+          "1:6": 0.0,
+          "2:6": -1.350000023841858,
+          "3:6": 1.350000023841858,
+          "4:6": 2.5,
+          "5:6": 1.350000023841858
+        },
+        "AbsorptionAmount:5": 0.0,
+        "Air:2": 300,
+        "ArmorDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085
+        },
+        "ArmorItems:9": {
+          "0:10": {},
+          "1:10": {},
+          "2:10": {},
+          "3:10": {}
+        },
+        "Attributes:9": {
+          "0:10": {
+            "Base:6": 33.0,
+            "Name:8": "generic.maxHealth"
+          },
+          "1:10": {
+            "Base:6": 1.0,
+            "Name:8": "generic.knockbackResistance"
+          },
+          "2:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.movementSpeed"
+          },
+          "3:10": {
+            "Base:6": 7.0,
+            "Name:8": "generic.armor"
+          },
+          "4:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.armorToughness"
+          },
+          "5:10": {
+            "Base:6": 1.0,
+            "Name:8": "forge.swimSpeed"
+          },
+          "6:10": {
+            "Base:6": 32.0,
+            "Name:8": "generic.followRange"
+          },
+          "7:10": {
+            "Base:6": 3.0,
+            "Name:8": "generic.attackDamage"
+          }
+        },
+        "CanPickUpLoot:1": 0,
+        "DeathTime:2": 0,
+        "Dimension:3": 0,
+        "FallDistance:5": 0.0,
+        "FallFlying:1": 0,
+        "Fire:2": -1,
+        "ForgeCaps:10": {
+          "nuclearcraft:capability_entity_rads:10": {
+            "consumed:1": 0,
+            "externalRadiationResistance:6": 0.0,
+            "internalRadiationResistance:6": 0.0,
+            "maxRads:6": 1650.0,
+            "poisonBuffer:6": 0.0,
+            "radXCooldown:6": 0.0,
+            "radXUsed:1": 0,
+            "radXWoreOff:1": 0,
+            "radawayBuffer:6": 0.0,
+            "radawayBufferSlow:6": 0.0,
+            "radawayCooldown:6": 0.0,
+            "radiationImmunityStage:1": 0,
+            "radiationImmunityTime:6": 0.0,
+            "radiationLevel:6": 0.0,
+            "recentPoisonAddition:6": 0.0,
+            "recentRadXAddition:6": 0.0,
+            "recentRadawayAddition:6": 0.0,
+            "setFromMaxHealth:1": 1,
+            "shouldWarn:1": 0,
+            "totalRads:6": 0.0
+          },
+          "tinkertoolleveling:entityxp:9": {}
+        },
+        "ForgeData:10": {},
+        "HandDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085
+        },
+        "HandItems:9": {
+          "0:10": {},
+          "1:10": {}
+        },
+        "Health:5": 33.0,
+        "HurtByTimestamp:3": 0,
+        "HurtTime:2": 0,
+        "Invulnerable:1": 0,
+        "Leashed:1": 0,
+        "LeftHanded:1": 0,
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "OnGround:1": 0,
+        "PersistenceRequired:1": 0,
+        "PortalCooldown:3": 0,
+        "Pos:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "Rotation:9": {
+          "0:5": 3.1170864,
+          "1:5": 0.0
+        },
+        "UUIDLeast:4": -5997328117374573619,
+        "UUIDMost:4": 2472342786818526740,
+        "UpdateBlocked:1": 0,
+        "belongtors:1": 0,
+        "cangrowto:1": 1,
+        "damagetypecap:3": 5,
+        "dodcrude:3": 0,
+        "dodflesh:3": 0,
+        "dodinf:3": 0,
+        "dodmobs:9": {},
+        "id:8": "srparasites:dispatcher_si",
+        "neededtime:3": 295,
+        "paracolony:1": 0,
+        "parasitecoldl:1": 0,
+        "parasitecolob:1": 0,
+        "parasitedepeek:1": 0,
+        "parasitedespawn:1": 0,
+        "parasitekills:5": -10.0,
+        "parasitetype:3": 0,
+        "parasiteuppp:1": 0,
+        "phasecreat:1": 0,
+        "sprresistancei:9": {},
+        "sprresistances:9": {},
+        "srpinvblocksname:9": {},
+        "srpinvblocksnumber:9": {},
+        "tickse:3": 0
+      },
+      "taskID:8": "bq_standard:hunt"
+    },
+    "1:10": {
+      "index:3": 1,
+      "target:8": "srparasites:dispatcher_sii",
+      "targetNBT:10": {
+        "AABB:9": {
+          "0:6": -1.600000023841858,
+          "1:6": 0.0,
+          "2:6": -1.600000023841858,
+          "3:6": 1.600000023841858,
+          "4:6": 3.5999999046325684,
+          "5:6": 1.600000023841858
+        },
+        "AbsorptionAmount:5": 0.0,
+        "Air:2": 300,
+        "ArmorDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085
+        },
+        "ArmorItems:9": {
+          "0:10": {},
+          "1:10": {},
+          "2:10": {},
+          "3:10": {}
+        },
+        "Attributes:9": {
+          "0:10": {
+            "Base:6": 70.0,
+            "Name:8": "generic.maxHealth"
+          },
+          "1:10": {
+            "Base:6": 1.0,
+            "Name:8": "generic.knockbackResistance"
+          },
+          "2:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.movementSpeed"
+          },
+          "3:10": {
+            "Base:6": 14.0,
+            "Name:8": "generic.armor"
+          },
+          "4:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.armorToughness"
+          },
+          "5:10": {
+            "Base:6": 1.0,
+            "Name:8": "forge.swimSpeed"
+          },
+          "6:10": {
+            "Base:6": 64.0,
+            "Name:8": "generic.followRange"
+          },
+          "7:10": {
+            "Base:6": 7.0,
+            "Name:8": "generic.attackDamage"
+          }
+        },
+        "CanPickUpLoot:1": 0,
+        "DeathTime:2": 0,
+        "Dimension:3": 0,
+        "FallDistance:5": 0.0,
+        "FallFlying:1": 0,
+        "Fire:2": -1,
+        "ForgeCaps:10": {
+          "nuclearcraft:capability_entity_rads:10": {
+            "consumed:1": 0,
+            "externalRadiationResistance:6": 0.0,
+            "internalRadiationResistance:6": 0.0,
+            "maxRads:6": 3500.0,
+            "poisonBuffer:6": 0.0,
+            "radXCooldown:6": 0.0,
+            "radXUsed:1": 0,
+            "radXWoreOff:1": 0,
+            "radawayBuffer:6": 0.0,
+            "radawayBufferSlow:6": 0.0,
+            "radawayCooldown:6": 0.0,
+            "radiationImmunityStage:1": 0,
+            "radiationImmunityTime:6": 0.0,
+            "radiationLevel:6": 0.0,
+            "recentPoisonAddition:6": 0.0,
+            "recentRadXAddition:6": 0.0,
+            "recentRadawayAddition:6": 0.0,
+            "setFromMaxHealth:1": 1,
+            "shouldWarn:1": 0,
+            "totalRads:6": 0.0
+          },
+          "tinkertoolleveling:entityxp:9": {}
+        },
+        "ForgeData:10": {},
+        "HandDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085
+        },
+        "HandItems:9": {
+          "0:10": {},
+          "1:10": {}
+        },
+        "Health:5": 70.0,
+        "HurtByTimestamp:3": 0,
+        "HurtTime:2": 0,
+        "Invulnerable:1": 0,
+        "Leashed:1": 0,
+        "LeftHanded:1": 0,
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "OnGround:1": 0,
+        "PersistenceRequired:1": 0,
+        "PortalCooldown:3": 0,
+        "Pos:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "Rotation:9": {
+          "0:5": 1.5967913,
+          "1:5": 0.0
+        },
+        "UUIDLeast:4": -5650476350543999388,
+        "UUIDMost:4": 6940529721550849027,
+        "UpdateBlocked:1": 0,
+        "belongtors:1": 0,
+        "cangrowto:1": 1,
+        "damagetypecap:3": 10,
+        "dodcrude:3": 0,
+        "dodflesh:3": 0,
+        "dodinf:3": 0,
+        "dodmobs:9": {},
+        "id:8": "srparasites:dispatcher_sii",
+        "neededtime:3": 329,
+        "paracolony:1": 0,
+        "parasitecoldl:1": 0,
+        "parasitecolob:1": 0,
+        "parasitedepeek:1": 0,
+        "parasitedespawn:1": 0,
+        "parasitekills:5": -10.0,
+        "parasitetype:3": 0,
+        "parasiteuppp:1": 0,
+        "phasecreat:1": 0,
+        "sprresistancei:9": {},
+        "sprresistances:9": {},
+        "srpinvblocksname:9": {},
+        "srpinvblocksnumber:9": {},
+        "tickse:3": 0
+      },
+      "taskID:8": "bq_standard:hunt"
+    },
+    "2:10": {
+      "index:3": 2,
+      "target:8": "srparasites:dispatcher_siii",
+      "targetNBT:10": {
+        "AABB:9": {
+          "0:6": -1.9500000476837158,
+          "1:6": 0.0,
+          "2:6": -1.9500000476837158,
+          "3:6": 1.9500000476837158,
+          "4:6": 4.800000190734863,
+          "5:6": 1.9500000476837158
+        },
+        "AbsorptionAmount:5": 0.0,
+        "Air:2": 300,
+        "ArmorDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085
+        },
+        "ArmorItems:9": {
+          "0:10": {},
+          "1:10": {},
+          "2:10": {},
+          "3:10": {}
+        },
+        "Attributes:9": {
+          "0:10": {
+            "Base:6": 130.0,
+            "Name:8": "generic.maxHealth"
+          },
+          "1:10": {
+            "Base:6": 1.0,
+            "Name:8": "generic.knockbackResistance"
+          },
+          "2:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.movementSpeed"
+          },
+          "3:10": {
+            "Base:6": 21.0,
+            "Name:8": "generic.armor"
+          },
+          "4:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.armorToughness"
+          },
+          "5:10": {
+            "Base:6": 1.0,
+            "Name:8": "forge.swimSpeed"
+          },
+          "6:10": {
+            "Base:6": 96.0,
+            "Name:8": "generic.followRange"
+          },
+          "7:10": {
+            "Base:6": 14.0,
+            "Name:8": "generic.attackDamage"
+          }
+        },
+        "CanPickUpLoot:1": 0,
+        "DeathTime:2": 0,
+        "Dimension:3": 0,
+        "FallDistance:5": 0.0,
+        "FallFlying:1": 0,
+        "Fire:2": -1,
+        "ForgeCaps:10": {
+          "nuclearcraft:capability_entity_rads:10": {
+            "consumed:1": 0,
+            "externalRadiationResistance:6": 0.0,
+            "internalRadiationResistance:6": 0.0,
+            "maxRads:6": 6500.0,
+            "poisonBuffer:6": 0.0,
+            "radXCooldown:6": 0.0,
+            "radXUsed:1": 0,
+            "radXWoreOff:1": 0,
+            "radawayBuffer:6": 0.0,
+            "radawayBufferSlow:6": 0.0,
+            "radawayCooldown:6": 0.0,
+            "radiationImmunityStage:1": 0,
+            "radiationImmunityTime:6": 0.0,
+            "radiationLevel:6": 0.0,
+            "recentPoisonAddition:6": 0.0,
+            "recentRadXAddition:6": 0.0,
+            "recentRadawayAddition:6": 0.0,
+            "setFromMaxHealth:1": 1,
+            "shouldWarn:1": 0,
+            "totalRads:6": 0.0
+          },
+          "tinkertoolleveling:entityxp:9": {}
+        },
+        "ForgeData:10": {},
+        "HandDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085
+        },
+        "HandItems:9": {
+          "0:10": {},
+          "1:10": {}
+        },
+        "Health:5": 130.0,
+        "HurtByTimestamp:3": 0,
+        "HurtTime:2": 0,
+        "Invulnerable:1": 0,
+        "Leashed:1": 0,
+        "LeftHanded:1": 0,
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "OnGround:1": 0,
+        "PersistenceRequired:1": 0,
+        "PortalCooldown:3": 0,
+        "Pos:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "Rotation:9": {
+          "0:5": 4.681211,
+          "1:5": 0.0
+        },
+        "UUIDLeast:4": -4656449492199417352,
+        "UUIDMost:4": -5267081420411419615,
+        "UpdateBlocked:1": 0,
+        "belongtors:1": 0,
+        "cangrowto:1": 1,
+        "damagetypecap:3": 15,
+        "dodcrude:3": 0,
+        "dodflesh:3": 0,
+        "dodinf:3": 0,
+        "dodmobs:9": {},
+        "id:8": "srparasites:dispatcher_siii",
+        "neededtime:3": 1099,
+        "paracolony:1": 0,
+        "parasitecoldl:1": 0,
+        "parasitecolob:1": 0,
+        "parasitedepeek:1": 0,
+        "parasitedespawn:1": 0,
+        "parasitekills:5": -10.0,
+        "parasitetype:3": 0,
+        "parasiteuppp:1": 0,
+        "phasecreat:1": 0,
+        "sprresistancei:9": {},
+        "sprresistances:9": {},
+        "srpinvblocksname:9": {},
+        "srpinvblocksnumber:9": {},
+        "tickse:3": 0
+      },
+      "taskID:8": "bq_standard:hunt"
+    }
+  }
+}

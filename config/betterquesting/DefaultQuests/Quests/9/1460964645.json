@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    1166991187
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Gas Conduit§r is a cable that is §ecapable of transferring gases§r. It\u0027s §emaximum output rate is 256 mB/T§r.\n\nTo make the Gas Conduit, you\u0027ll need six §6Conduit Binder§rs, two §6Steel Ingot§rs, and one §6Enriched Alloy§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:item_gas_conduit"
+      },
+      "name:8": "Gas Conduit",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1460964645,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "enderio:item_gas_conduit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    99482749
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Logic Processor§r is created by throwing a §6Printed Logic Circuit§r, §6Printed Silicon§r, and §6Redstone§r into the §6Inscriber§r.\n\nA Printed Logic Circuit can be made by throwing a §6Gold Ingot§r into the Inscriber with a §6Logic Press§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 22,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Logic Processor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 863582780,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 22,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

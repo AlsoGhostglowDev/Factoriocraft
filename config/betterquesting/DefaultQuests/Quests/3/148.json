@@ -1,0 +1,36 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    64
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Brine §r(§7NaCl§9(aq)§r), which is basically Table Salt in §9Water§r. \n§aFun Fact: You can infact get §6Salt§a by putting Brine in §5NuclearCraft§a\u0027s §6Ingot Former§a.§r\n\nYou can simply obtain Brine by putting §9Water§r in a §6Thermal Evaporation Plant§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "brine"
+        }
+      },
+      "name:8": "Brine"
+    }
+  },
+  "questID:3": 148,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "brine"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

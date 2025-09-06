@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    31
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Draconic Fusion Crafting Injector§r is the next tier in the Fusion Injector tierlist. It is §erequired to have the §6Wyvern Fusion Crafting Injector§r§es to make this§r.\n\nTo fusion craft this, you will need two §6Wyvern Core§rs and two §6Diamond§rs on the left column, two Diamonds and an §6Awakened Draconium Block§r on the right, and an Wyvern Fusion Crafting Injector.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "draconicevolution:crafting_injector"
+      },
+      "name:8": "Draconic Fusion Crafting"
+    }
+  },
+  "questID:3": 32,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 2,
+          "id:8": "draconicevolution:crafting_injector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

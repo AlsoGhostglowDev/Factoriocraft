@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    86,
+    100
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aInfinite RF §r(§cRedstone Flux§r). \nPower your machines with §a§oendless amounts of energy§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_cap_bank",
+        "tag:10": {
+          "enderio:energy:3": 50000000
+        }
+      },
+      "name:8": "Infinite RF"
+    }
+  },
+  "questID:3": 99,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_cap_bank",
+          "tag:10": {
+            "enderio:energy:3": 50000000
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

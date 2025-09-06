@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    70,
+    73
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Supremium Ingot is an ingot that can §eonly be obtained by doing the following§r:\n\n- Use an §6Iron Ingot§r and §6Prosperity Shard§rs (§7Which are only found in space§r) to make the §6Base Essence Ingot§r.\n\n- Combine the Base Essence Ingot with two §6Inferium Essence§rs (§7Obtainable by killing mobs or mining it\u0027s ore§r) to make the §6Inferium Ingot§r.\n\n- Combine the Inferium Ingot with two §6Prudentium Essence§rs (§7Craftable using four Inferium Essences alongside an §6Infusion Crystal§r) to make the §6Prudentium Ingot§r.\n\n- Combine the Prudentium Ingot and two §6Intermedium Essence§rs (§7Craftable using four Prudentium Essences alongside an Infusion Crystal§r) to make the §6Intermedium Ingot§r.\n\n- Combine the Intermedium Ingot with two §6Superium Essence§rs (§7Craftable using four Intermedium Essences alongside an Infusion Crystal§r) to make the §6Superium Ingot§r.\n\n- Combine the Superium Ingot with two §6Supremium Essence§rs (§7Craftable using four Superium Essences alongside an Infusion Crystal§r) to make the §6Supremium Ingot§r.\n\nBasically just a long line of Obtaining Inferium Essences to make other types of Essences.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 37,
+        "id:8": "mysticalagriculture:crafting"
+      },
+      "name:8": "Obtain Supremium"
+    }
+  },
+  "questID:3": 71,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 37,
+          "id:8": "mysticalagriculture:crafting"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

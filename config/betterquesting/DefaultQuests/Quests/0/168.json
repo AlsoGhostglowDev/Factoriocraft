@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    152,
+    167
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Inferium Ingot§r is a key material to §emake the Inferium Tools§r. Each tiers differs in their stats and abilities.\n\nYou can craft one using a §6Base Essence Ingot§r and §e2 §6Inferium Essence§r. ",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 33,
+        "id:8": "mysticalagriculture:crafting"
+      },
+      "name:8": "Inferium Ingot"
+    }
+  },
+  "questID:3": 168,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 33,
+          "id:8": "mysticalagriculture:crafting"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

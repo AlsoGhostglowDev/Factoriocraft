@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    122
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Can be made by throwing §6Refined Obsidian Dust§r into the §6Metallurgic Infuser§r. To make Refined Obsidian Dust, infuse §6Obsidian Dust§e with §6Diamond Dust§e or §6Compressed Diamond§e in the §6Metallurgic Infuser§r.\n\n§6Compressed Obsidian§r is §eworth 80 §6Obsidian§r in the §6Metallurgic Infuser§r, compared to §eRefined Obsidian Dust\u0027s 10 Obsidian§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mekanism:compressedobsidian"
+      },
+      "name:8": "Compressed Obsidian"
+    }
+  },
+  "questID:3": 133,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mekanism:compressedobsidian"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    86
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Allows you to build with the convinience of the §6Builder\u0027s Wand§r.\n\nThis tool was said to have been used in §ecreating the structures of this planet long ago...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "extrautils2:itemcreativebuilderswand"
+      },
+      "name:8": "Creative Builder\u0027s Wand"
+    }
+  },
+  "questID:3": 1155582627,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extrautils2:itemcreativebuilderswand"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

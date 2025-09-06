@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    1094260395,
+    2072091552
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Crafting Co-Processor Unit§r is a needed for the §eprocess of auto-crafting§r. It is the component of the §6Crafting CPU§r. It can be used to §ehandle more tasks at once§r and §emaking your auto-crafting process faster the more you have§r. \n\nTo make one, you\u0027ll need a §6Crafting Unit§r and an §6Engineering Processor§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:crafting_accelerator"
+      },
+      "name:8": "Crafting Co-Processor"
+    }
+  },
+  "questID:3": 1669731591,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:crafting_accelerator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    155,
+    166
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Supremium§r is a §etier above §6Superium§r and can be crafted using four Superium Essences and an §6Infusion Crystal§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "mysticalagriculture:crafting"
+      },
+      "name:8": "Supremium"
+    }
+  },
+  "questID:3": 156,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "mysticalagriculture:crafting"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

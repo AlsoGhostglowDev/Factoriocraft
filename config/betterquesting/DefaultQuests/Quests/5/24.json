@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    41
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Congratulations brotato, you have officially made it to one of the §cmost challenging mods§r in §7Factoriocraft§r: §5Draconic Evolution§r.\n\nTo get started with any §5DE§r features, you need to obtain §6Draconium Ingot§rs. To make Draconium Ingots, you need to §asmelt down §6Draconium Dust§r in a §6Furnace§r. You can get Draconium Dust by §amining §6Draconium Ore§r, which is an ore that §eonly spawns in space§r, so you §cwill not find it in the Overworld, the Nether, or the End§r.\n\n(§7Note: you can also smelt down the Draconium Ore itself to get the ingot§r)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:draconium_ingot"
+      },
+      "name:8": "Draconium Ingot"
+    }
+  },
+  "questID:3": 24,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

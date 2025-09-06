@@ -1,0 +1,116 @@
+{
+  "preRequisites:11": [
+    36,
+    32,
+    26
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Draconic Gear§r is the §elast tier of gears§r in §5Draconic Evolution§r.\n\nThis provides you the §eprevious abilities from your previous §6Wyvern Gear§r. However, Draconic Tier offers §ebetter stats in terms of damage or defense§r and §emay offer more abilities in some of the Tools and Armor§r. Examples includes, but not limited to §6Draconic Chestplate§r\u0027s §econfigurable creative flight§r.\n\nAn extra item has been added to the Fusion Crafting for the end-game experience which is the §6Tier Amazing Opinium Core§r from §5Extra Utilities 2§r.\n\nCrafting this will prepare you for the great §4Chaos Guardian bossfight§r. §4Goodluck§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:draconic_chest",
+        "tag:10": {
+          "Energy:3": 16000000
+        }
+      },
+      "name:8": "Draconic Gear"
+    }
+  },
+  "questID:3": 37,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:draconic_helm"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:draconic_chest"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:draconic_legs"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:draconic_boots"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Items:9": {},
+              "Size:3": 27
+            }
+          },
+          "id:8": "draconicevolution:draconic_staff_of_power"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:draconic_sword"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Items:9": {},
+              "Size:3": 18
+            }
+          },
+          "id:8": "draconicevolution:draconic_pick"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Items:9": {},
+              "Size:3": 18
+            }
+          },
+          "id:8": "draconicevolution:draconic_shovel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Items:9": {},
+              "Size:3": 18
+            }
+          },
+          "id:8": "draconicevolution:draconic_axe"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:draconic_hoe"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "draconicevolution:draconium_capacitor"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

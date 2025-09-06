@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    1399660704,
+    970265748
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Vibrant Capacitor§r is §elast tier of §5EnderIO§e\u0027s Capacitor Bank§r. It has the functionality as the previous tier but offers a §elarger capacity§r that is §a25MRf§r.\n\nYou can craft it using a §6Vibrant Crystal§r, 4 §6Electrical Steel Ingot§rs, and 4 §6Octadic Capacitor§r. If you have 2 of the Standard §6Capacitor Bank§rs, you can also craft it with only a Vibrant Crystal, 4 §6Vibrant Alloy Ingot§rs, 2 Octadic Capacitors and those Standard Capacitor Banks. ",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "enderio:block_cap_bank",
+        "tag:10": {
+          "enderio:energy:3": 25000000
+        }
+      },
+      "name:8": "Vibrant Capacitor Bank"
+    }
+  },
+  "questID:3": 1104718371,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "enderio:block_cap_bank"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

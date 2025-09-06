@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    161
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Base Essence Ingot§rs can be used to §ecraft regular §6Essence Ingot§rs, which can be used for §estandard armor, tools, etc§r.\n\nTo craft one, you will need four §6Prosperity Shard§rs and an §6Iron Ingot§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32,
+        "id:8": "mysticalagriculture:crafting"
+      },
+      "name:8": "Base Ingot"
+    }
+  },
+  "questID:3": 167,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32,
+          "id:8": "mysticalagriculture:crafting"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

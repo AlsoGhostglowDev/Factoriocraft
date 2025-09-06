@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    83,
+    82
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§eObtain the §6Infinity Catalyst§r to enter the §etrue Endgame§r of §7Factoriocraft§r. This will soon be one of the basic items in crafting the endgame items. It\u0027s §eabsolutely absurd§r how large of an item list is needed to craft such an item. We aren\u0027t stopping anytime soon.",
+      "frame:8": "STAR4_ON_HEXAGON",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "avaritia:resource"
+      },
+      "ismain:1": 1,
+      "name:8": "Start of the Endgame"
+    }
+  },
+  "questID:3": 85,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "avaritia:resource"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

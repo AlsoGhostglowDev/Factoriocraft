@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    46,
+    45,
+    50
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§5Thermal Expansion§r allows you to §ecraft machines, pipes, fluxducts §rby utilizing §cRedstone Flux§r. This mod is also where §cRF §roriginated from, so it\u0027s mainly focused on the use of Redstone Flux.\n\n§eCraft a §6Device Frame§e to begin this questline§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermalexpansion:frame"
+      },
+      "name:8": "Gate: Thermal Expansion",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 51,
+  "rewards:9": {
+    "0:10": {
+      "command:8": "#Script Comment\nsay VAR_NAME has unlocked the gate to Thermal Expansion!",
+      "description:8": "Run a command script",
+      "index:3": 0,
+      "rewardID:8": "bq_standard:command"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 64,
+          "id:8": "thermalexpansion:frame"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

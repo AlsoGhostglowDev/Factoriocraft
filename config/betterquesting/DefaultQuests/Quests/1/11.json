@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    6
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "So you want to get the §3Smeltery§r? Nice choice kid.\n\nTo obtain the§3 Smeltery§r, §ayou first need §6Seared Bricks§r, which can be §aobtained by smelting §6Grout§r. Grout can be crafted by putting §6Gravel§r, §6Sand§r, and §6Clay§r in the Crafting Table. Grout can then be smelted in a Furnace to make a §6Seared Brick§r. Four bricks can give you the Seared Bricks Block.\nContinue to make more bricks, as most of the blocks in the §3Smeltery§r uses that in their\ncrafting recipe.\n\n(§7There is another recipe for Grout that uses §6Clay Blocks§7 and will give you more Grout when crafted. Refer to §eJEI§7 for more info§r)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:soil"
+      },
+      "name:8": "My name\u0027s Grout",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 11,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 20,
+          "id:8": "tconstruct:soil"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "tconstruct:soil"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

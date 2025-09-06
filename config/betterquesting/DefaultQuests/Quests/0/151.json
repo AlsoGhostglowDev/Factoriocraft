@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    162,
+    152
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§eThe Crafting Seeds§r are a small yet powerful plant that can be §ecombined with an item to make it into a plantable seed§r. The §ahigher the tier§r, §athe more materials you can be able to plant§r.\n\nTo craft the §6Tier 1 Crafting Seeds§r, you need four §6Inferium Essence§rs and a §6Base Crafting Seed§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 17,
+        "id:8": "mysticalagriculture:crafting"
+      },
+      "name:8": "T1 Seed"
+    }
+  },
+  "questID:3": 151,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 17,
+          "id:8": "mysticalagriculture:crafting"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

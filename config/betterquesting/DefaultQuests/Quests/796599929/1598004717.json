@@ -1,0 +1,26 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "a §eMob Orb§r, or §6Morb§r for short, is a throwable item that is used to §ecapture a Mob§r similar to how a Pokéball captures pokemon inside them. To use it, §ethrow an empty Morb onto a Mob to capture it§r and §ethrow one that has a Mob in it to release it back§r. If you used a normal Morb, §eyou\u0027ll not get it back unless you use the reusable variant§r. \n\nTo make one, you\u0027ll need §6Soul Sand§r, §6Slag§r, §6Slimeball§r, and an §6Ender Pearl§r. You can also use §6Rosin§r instead of a Slimeball.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermalexpansion:morb"
+      },
+      "name:8": "Morb"
+    }
+  },
+  "questID:3": 1598004717,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "thermalexpansion:morb"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

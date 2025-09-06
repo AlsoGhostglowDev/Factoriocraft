@@ -1,0 +1,24 @@
+{
+  "preRequisites:11": [
+    40
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "By §echecking the checkbox§r, you\u0027ll gain access to the §dBragging Rights§r questline. The §eend is nearing§r, the parasites are §cyet to give up§r; You need to §akeep going§r. By entering this Chapter, you\u0027ll be sure to take over this dimension and put an §cend to the Parasitic Race§r.\n\n§4Let the Endgame begin...§r",
+      "frame:8": "JAGGED",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "extendedcrafting:table_ultimate"
+      },
+      "ismain:1": 1,
+      "name:8": "Start: Bragging Rights"
+    }
+  },
+  "questID:3": 80,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

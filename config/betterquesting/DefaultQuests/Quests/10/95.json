@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    86
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§eAbilities:§r\n- §69x9 Tilling AOE§r\n\n...Seriously? You used up an §6Infinity Ingot§r for a Hoe? I guess it\u0027s worth it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "avaritia:infinity_hoe"
+      },
+      "name:8": "§5Hoe of the Green Earth"
+    }
+  },
+  "questID:3": 95,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "avaritia:infinity_hoe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

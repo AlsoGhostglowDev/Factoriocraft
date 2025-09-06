@@ -1,0 +1,32 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    174
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Assembler§r is a wand that §ehelps you with building §5Environmental Tech§e\u0027s multiblocks§r. R-Click on the machine\u0027s controller once you have §aall the required items in your inventory§r and it should §abuild the structure for you!§r\n\nTo craft one, you\u0027ll need two §6Obsidian Tool Rod§rs and one §6Litherite§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "environmentaltech:tool_multiblock_assembler"
+      },
+      "name:8": "Assembler"
+    }
+  },
+  "questID:3": 1843640930,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "environmentaltech:tool_multiblock_assembler"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    7
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6GOLD NOW I HAVE A REASON TO USE THIS GOLD COLORED TEXT SO SHINY AHHH§r\n\n§6Gold Ingots§e are incredibly useful§r in §bFactoriocraft§r, as they are used in tool forging, §5OpenComputers§r, and most technology mods!\n\n§6Gold Ore§r normally generates at §eY: 32§r§e and below§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:gold_ingot"
+      },
+      "name:8": "Obtain Gold",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 68,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:gold_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

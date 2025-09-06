@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    30,
+    26
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Chaotic Core§r is a useful artifact in §ejust about every single §5Draconic Evolution§r §ecrafting recipe§r.\n\nTo fusion craft, you will need §atwo §6Awakened Core§es and two §6Awakened Draconium Ingot§es on both sides§r, and a §6Chaos Shard§r in the §6Fusion Crafting Core§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:chaotic_core"
+      },
+      "name:8": "Chaotic Core"
+    }
+  },
+  "questID:3": 27,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:chaotic_core"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

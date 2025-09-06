@@ -1,0 +1,42 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    50
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Obtain the §6Conduit Binder§r to get started with §5EnderIO§r.\n\n§5EnderIO§r is a §efull-featured tech mod§r, introducing §evariants of armor, tools, weapons, machines, conduits and mobs§r. This mod will mostly be used for it\u0027s conduits to transport different types of things such as §eitems, fluids, and gas§r.\n\nOther than that, it has useful machines like §6Powered Spawner§r, §6Crafters§r, §6Farming Stations§r, etc. Though, the §FFarming Station is gated behind §5Advanced Rocketry§r, §eencouraging you to use §5OpenComputer§r§e\u0027s robots in the early-game§r. It also offers a §6Capacitor Bank§r and can be treated as a single or a multiblock §eby stacking them onto each other vertically and/or horizontally§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:item_item_conduit"
+      },
+      "name:8": "Gate: EnderIO",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 49,
+  "rewards:9": {
+    "0:10": {
+      "command:8": "#Script Comment\nsay VAR_NAME has unlocked the gate to EnderIO!",
+      "description:8": "Run a command script",
+      "index:3": 0,
+      "rewardID:8": "bq_standard:command"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "enderio:item_material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

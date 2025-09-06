@@ -1,0 +1,26 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Phyto-Gro§r is essentially a §eform of fertilizer§r in the §6Phytogenic Insulator§r machine as it can §agreatly increase the yield of some plants§r. This is great if you are farming the §6Resource Seed§rs from §5Mystical Agriculture§r for maximum yield and efficiency.\n\nTo craft one, you\u0027ll need two §6Sawdust§r, §6Niter§r, and §6Slag§r. You can also make more by using Slag, §6Pulverized Charcoal§r, and Niter instead.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermalfoundation:fertilizer"
+      },
+      "name:8": "Phyto-Gro"
+    }
+  },
+  "questID:3": 1887441036,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "thermalfoundation:fertilizer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

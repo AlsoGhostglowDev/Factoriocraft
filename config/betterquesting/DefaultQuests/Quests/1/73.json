@@ -1,0 +1,20 @@
+{
+  "preRequisites:11": [
+    44
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This quest can simply be completed by §eunlocking the §5Mystical Agriculture§r gate.\n\n§eRefer to the §5Mystical Agriculture§r §egate§r for more info on the mod.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "mysticalagriculture:crafting"
+      },
+      "ismain:1": 1,
+      "name:8": "Start: Mystical Agriculture"
+    }
+  },
+  "questID:3": 73,
+  "tasks:9": {}
+}

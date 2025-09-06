@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    220891238
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Structure Tower§r is used in the §eRocket Assembly multiblock§r. It is placed on one of the sides from the §elaunch pad\u0027s side to the desired height§r. The height depends on §ehow high your Rocket is§r.\nI recommend making it §eone block higher for safety precaution§r. It must be §econnected to the Launch Pads§r.\n\nTo craft them, you\u0027ll need seven §6Steel Rod§rs.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:structuretower"
+      },
+      "name:8": "Structure Tower"
+    }
+  },
+  "questID:3": 224121871,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 6,
+          "id:8": "advancedrocketry:structuretower"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

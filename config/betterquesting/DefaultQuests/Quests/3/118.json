@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    119,
+    117
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This is the fourth and §elast tier§r of Ore Processing which outputs §apentuple the amount inputted§r. This is simply overkill, but worth it I\u0027d say.\n\nIn order to process the ores in this tier, it\u0027s a ridiculously long process but since I\u0027m a nice unemployed dude, I\u0027ll write it for you.\n\nFirstly, you\u0027ll need to get some §6Sulfur§r. Once you got those, §ethrow them in a §6Chemical Oxidizer§r to get §6Sulfur Dioxide§r. After that, §einfuse the previous Sulfur Dioxide with §6Oxygen§r to make §6Sulfur Trioxide§r. \n\nFor the next step, you\u0027ll need §6Water Vapor§r. To get the said vapor, you\u0027ll need to §eput Water in a §6Rotary Condensentrator§r (§7on mode Decondensentrator§r). \n\nOnce you got the Water Vapor, §epipe it inside a §6Chemical Infuser§r together with the Sulfur Trioxide. This will now §emake §6Sulfuric Acid§r which we will then put in the §6Chemical Dissolution Chamber§r. This is where you\u0027ll put your ore in, then you\u0027ll get the §eOre\u0027s Slurry§r. We then now need to clean it by §eputting the Slurry into a §6Chemical Washer§r. \n\nAfter you did all that, §eput the Clean Slurry into a §6Chemical Crystallizer§r to get 5 Crystals. These crystals will then §ego into the §6Chemical Injection Chamber§r alongside §6Hydrogen Chloride§r to get shards. You already know the next steps so I\u0027ll leave you to it.\n   \n§n§lProsedure:§r\n§7§nOre Processing:§r\n1. Ore + §bSulfuric Acid§r  \u003e  §6Chemical Dissolution Chamber§r  \u003e  §bOre Slurry§r\n2. §bOre Slurry§r  \u003e  §6Chemical Washer§r  \u003e  §bClean Ore Slurry§r\n3. §bClean Ore Slurry§r  \u003e  §6Chemical Crystallizer§r  \u003e  Crystal\n4. Crystal + §bHydrogen Chloride§r  \u003e  §6C. Inj. Chamber§r  \u003e  Shard\n5. Shard + §bOxygen§r  \u003e  §6Purification Chamber§r  \u003e  Clump\n6. Clump  \u003e  §6Crusher§r  \u003e  Dust\n7. Dust  \u003e  §6Energized Smelter§r  \u003e  Ingot\n\n§7§nHydrogen Chloride:§r\n1.1.  §9Water§r  \u003e  §6Electrolytic Seperator§r  \u003e  [§e§lHydrogen§7 | Oxygen§r]\n1.2.1. §9Water§r  \u003e  §6TEP§r  \u003e  §9Brine§r\n1.2.2. §9Brine§r  \u003e  §6Electrolytic Seperator§r  \u003e  [§7Sodium | §e§lChlorine§r] \n2. §bHydrogen + Chlorine§r  \u003e  §6Chemical Infuser§r  \u003e  §bHydrogen Chloride§r\n\n§7§nSulfuric Acid:§r\n1.1. Sulfur  \u003e  §6Chemical Oxidizer§r  \u003e  §bSulfur Dioxide§r\n1.2. §bSulfur Dioxide§r + §bOxygen§r  \u003e  §6Chemical Infuser§r  \u003e  §bSulfur Trioxide§r\n1.3.1. §9Water§r  \u003e  §6Rotary Condensentrator§r (§7Mode Decond.§r)  \u003e  §bWater Vapor§r\n1.3 §bSulfur Trioxide§r + §bWater Vapor§r  \u003e  §6Chemical Infuser§r  \u003e  §bSulfuric Acid",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mekanism:crystal"
+      },
+      "name:8": "Ore Processing T4 (5x)"
+    }
+  },
+  "questID:3": 118,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "mekanism:tierinstaller"
+        }
+      }
+    }
+  },
+  "tasks:9": {}
+}

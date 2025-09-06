@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    24
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Draconic Core§r is a §o§lCORE§r element in the §5Draconic Evolution§r questline. It is used in multiple §5DE§r machines, fusion crafting recipes, etc.\n\nTo make the §rDraconic Core, you will need four §6Draconium Ingot§rs, four §6Enderium Ingot§rs, and one §6Infused Diamond§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:draconic_core"
+      },
+      "ismain:1": 1,
+      "name:8": "Draconic Evolution"
+    }
+  },
+  "questID:3": 23,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:draconic_core"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

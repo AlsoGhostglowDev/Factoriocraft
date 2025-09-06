@@ -1,0 +1,18 @@
+{
+  "preRequisites:11": [
+    902674162,
+    1808166501
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "environmentaltech:nano_cont_ranged_5"
+      },
+      "name:8": "T5 Ranged Nanobot Beacon"
+    }
+  },
+  "questID:3": 1049289870,
+  "tasks:9": {}
+}

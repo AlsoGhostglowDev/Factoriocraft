@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    44
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Inferium§r is a §emagical essence§r that, based on §9NeoTechnology§r\u0027s prediction, can help §agrow the ungrowable§r. It can usually be obtained by §akilling mobs or as an ore in caves§r. Inferium can be used in §atool making and in food§r too!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mysticalagriculture:crafting"
+      },
+      "name:8": "Inferium"
+    }
+  },
+  "questID:3": 152,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 5,
+          "id:8": "mysticalagriculture:crafting"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

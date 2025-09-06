@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    120
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Enriched Alloy§rs are a §eMekanism staple§r and are very useful in this modpack. To make one, infuse a §eRedstone related item§r into an §6Iron Ingot§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mekanism:enrichedalloy"
+      },
+      "name:8": "Enriched Alloy"
+    }
+  },
+  "questID:3": 127,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mekanism:enrichedalloy"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

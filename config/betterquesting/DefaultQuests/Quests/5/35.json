@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    23
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Fusion Crafting Core§r is a key block in making the §6Fusion Crafter§r, a multi-block machine capable of §efusing together materials to create new ones§r. The Crafting Core is placed §eon the middle of the multi-block§r and is important for the §5DE§r quests later on.\n\nTo craft one, you will need four §6Pladium Block§rs (§7Obtained from the T3 §6Void Ore Miner§r§r), four §6Ionite Crystal§rs (§7Obtained from the T4 Void Ore Miner§r) and a §6Draconic Core§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:fusion_crafting_core"
+      },
+      "name:8": "Fusion Crafting Core"
+    }
+  },
+  "questID:3": 35,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:fusion_crafting_core"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

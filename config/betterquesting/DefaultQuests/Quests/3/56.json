@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    54
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Energized Smelter§r is §5Mekanism§r\u0027s way to §esmelt or cook items using the power of RF§r (§cRedstone Flux§r). This includes all smeltable items such as food, ores, etc.\n\nOther than that, the Energized Smelter is one of §5Mekanism§r\u0027s machines that are capable of §eupgrading to it\u0027s factory variant§r. The factory variants offers §ebulk smelting which means you can smelt a lot of items in one go§r, this will be useful in the mid-game for mass processing.\n\nTo craft it, you will need four §6Redstone Dust§r, two §6Basic Control Circuit§rs, two §6Glass§r, and a §6Steel Casing§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10,
+        "id:8": "mekanism:machineblock"
+      },
+      "name:8": "Energized Smelter"
+    }
+  },
+  "questID:3": 56,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "id:8": "mekanism:machineblock"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

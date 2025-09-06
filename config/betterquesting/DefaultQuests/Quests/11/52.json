@@ -1,0 +1,45 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    50
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Industrial Foregoing is a mod providing you machines for all different types of tasks. This is useful for automating tasks in the future. \n\n§cThe Industrial Foregoing Questline is not yet available for FactorioCraft Season 6§r. ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "industrialforegoing:latex_processing_unit"
+      },
+      "name:8": "Gate: Industrial Foregoing",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 52,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "industrialforegoing:book_manual"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "teslacorelib:machine_case"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

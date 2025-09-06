@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    7
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6§rNext up is §3Osmium§r, which is a really useful ore in the §5Mekanism§r mod (§7Refer to the §5Mekanism §r§7questline for more info§r) and it is a good material for toolmaking.\n\n§6Osmium Ore§r normally generates §earound the same Y level as Iron Ore§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "mekanism:ingot"
+      },
+      "name:8": "Obtain Osmium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 66,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "mekanism:ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    576098093,
+    517953273
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Enhanced SAG Mill§r has the same functionality as it\u0027s last tier with the advantage of it §ahaving faster processing rate than the Industrial tier§r.\n\nTo craft it, you\u0027ll need An §6Enhanced Machine Chassis§r, two §6End Steel Ingot§rs, two §6Vibrant Bimetal Gear§rs, three §6Flint§r, and a §6Piston§r.\nIf you already have a standard §6SAG Mill§r, you only need the SAG Mill, two End Steel Ingots, two Vibrant Bimetal Gears, and an Enhanced Machine Chassis.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_enhanced_sag_mill"
+      },
+      "name:8": "Enhanced SAG Mill"
+    }
+  },
+  "questID:3": 2043195408,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_enhanced_sag_mill"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

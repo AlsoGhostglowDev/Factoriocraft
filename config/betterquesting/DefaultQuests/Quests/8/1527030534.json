@@ -1,0 +1,67 @@
+{
+  "preRequisites:11": [
+    220891238
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Cutting Machine§r is a machine §ecapable of making §5Advanced Rocketry§e components§r and also §ecut logs for more plank output§r. \n\nThe machine is a §aMultiblock Structure§r; §eThe multiblock\u0027s materials are in the task itself§r.\n\nTo craft the Cutting Machine, you\u0027ll need two §6Steel Gear§rs, a §6User Interface§r, a §6Machine Structure§r, an §6Item IO Circuit Board§r, a §6Control Circuit Board§r, two §6Obsidian§r, and a §6Steel Plate§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:cuttingmachine"
+      },
+      "name:8": "Cutting Machine"
+    }
+  },
+  "questID:3": 1527030534,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:cuttingmachine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "libvulpes:hatch"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "libvulpes:hatch"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "libvulpes:forgepowerinput"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "OreDict:8": "blockMotor",
+          "id:8": "libvulpes:motor"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:sawblade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

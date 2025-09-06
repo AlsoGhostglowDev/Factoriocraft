@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    102
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "In order to actually §euse a computer§r, you must §ewrite programs§r. Your first program will be a basic Hello World program. The computers run §eLua code§r.\n\nTo start writing a program, you must §ause the \"edit\" command and then a file name after it§r. Call yours \"§7hello.lua§r\" if you don’t have any ideas!\n\nAfter that, §awrite §r\"§7print(\u0027Hello, world!\u0027)§r\" and then §apress CTRL+S (Saves the program)§r and then §aCTRL+W to exit out of the edit program§r.\n\nNow to run your program, type in \"§7./hello.lua§r\" and then press §7ENTER§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "opencomputers:storage",
+        "tag:10": {
+          "display:10": {
+            "Name:8": "OpenOS (Operating System)"
+          },
+          "oc:color:3": 2,
+          "oc:data:10": {
+            "oc:fs.label:8": "openos"
+          },
+          "oc:lootFactory:8": "opencomputers:openos"
+        }
+      },
+      "lockedprogress:1": 1,
+      "name:8": "Your First Program",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 103,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

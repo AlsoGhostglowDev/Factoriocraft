@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    51
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Device Frame§r serves as the main crafting ingredient in making §5Thermal Expansion§r\u0027s devices. These devices §adoes not need energy to work§r so it could be incredibly useful on §edoing light tasks even at the mid-game§r.\n\nTo craft one, you\u0027ll need four §6Tin Ingot§rs, four §6Glass§r, and a §6Copper Gear§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 64,
+        "id:8": "thermalexpansion:frame"
+      },
+      "name:8": "Device Frame"
+    }
+  },
+  "questID:3": 134224987,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 64,
+          "id:8": "thermalexpansion:frame"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

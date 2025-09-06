@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    148
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You can simply get §6Liquid Lithium§r by putting §6Brine§r in a §6Thermal Evaporation Plant§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "liquidlithium"
+        }
+      },
+      "name:8": "Liquid Lithium"
+    }
+  },
+  "questID:3": 147,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "liquidlithium"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    1705357114
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Silicon§r is an important ingredient in §emaking the processors§r.\n\nTo make it, throw §6Certus Quartz Dust§r into the §6Furnace§r.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Silicon",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1974240037,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 5,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 5,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

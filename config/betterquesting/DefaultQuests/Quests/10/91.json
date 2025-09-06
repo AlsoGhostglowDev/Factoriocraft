@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    86
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§eAbilities:§r\n- §6Large Mining AOE on §cHammer §6Mode§r\n\nAll of the Pickaxes in One! This tool is said to have created §eall of the caves§r on this planet §elong ago§r...\n\n[§7Shift§r] + [§7R-Click§r] to toggle the Hammer mode.\nThe Pickaxe will drop a §6Matter Cluster§r if there\u0027s too many items to drop. [§7R-Click§r] them to get the items out.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "avaritia:infinity_pickaxe",
+        "tag:10": {
+          "ench:9": {
+            "0:10": {
+              "id:2": 35,
+              "lvl:2": 10
+            }
+          }
+        }
+      },
+      "name:8": "§5World Breaker"
+    }
+  },
+  "questID:3": 91,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "avaritia:infinity_pickaxe",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:2": 35,
+                "lvl:2": 10
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

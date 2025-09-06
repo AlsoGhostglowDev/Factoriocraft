@@ -1,0 +1,68 @@
+{
+  "preRequisites:11": [
+    24699367,
+    577300123,
+    1783620457,
+    1892239042
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "To build your first rocket, you must have all of the following:\n- §6Rocket Assembling Machine§r\n- §6Seat§r\n- §6Fuel Tank§r\n- §6Propellant§r\n- §9Rocket Fuel§r\n- §6Fueling Station§r\n- §6Guidance Computer§r\n- §6Launch Pad§r\n\nThe most important part in assembling a rocket is the Rocket Assembling Machine itself. It §emust be placed near the Launch Pad multiblock§r. It is used to §edetermine the rocket\u0027s thrust, weight, fuel and acceleration§r. These informations are §every important§r as it could affect your space travel. \n\nNow, on the rocket itself; you\u0027ll need atleast 1 Seat, a Propellant, Fuel Tank and a Guidance Computer. The Guidance Computer is used to §eguide your rocket to where it\u0027s supposed to go§r. It has one slot which is where the §6ID Chip§r go. There is two variants of the ID Chip, and it depends on what you\u0027re doing / where you\u0027re going: an §eID Chip for Planets§r and §eone for Space Stations§r. The Rocket can be §eany shape you want§r but keep in mind that §e1 block adds 1KG onto the Rocket\u0027s weight§r, meaning §cyou\u0027d need more Thrust§r.\n\nAnother thing you\u0027d need to worry about is the Rocket Fuel. You need to have §esufficient fuel in order to reach your destination§r. The Rocket Assembling Machine\u0027s §efuel bar§r tells you §ehow fast fuel is consumed in mB/s§r. To fill your rocket with fuel, you must §efirst assemble it and connect a Fueling Station to the said rocket§r. Once the Fueling Station has Rocket Fuel in it, it\u0027ll §estart pumping the fuel into the Rocket§r.\n\nOnce everything is set, you can now launch your rocket! \nMake sure the assembled rocket is §cfueled up§r, has §cstable stats§r and has §cevery requirements that a rocket needs§r, including the §eID Chip for the rocket\u0027s destination§r. [§7R-Click§r] the Assembled Rocket to sit on the rocket\u0027s Seat and press [§7SPACE§r] to start launching!\n\nTo §eInfinity§r, §eAND BEYOND§r!",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:rocketbuilder"
+      },
+      "ismain:1": 1,
+      "name:8": "Building a Rocket"
+    }
+  },
+  "questID:3": 678452573,
+  "rewards:9": {
+    "0:10": {
+      "amount:3": 100,
+      "index:3": 0,
+      "isLevels:1": 0,
+      "rewardID:8": "bq_standard:xp"
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:rocketbuilder"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:seat"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "id:8": "advancedrocketry:fueltank"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "id:8": "advancedrocketry:rocketmotor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    1166991187
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Item Conduit§r is capable of transporting... well... items!\n\nTo make the Item Conduit, you\u0027ll need six §6Conduit Binder§rs and three §6Pulsating Iron Nugget§rs (§7You can get Pulsating Iron Ingots by throwing an §6Iron Ingot§7 and an §6Ender Pearl§7 in the §6Induction Smelter§7!§r)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:item_item_conduit"
+      },
+      "name:8": "Item Conduit",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 701597056,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "enderio:item_item_conduit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    184452152
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Soul Machine Chassis§r is used as a crafting ingredient for the §esoul-related machines§r throughout the §5EnderIO§r mod. \n\nTo craft one, you\u0027ll need to mix a §6Simple Machine Chassis§r and a §6Soul Attuned Dye Blend§r into the §6Induction Smelter§r.\n\n(§7PS: §9NeoTechnologies§7 says that if your machine begins making screaming sounds, please call Ghastbusters on 1800 GHASTS. I have no clue what §7NT§7 means so just take it with a grain of infinity.§r)",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 53,
+        "id:8": "enderio:item_material"
+      },
+      "name:8": "Soul Machine Chassis"
+    }
+  },
+  "questID:3": 1658836330,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 53,
+          "id:8": "enderio:item_material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "preRequisites:11": [
+    54,
+    114,
+    150,
+    146,
+    1728792830
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Fusion Reactor§r is one of the §eend-game power generations§r, being able to §egenerate up to §a99.9MRf§r depending on the §6D-T Fuel§r input. The longer you sustain the reactor, the larger the amount of §cRF§r outputted.\n\nTo activate the §6Fusion Reactor§r, you must have a §esustainable source of §6D-T Fuel§r, another power source to §epower the machines for the §6D-T Fuel§e production§r and §6Cryo-Stabilized Fluxduct §efor maximum §cRF§e/t transportation§r. You may need to build this in §aThe End§r so your §6Solar Neutron Activator§r won\u0027t get disrupted by the Daylight Cycle. To transport the energy from §aThe End§r to the §aOverworld§r, you would require a §6Quantum Entangloporter§r.\n\n§cWarning: The amount of materials to sustain the D-T Fuel is §4ludicrous§c. Good luck.§r\n\nFind out how to build the multiblock structure here: {Embed}TypeLink;https://wiki.aidancbrady.com/wiki/Fusion_Reactor;300;15;Mekanism Wiki: Fusion Reactor{Embed}",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mekanismgenerators:reactor"
+      },
+      "ismain:1": 1,
+      "name:8": "The Fusion Reactor"
+    }
+  },
+  "questID:3": 126,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "mekanism:tierinstaller"
+        }
+      }
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 20,
+          "id:8": "mekanism:controlcircuit"
+        },
+        "1:10": {
+          "Count:3": 15,
+          "Damage:2": 1,
+          "id:8": "mekanism:controlcircuit"
+        },
+        "2:10": {
+          "Count:3": 10,
+          "Damage:2": 2,
+          "id:8": "mekanism:controlcircuit"
+        },
+        "3:10": {
+          "Count:3": 5,
+          "Damage:2": 3,
+          "id:8": "mekanism:controlcircuit"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mekanismgenerators:reactor"
+        },
+        "1:10": {
+          "Count:3": 58,
+          "Damage:2": 1,
+          "id:8": "mekanismgenerators:reactor"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 2,
+          "id:8": "mekanismgenerators:reactor"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "id:8": "mekanismgenerators:reactorglass"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "mekanismgenerators:reactorglass"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mekanism:machineblock3"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

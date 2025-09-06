@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    1862466254
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Resonant§r is the §efourth and final tier of the Upgrades§r. You can also use a §6Conversion Kit§r instead of an §6Upgrade Kit§r to §edirectly convert the block into that tier§r without needing to have the previous tier upgrades.\n\nTo craft one, you\u0027d need 4 §6Enderium Ingot§rs, a §6Lumium Gear§r, and 2 §6Pyrotheum Dust§rs.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "thermalfoundation:upgrade"
+      },
+      "name:8": "Resonant Tier"
+    }
+  },
+  "questID:3": 200386242,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "thermalfoundation:upgrade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

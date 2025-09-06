@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    1831623876
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Just like the parasites, your weapons are made out of §eparasitic material that can evolve over time§r. By §ekilling lots of creatures with your newly crafted §6Living Sword§r, you can evolve it into a §6Sentient Greatsword§r which will deal a lot more damage and will have §emore Armor Piercing§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "srparasites:weapon_sword_sentient"
+      },
+      "name:8": "Weapon Evolution"
+    }
+  },
+  "questID:3": 2007497134,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "srparasites:ada_manducater_drop"
+        }
+      }
+    }
+  },
+  "tasks:9": {}
+}

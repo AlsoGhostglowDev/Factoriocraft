@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    55
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Metallurgic Infuser§r is a machine that can §einfuse an material§r (§7usually §6Coal§7 or §6Redstone§r) §einto an item§r (§7like §6Iron Ingot§r) §eto make a new material§r, like an §6Enriched Alloy§r.\n\nTo craft the Metallurgic Infuser, you need §e4 §6Iron Ingots§r, §e2 §6Furnace§rs, an §6Osmium Ingot§r, and §e2 §6Redstone Dust§r.\n\nThe Metallurgic Infuser will become §every important for multiple items§r in Mekanism, so be sure to keep it §econnected to a power source§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 8,
+        "id:8": "mekanism:machineblock"
+      },
+      "name:8": "Metallurgic Infuser",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 57,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "id:8": "mekanism:machineblock"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    614954418,
+    183
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Crafting Terminal§r has the same functionality as the §6ME Terminal§r but the only exception of §ehaving the convinience of a Crafting Grid in the same GUI§r.\n\nYou can craft it with an ME Terminal, a §6Crafting Table§r, and a §6Calculation Processor§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 360,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "Crafting Terminal"
+    }
+  },
+  "questID:3": 1424550171,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 360,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

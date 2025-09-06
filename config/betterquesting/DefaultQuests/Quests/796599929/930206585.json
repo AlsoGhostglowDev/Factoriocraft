@@ -1,0 +1,58 @@
+{
+  "preRequisites:11": [
+    134224987
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§eCollects nearby Experience Orbs§r to be turned into §6Essence of Knowledge§r (§5Thermal Expansion§7\u0027s form of §9Liquid Experience§r).\n\nCan be crafted with a §6Device Frame§r, a §6Redstone Servo§r, a §6Tome of Knowledge§r, 2 §6Iron Gear§rs and 2 §6Gold Ingot§rs.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 8,
+        "id:8": "thermalexpansion:device",
+        "tag:10": {
+          "Creative:1": 0,
+          "Facing:1": 5,
+          "Level:1": 0,
+          "RSControl:1": 0,
+          "SideCache:7": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      "name:8": "Insightful Condenser"
+    }
+  },
+  "questID:3": 930206585,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "id:8": "thermalexpansion:device",
+          "tag:10": {
+            "Energy:3": 0,
+            "Facing:1": 3,
+            "RSControl:1": 0,
+            "SideCache:7": [
+              1,
+              1,
+              2,
+              2,
+              2,
+              2
+            ]
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

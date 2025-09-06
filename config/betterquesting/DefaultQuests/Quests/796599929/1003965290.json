@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    1159722437
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Aerotheum Dust§r is the §eair elemental dust§r. Can be used to make §9Zephyrean Aerotheum§r, which is it\u0027s fluid form. It §eflows up instead of down§r as it is §elighter than air§r.\n\nTo craft one, you\u0027ll need 2 §6Blitz Powder§r, §6Niter§r, and §6Redstone Dust§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1026,
+        "id:8": "thermalfoundation:material"
+      },
+      "name:8": "Aerotheum"
+    }
+  },
+  "questID:3": 1003965290,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 1026,
+          "id:8": "thermalfoundation:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

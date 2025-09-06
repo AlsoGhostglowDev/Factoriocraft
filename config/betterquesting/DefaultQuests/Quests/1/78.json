@@ -1,0 +1,19 @@
+{
+  "preRequisites:11": [
+    23
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This quest can simply be completed by §eunlocking the §5Draconic Evolution§r gate.\n\n§eRefer to the §5Draconic Evolution§r §egate§r for more info on the mod.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:draconic_core"
+      },
+      "ismain:1": 1,
+      "name:8": "Start: Draconic Evolution"
+    }
+  },
+  "questID:3": 78,
+  "tasks:9": {}
+}

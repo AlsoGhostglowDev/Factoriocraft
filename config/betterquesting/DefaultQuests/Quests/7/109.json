@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    105
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Sending plain messages is §cnot particularly safe§r as §canyone with malicious intent can spoof their network card and pick your messages up§r.\n\nBy using a §a§eData Card of any tier§r, you can add some security to your network (§7the T3 data card being the best option§r).\n\nYou may also use a §6Linked Card§r to §atransport information from one computer to a single other computer§r §eno matter the distance or dimension§r. Although be wary, §cthis consumes LOTS of power§r.\n\nAs for your physical network, it is recommended you §ahave a power distributor or a relay in order to separate components§r, so the computers don’t get their components mixed up or use the same component.\n\nA relay may also use a §6Wireless Network Card§r of any tier to receive messages wirelessly.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "opencomputers:powerdistributor"
+      },
+      "name:8": "Networking Safety"
+    }
+  },
+  "questID:3": 109,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": "oc_networkingSafety",
+          "id:8": "opencomputers:card"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "opencomputers:powerdistributor"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "opencomputers:relay"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

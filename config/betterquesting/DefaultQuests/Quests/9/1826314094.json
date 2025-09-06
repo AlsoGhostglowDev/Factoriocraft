@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    1460964645
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Pressurized Gas Conduit§r is the §enext tier of the Gas Conduits§r and is capable of §eoutputting a maximum of 2048 mB/T§r.\n\nTo make the Pressurized Gas Conduit, you\u0027ll need eight §6Gas Conduit§rs and a §6Reinforced Alloy§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "enderio:item_gas_conduit"
+      },
+      "name:8": "Pressurized Gas Conduit"
+    }
+  },
+  "questID:3": 1826314094,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 1,
+          "id:8": "enderio:item_gas_conduit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    104
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "A robot by itself is very useful. It can §ebuild, mine, attack things, and more§r, but it is even more useful if it can §acommunicate with other computers§r, such as §eother robots§r or even some kind of §econtroller computer§r.\n\nTo get started with networking, §aobtain 2 §6Networking Cards§r§a of any tier§r. A T2 §6Wireless Network Card§r CAN communicate with a T1 wireless one, but the T2 one §eneeds to be in range of the T1 wireless one in order to send and receive messages§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 7,
+        "id:8": "opencomputers:card"
+      },
+      "name:8": "Networking"
+    }
+  },
+  "questID:3": 105,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "cardNetwork",
+          "id:8": "opencomputers:card"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

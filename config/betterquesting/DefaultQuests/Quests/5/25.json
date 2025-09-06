@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    28,
+    23
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Wyvern Core§r is an artifact that can be §eused in multiple crafting and fusion crafting recipes§r, even including it\u0027s §eown tool set§r.\n\nTo craft one, you will need four §6Draconium Ingot§rs, four §6Draconium Core§rs, and one §6Nether Star§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:wyvern_core"
+      },
+      "name:8": "Wyvern Core"
+    }
+  },
+  "questID:3": 25,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:wyvern_core"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

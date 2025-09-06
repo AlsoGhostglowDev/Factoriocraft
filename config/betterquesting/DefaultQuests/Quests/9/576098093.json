@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    1856374944,
+    927102538
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6SAG Mill§r, similar to it\u0027s simple variant, can do the same task but with the §aadvantage of plugging in §6Capacitors§a for the machine\u0027s efficiency and §6Grinding Balls§a to increase the rates of the outputs§r.\n\nTo craft one, you\u0027ll need an §6Industrial Machine Chassis§r, a §6Piston§r, 2 §6Dark Bimetal Gear§rs, 2 §6Dark Steel§rs and 3 §6Flints§r.\nHowever, if you already have the §6Simple SAG Mill§r, you\u0027d only need 2 Dark Steels, 2 Dark Bimetal Gears and 1 Industrial Machine Chassis.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_sag_mill"
+      },
+      "name:8": "SAG Mill"
+    }
+  },
+  "questID:3": 576098093,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_sag_mill"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

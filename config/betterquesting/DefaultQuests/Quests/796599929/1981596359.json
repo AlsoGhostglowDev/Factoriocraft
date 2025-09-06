@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    1887441036
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Phyto-Gro§r but better! §aIncreases even more yield and efficiency§r. Some plants might need this instead of the normal §6Phyto-Gro§r.\n\nTo make one, you\u0027ll need two §6Sawdust§r, §6Niter§r, and §6Rich Slag§r. You can also make more by using Rich Slag, §6Pulverized Charcoal§r, and Niter instead.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "thermalfoundation:fertilizer"
+      },
+      "name:8": "Rich Phyto-Gro",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1981596359,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "id:8": "thermalfoundation:fertilizer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

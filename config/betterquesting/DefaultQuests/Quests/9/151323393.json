@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    229679451
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Basic Capacitor Bank§r serves as an §6Energy Storage§r. It\u0027s capacity can §ereach up to 1MRf§r, but can be §aincreased§r by §econnecting more Capacitor Banks to combine it\u0027s energy storage§r. It\u0027s multiblock structure is §eshapeless§r so it can be in any shape, §eas long as it\u0027s beside each other§r.\n\nTo craft one, you\u0027d need a §6Redstone Block§r, 4 §6Basic Capacitor§rs, and 4 §6Iron Ingot§rs.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "enderio:block_cap_bank",
+        "tag:10": {
+          "enderio:energy:3": 1000000
+        }
+      },
+      "name:8": "Basic Capacitor Bank"
+    }
+  },
+  "questID:3": 151323393,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "enderio:block_cap_bank"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

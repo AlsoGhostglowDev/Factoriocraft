@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    120
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Reinforced Alloy§r is the §enext level of alloy§r that can be made in the §6Metallurgic Infuser§r. To make one, infuse §6Diamond Dust§r into an §6Enriched Alloy§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mekanism:reinforcedalloy"
+      },
+      "name:8": "Reinforced Alloy"
+    }
+  },
+  "questID:3": 128,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mekanism:reinforcedalloy"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

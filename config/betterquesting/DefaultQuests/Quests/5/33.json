@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    32
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Chaotic Fusion Crafting Injector§r is the §elast tier§r in the §eCrafting Injector tierlist§r. As such, it is §ecapable of the best fusion capabilities§r.\n\n\nTo make the Chaotic Fusion Crafting Injector in the §6Fusion Crafter§r, you will need two §6Diamond§rs and a §6Chaotic Core§r on the left column, and two Diamonds and a §6Dragon Egg§r on the right column, with a §6Draconic Fusion Crafting Injector§r in the Fusion Core.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "draconicevolution:crafting_injector"
+      },
+      "name:8": "Chaotic Fusion Crafting "
+    }
+  },
+  "questID:3": 33,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 3,
+          "id:8": "draconicevolution:crafting_injector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

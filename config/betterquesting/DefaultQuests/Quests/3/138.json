@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    137
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Unlike the other generators, the §6Wind Generator§r is an example of a §erenewable generator that outputs energy no matter the conditions§r. You simply place it down and it will begin to output energy, making this one of the §emost efficient energy sources§r.\n\nTo craft it, you will need two §6Energy Tablet§rs, three §6Osmium Ingot§rs, an §6Enriched Alloy§r, and a §6Basic Control Circuit§r.\n\nHere are some things to note about the Wind Generator:\n\n- The §ahigher the generator is placed, the more energy is outputted§r.\n- If §csomething blocks the generator, it will cancel out the energy output§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 6,
+        "id:8": "mekanismgenerators:generator"
+      },
+      "name:8": "Everlasting Energy II"
+    }
+  },
+  "questID:3": 138,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "mekanismgenerators:generator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

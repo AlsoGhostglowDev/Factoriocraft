@@ -1,0 +1,73 @@
+{
+  "preRequisites:11": [
+    1340122196
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Chemical Reactor§r machine allows §etwo chemicals to react with each other§r within it\u0027s chamber. It\u0027s main purpose to §emake §9Rocket Fuel§r, but you can also make §eother chemicals§r in it.\n\nThe machine is a §aMultiblock Structure§r; §eThe multiblock\u0027s materials are in the task itself§r.\n\nTo craft the Chemical Reactor, you\u0027ll need two §6Gold Plate§rs, a §6User Interface§r, a §6Machine Structure§r, an §6Item IO Circuit Board§r, a §6Control Circuit Board§r, two §6Basic Circuits§r, and a §6Liquid IO Circuit Board§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:chemicalreactor"
+      },
+      "name:8": "Chemical Reactor"
+    }
+  },
+  "questID:3": 667150240,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:chemicalreactor"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "libvulpes:forgepowerinput"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 2,
+          "id:8": "libvulpes:hatch"
+        },
+        "3:10": {
+          "Count:3": 2,
+          "Damage:2": 3,
+          "id:8": "libvulpes:hatch"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "libvulpes:hatch"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "libvulpes:hatch"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "OreDict:8": "blockMotor",
+          "id:8": "libvulpes:motor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

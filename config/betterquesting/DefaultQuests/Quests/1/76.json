@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    78,
+    75,
+    27
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§cThe Chaos Tool is the final harvest level you can get§r, and just like the §6Awakened Core§r, it requires the §6Chaotic Core§r to make.\n\nThe §eFusion Crafting recipe§r requires that you §eknow how to make the Awakened Core§r, which we\u0027ve went over earlier in this questline.\n\nThe fusion crafting recipe takes §atwo §6Awakened Core§es and two §6Awakened Draconium Ingot§es on both sides§r, and a §6Chaos Shard§r in the §6Fusion Crafting Core§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:chaotic_core"
+      },
+      "name:8": "Obtain Chaotic Core"
+    }
+  },
+  "questID:3": 76,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:chaotic_core"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
