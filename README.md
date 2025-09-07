@@ -1,11 +1,27 @@
 # Factoriocraft
-a Minecraft Modpack by **Execute**, **OrangeLeaf36**, **TBar** and **GhostglowDev**.
+a Quest-driven 1.12.2 Minecraft Modpack based on the game "Factorio". It has features from it's namesake which is automating almost everything in both the midgame and endgame. <br>
+We're sent by **NeoTechnologies Alternate Reality Research Subdivision** (**NTARS**) into a level to experiment the safety of other realities. <br>
+
+This modpack focused around **OpenComputers** (robots & drones) and other Technology Mods (**Mekanism, AE2, Environmental Tech and Advanced Rocketry**) while a Parasitic Race try to rule over the Level. <br>
+
+The endgame features the **Bragging Rights** questline which allows you to explore the powerful weapons and tools from the **Avaritia** mod. These will help you get rid of the Parasites. 
 
 ---
 
+Brought to you by:
+- **Execute**
+- **OrangeLeaf36** 
+- **TBar**
+- **GhostglowDev**
+
+---
+
+## Requirements
+- atleast 8GB RAM (6GB to be allocated)
+
 ## Installation
 1. Download the repo's ZIP
-2. Install [JDK 21](https://www.oracle.com/java/technologies/downloads/#jdk21-windows) 
+2. Install [**JDK 21**](https://www.oracle.com/java/technologies/downloads/#jdk21-windows) 
 > - __[[Direct Download (Windows)](https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.exe)]__ <br>
 > - __[[Direct Download (Mac)](https://download.oracle.com/java/21/latest/jdk-21_macos-x64_bin.dmg)]__ <br>
 > - __[[Direct Download (Linux)](https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.tar.gz)]__ <br>
