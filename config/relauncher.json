@@ -1,6 +1,0 @@
-{
-  "selectedVersion": "0.3.13-alpha",
-  "latestVersion": "0.3.13-alpha",
-  "javaPath": "C:\\Program Files\\Java\\jdk-21\\bin\\javaw.exe",
-  "args": "-XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -Xmx6G -Djava.net.preferIPv4Stack=true -Dgroovyscript.run_ls=true"
-}
