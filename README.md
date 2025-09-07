@@ -27,8 +27,8 @@ Brought to you by:
 > - __[[Direct Download (Linux)](https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.tar.gz)]__ <br>
 3. Install JDK 21 with the downloaded Installer.
 4. Follow the Steps to Setup a Modpack according to your Launcher.
-> - [**SKLauncher**]() <br>
-> - [**Prism Launcher**]()
+> - [**SKLauncher**](https://github.com/AlsoGhostglowDev/Factoriocraft#sklauncher) <br>
+> - [**Prism Launcher**](https://github.com/AlsoGhostglowDev/Factoriocraft#prism-launcher)
 5. Launch.
 6. a Popup will appear for Cleanroom Relauncher,
 > ![Cleanroom Relauncher Config](.docs/popup-cleanroom.png)
