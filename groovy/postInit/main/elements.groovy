@@ -503,8 +503,6 @@ event_manager.listen { ItemTooltipEvent event ->
     handler.getTankProperties().each {
         def content = it.getContents()
         if (content != null) {
-            event.getToolTip() << GroovyScriptCodeConverter.asGroovyCode(content, true)
-
             // Other Liquids
             def fluidName = content.getFluid().getName()
             if (liquidsElements.containsKey(fluidName)) {
