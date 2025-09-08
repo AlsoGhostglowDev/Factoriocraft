@@ -21,24 +21,12 @@ Brought to you by:
 
 ## Installation
 1. Download the repo's ZIP
-2. Install [**JDK 21**](https://www.oracle.com/java/technologies/downloads/#jdk21-windows) 
-> - __[[Direct Download (Windows)](https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.exe)]__ <br>
-> - __[[Direct Download (Mac)](https://download.oracle.com/java/21/latest/jdk-21_macos-x64_bin.dmg)]__ <br>
-> - __[[Direct Download (Linux)](https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.tar.gz)]__ <br>
-3. Install JDK 21 with the downloaded Installer.
-4. Follow the Steps to Setup a Modpack according to your Launcher.
+2. Follow the Steps to Setup a Modpack according to your Launcher.
 > - [**SKLauncher**](https://github.com/AlsoGhostglowDev/Factoriocraft#sklauncher) <br>
 > - [**Prism Launcher**](https://github.com/AlsoGhostglowDev/Factoriocraft#prism-launcher)
-5. Launch.
-6. a Popup will appear for Cleanroom Relauncher,
-> ![Cleanroom Relauncher Config](.docs/popup-cleanroom.png)
-> - **Select Cleanroom Version**: `0.3.13-alpha`
-> - **Select Java Executable**: Press [**Auto-Detect**]
-> - **Add Java Arguments**: 
-> ```
->  -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -Djava.net.preferIPv4Stack=true -Xmx6G
-> ```
-> *(The number in `-Xmx6G` can be changed if you want to allocate more RAM into Minecraft.)*
+3. Launch. <br>
+> (The **first launch** will install all Cleanroom Relauncher requirements, so you might need to launch it again afterwards.)
+
  
 ---
 
@@ -54,7 +42,6 @@ Brought to you by:
   > ![](.docs/2_sklauncher.png)
 3. Click `Save`
 4. Launch the Game
-5. Further Installation Steps is referred [here](https://github.com/AlsoGhostglowDev/Factoriocraft#installation)
 
 ### Prism Launcher
 1. Click the `Add Instance` button.
@@ -73,4 +60,3 @@ Brought to you by:
 6. Paste in the folders from the ZIP into the `minecraft` folder
   > ![](.docs/5_prism.png)
 4. Launch the Game
-5. Further Installation Steps is referred on the [Installation](https://github.com/AlsoGhostglowDev/Factoriocraft#installation) subtopic.
