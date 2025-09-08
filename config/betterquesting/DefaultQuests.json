@@ -69,7 +69,6 @@
     },
     "3:10": {
       "preRequisites:11": [
-        5,
         2
       ],
       "properties:10": {
