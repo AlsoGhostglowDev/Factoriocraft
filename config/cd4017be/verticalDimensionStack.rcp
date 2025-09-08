@@ -93,7 +93,7 @@ INIT() {
 	!netherTop();
 
 	add("bedrockRepl", 10, "minecraft:stone", [0, 255]#);
-	add("bedrockRepl", -1, "minecraft:netherrack", [249, 255]#);
+	add("bedrockRepl", -1, "minecraft:netherrack", [120, 255]#);
 }
 
 netherTop() {

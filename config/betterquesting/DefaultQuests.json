@@ -2,6 +2,56 @@
   "build:8": "4.2.6",
   "format:8": "2.1.0",
   "questDatabase:9": {
+    "0:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "Hello there!\n\nWelcome to World -2784! You are sent by NeoTechnologies (NT) into this world to experiment the safety of other planets as Earth is overpopulated and birth rates are increasing rapidly fast.\n\nClick on the checkbox to finish this first quest. The following quests will guide you through the new world and advance in various ways.",
+          "frame:8": "GATE",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "minecraft:dirt"
+          },
+          "ismain:1": 1,
+          "name:8": "The Beginning"
+        }
+      },
+      "questID:3": 0,
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1:10": {
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "Straightforward. Getting your first wooden tools in the vast Minecraft World.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "minecraft:wooden_pickaxe"
+          },
+          "name:8": "Tools",
+          "questlogic:8": "OR"
+        }
+      },
+      "questID:3": 1,
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "minecraft:wooden_pickaxe"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
     "2:10": {
       "properties:10": {
         "betterquesting:10": {
@@ -179,6 +229,35 @@
         }
       }
     },
+    "5:10": {
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "First thing\u0027s first, get yourself some §6Woo§r§6d§r§r§r and make some wooden tools.\nYou can then use a §6Wooden Pickaxe§r to get yourself some stone and make some §astone tools§r.\n\nSpeaking of pickaxe...\nTo complete this quest, §acraft yourself a §6Wooden Pickaxe§r! Pretty easy.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "minecraft:wooden_pickaxe"
+          },
+          "name:8": "Your First Pickaxe"
+        }
+      },
+      "questID:3": 5,
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "minecraft:wooden_pickaxe"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
     "6:10": {
       "preRequisites:11": [
         3
@@ -261,7 +340,7 @@
               }
             }
           },
-          "name:8": "Your First Pickaxe",
+          "name:8": "Your First (REAL) Pickaxe",
           "visibility:8": "ALWAYS"
         }
       },
