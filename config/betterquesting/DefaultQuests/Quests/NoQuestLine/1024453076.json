@@ -1,0 +1,18 @@
+{
+  "preRequisites:11": [
+    242702110,
+    181
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "environmentaltech:void_botanic_miner_cont_4"
+      },
+      "name:8": "T4 Void Botanic Miner"
+    }
+  },
+  "questID:3": 1024453076,
+  "tasks:9": {}
+}
