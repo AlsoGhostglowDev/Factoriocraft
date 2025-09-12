@@ -1,0 +1,191 @@
+{
+	"images": {
+		"sidebar": {
+			"image": "modpack:textures/mainmenu/sidebar.png",
+			"posX": -190,
+			"posY": -290,
+			"width": 327,
+			"height": 600,
+			"alignment": "right_center"
+		},
+		"logo": {
+			"image": "modpack:textures/mainmenu/factoriocraft.png",
+			"posX": 20,
+			"posY": 30,
+			"width": 262.6,
+			"height": 54.065,
+			"alignment": "left"
+		}
+	},
+	"buttons": {
+		"singleplayer": {
+			"text": "menu.singleplayer",
+			"posX": -130,
+			"posY": -80,
+			"width": 100,
+			"height": 20,
+			"alignment": "right_center",
+			"action": {"type": "openGui", "gui": "singleplayer"}
+		},
+		"multiplayer": {
+			"text": "menu.multiplayer",
+			"posX": -130,
+			"posY": -40,
+			"width" : 100,
+			"height": 20,
+			"alignment": "right_center",
+			"action": {"type": "openGui", "gui": "multiplayer"}
+		},
+		"mods": {
+			"text": "fml.menu.mods",
+			"posX": -130,
+			"posY": 0,
+			"width": 100,
+			"height": 20,
+			"alignment": "right_center",
+			"action": {"type": "openGui", "gui": "mods"}
+        },
+		"options": {
+			"text": "menu.options",
+			"posX": -130,
+			"posY": 40,
+			"width": 100,
+			"height": 20,
+			"alignment": "right_center",
+			"action": {"type": "openGui", "gui": "options"}
+		},
+		"quit": {
+			"text": "menu.quit",
+			"posX": -130,
+			"posY": 80,
+			"width": 100,
+			"height": 20,
+			"alignment": "right_center",
+			"action": {"type": "quit"}
+		},
+
+		"language": {
+			"text": "",
+			"posX": -25,
+			"posY": 80,
+			"width": 20,
+			"height": 20,
+			"alignment": "right_center",
+			"action": {"type": "openGui", "gui": "languages"}
+		},
+		"discord": {
+			"text": "D",
+			"posX": -25,
+			"posY": 40,
+			"width": 20,
+			"height": 20,
+			"alignment": "right_center",
+			"action": {"type": "openLink", "link": "https://discord.gg/qezsm3c8Z6"}
+		},
+		"refresh": {
+			"text": "",
+			"posX": -25,
+			"posY": -80,
+			"width": 20,
+			"height": 20,
+			"alignment": "right_center",
+			"texture": "custommainmenu:textures/gui/buttons.png",
+			"action": {"type": "refresh"}
+		}
+	},
+	"labels": {
+		"mojang": {
+			"text": "Copyright Mojang AB. Do not distribute!",
+			"hoverText": "�nCopyright Mojang AB. Do not distribute!",
+			"posX": -197,
+			"posY": -18,
+			"color": -1,
+			"alignment": "bottom_right",
+			"action": {"type": "openGui", "gui": "credits"}
+		},
+		"factoriotxt": {
+			"text": "FactorioCraft Season 6",
+			"posX": 2,
+			"posY": -64,
+			"color": -1,
+			"alignment": "bottom_left"
+		},
+		"modauthor": {
+			"text": "by El, OrangeLeaf36, TBar & GhostglowDev",
+			"posX": -214,
+			"posY": -9,
+			"color": -1,
+			"alignment": "bottom_right"
+		},
+		"fml": {
+			"text": "",
+			"posX": 2,
+			"posY": -55,
+			"color": -1,
+			"alignment": "bottom_left"
+		}
+	},
+	"other": {
+		"splash-text": {
+			"posX": 240,
+			"posY": 80,
+			"color": -256,
+			"alignment": "left",
+			"texts": "file:modpack:textures/mainmenu/splashtexts.txt"
+		},
+		"background":  {
+			"image": "",
+			"slideshow": {
+				"images": [
+					"modpack:textures/mainmenu/slides/slide_0.png",
+					"modpack:textures/mainmenu/slides/slide_1.png",
+					"modpack:textures/mainmenu/slides/slide_2.png",
+					"modpack:textures/mainmenu/slides/slide_3.png",
+					"modpack:textures/mainmenu/slides/slide_4.png",
+					"modpack:textures/mainmenu/slides/slide_5.png",
+					"modpack:textures/mainmenu/slides/slide_6.png",
+					"modpack:textures/mainmenu/slides/slide_7.png",
+					"modpack:textures/mainmenu/slides/slide_8.png",
+					"modpack:textures/mainmenu/slides/slide_9.png",
+					"modpack:textures/mainmenu/slides/slide_10.png",
+					"modpack:textures/mainmenu/slides/slide_11.png",
+					"modpack:textures/mainmenu/slides/slide_12.png",
+					"modpack:textures/mainmenu/slides/slide_13.png",
+					"modpack:textures/mainmenu/slides/slide_14.png",
+					"modpack:textures/mainmenu/slides/slide_15.png",
+					"modpack:textures/mainmenu/slides/slide_16.png",
+					"modpack:textures/mainmenu/slides/slide_17.png",
+					"modpack:textures/mainmenu/slides/slide_18.png",
+					"modpack:textures/mainmenu/slides/slide_19.png",
+					"modpack:textures/mainmenu/slides/slide_20.png",
+					"modpack:textures/mainmenu/slides/slide_21.png",
+					"modpack:textures/mainmenu/slides/slide_22.png",
+					"modpack:textures/mainmenu/slides/slide_23.png",
+					"modpack:textures/mainmenu/slides/slide_24.png",
+					"modpack:textures/mainmenu/slides/slide_25.png",
+					"modpack:textures/mainmenu/slides/slide_26.png",
+					"modpack:textures/mainmenu/slides/slide_27.png",
+					"modpack:textures/mainmenu/slides/slide_28.png",
+					"modpack:textures/mainmenu/slides/slide_29.png",
+					"modpack:textures/mainmenu/slides/slide_30.png",
+					"modpack:textures/mainmenu/slides/slide_31.png",
+					"modpack:textures/mainmenu/slides/slide_32.png",
+					"modpack:textures/mainmenu/slides/slide_33.png",
+					"modpack:textures/mainmenu/slides/slide_34.png",
+					"modpack:textures/mainmenu/slides/slide_35.png",
+					"modpack:textures/mainmenu/slides/slide_36.png",
+					"modpack:textures/mainmenu/slides/slide_37.png",
+					"modpack:textures/mainmenu/slides/slide_38.png",
+					"modpack:textures/mainmenu/slides/slide_39.png",
+					"modpack:textures/mainmenu/slides/slide_40.png",
+					"modpack:textures/mainmenu/slides/slide_41.png",
+					"modpack:textures/mainmenu/slides/slide_42.png",
+					"modpack:textures/mainmenu/slides/slide_43.png"
+				],
+				"displayDuration": 100,
+				"fadeDuration": 30,
+				"shuffle": true
+			}
+		}
+	}
+}

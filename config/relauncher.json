@@ -1,0 +1,7 @@
+{
+  "selectedVersion": "0.3.13-alpha",
+  "latestVersion": "0.3.13-alpha",
+  "javaPath": "",
+  "args": " -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent\u003d20 -XX:G1ReservePercent\u003d20 -XX:MaxGCPauseMillis\u003d50 -XX:G1HeapRegionSize\u003d16M -Djava.net.preferIPv4Stack\u003dtrue -Xmx6G",
+  "javaVersion": 21
+}
