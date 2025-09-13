@@ -390,3 +390,20 @@ crafting.shapedBuilder() // Assembler (re-done)
         O: item('tconstruct:tool_rod').withNbt([Material:'obsidian']) // Obsidian Tool Rod
     ])
     .register()
+
+// AE2 Wireless Terminals
+crafting.removeByOutput(item('ae2wtlib:infinity_booster_card'))
+crafting.shapedBuilder() // Infinity Booster Card
+    .output(item('ae2wtlib:infinity_booster_card'))
+    .shape('ABA',
+           'CDC',
+           'EFE')
+    .key([
+        A: ore('pearlFluix'),  // Fluix Pearl
+        B: item('appliedenergistics2:material:41'), // Wireless Receiver
+        C: item('appliedenergistics2:material:42'), // Wireless Booster
+        D: item('appliedenergistics2:material:47'), // AE2 Singularity
+        E: ore('dustEnder'), // Ender Dust
+        F: ore('gemChargedCertusQuartz') // Charged Certus Quartz
+    ])
+    .register()
