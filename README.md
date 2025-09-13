@@ -32,16 +32,19 @@ Brought to you by:
 
 ## How to Setup a Modpack
 ### SKLauncher
-1. Click the `+` button. 
+1. Go to `.minecraft/modpacks`. (create the `modpacks` folder if there isn't already one)
+2. Paste the modpack in the `modpacks` folder.
+3. Open the SKLauncher app
+4. Click the `+` button. 
   > ![](.docs/1_sklauncher.png)
-2. Select the appropriate options:
+5. Select the appropriate options:
   >    **i.**   Name it whatever you want <br>
   >    **ii.**  Select Forge and select Version 1.12.2 <br>
   >    **iii.** Path to the modpack directory. <br>
   >        (e.g. `C:\Users\user\AppData\Roaming\.minecraft\modpacks\Factoriocraft`) <br><br>
   > ![](.docs/2_sklauncher.png)
-3. Click `Save`
-4. Launch the Game
+6. Click `Save`
+7. Launch the Game
 
 ### Prism Launcher
 1. Click the `Add Instance` button.
