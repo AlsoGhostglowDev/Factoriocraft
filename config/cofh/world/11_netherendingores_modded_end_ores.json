@@ -6,7 +6,7 @@
 			"generator": {
 				"block": "netherendingores:ore_end_modded_1",
 				"material": "minecraft:end_stone",
-				"cluster-size": 16
+				"cluster-size": 10
 			},
 			"cluster-count": 6,
 			"min-height": 5,
@@ -28,7 +28,7 @@
 					"metadata": 1
 				},
 				"material": "minecraft:end_stone",
-				"cluster-size": 18
+				"cluster-size": 12
 			},
 			"cluster-count": 8,
 			"min-height": 5,
@@ -50,7 +50,7 @@
 					"metadata": 3
 				},
 				"material": "minecraft:end_stone",
-				"cluster-size": 16
+				"cluster-size": 10
 			},
 			"cluster-count": 7,
 			"min-height": 5,
@@ -72,7 +72,7 @@
 					"metadata": 4
 				},
 				"material": "minecraft:end_stone",
-				"cluster-size": 15
+				"cluster-size": 9
 			},
 			"cluster-count": 5,
 			"min-height": 5,
@@ -94,9 +94,9 @@
 					"metadata": 6
 				},
 				"material": "minecraft:end_stone",
-				"cluster-size": 13
+				"cluster-size": 4
 			},
-			"cluster-count": 6,
+			"cluster-count": 8,
 			"min-height": 5,
 			"max-height": 255,
 			"retrogen": "false",
@@ -116,7 +116,7 @@
 					"metadata": 7
 				},
 				"material": "minecraft:end_stone",
-				"cluster-size": 15
+				"cluster-size": 10
 			},
 			"cluster-count": 6,
 			"min-height": 5,
@@ -138,7 +138,7 @@
 					"metadata": 8
 				},
 				"material": "minecraft:end_stone",
-				"cluster-size": 18
+				"cluster-size": 10
 			},
 			"cluster-count": 6,
 			"min-height": 5,
@@ -160,7 +160,7 @@
 					"metadata": 9
 				},
 				"material": "minecraft:end_stone",
-				"cluster-size": 17
+				"cluster-size": 8
 			},
 			"cluster-count": 6,
 			"min-height": 5,
@@ -182,7 +182,7 @@
 					"metadata": 10
 				},
 				"material": "minecraft:end_stone",
-				"cluster-size": 13
+				"cluster-size": 5
 			},
 			"cluster-count": 4,
 			"min-height": 5,
@@ -204,7 +204,7 @@
 					"metadata": 11
 				},
 				"material": "minecraft:end_stone",
-				"cluster-size": 16
+				"cluster-size": 10
 			},
 			"cluster-count": 7,
 			"min-height": 5,
@@ -226,7 +226,7 @@
 					"metadata": 12
 				},
 				"material": "minecraft:end_stone",
-				"cluster-size": 14
+				"cluster-size": 8
 			},
 			"cluster-count": 6,
 			"min-height": 5,
@@ -249,7 +249,7 @@
 					"metadata": 5
 				},
 				"material": "minecraft:end_stone",
-				"cluster-size": 14
+				"cluster-size": 8
 			},
 			"cluster-count": 5,
 			"min-height": 5,

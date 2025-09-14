@@ -6,7 +6,7 @@
 			"generator": {
 				"block": "netherendingores:ore_end_vanilla",
 				"material": "minecraft:end_stone",
-				"cluster-size": 22
+				"cluster-size": 10
 			},
 			"cluster-count": 10,
 			"min-height": 10,
@@ -28,7 +28,7 @@
 					"metadata": 1
 				},
 				"material": "minecraft:end_stone",
-				"cluster-size": 16
+				"cluster-size": 8
 			},
 			"cluster-count": 5,
 			"min-height": 10,
@@ -50,9 +50,9 @@
 					"metadata": 2
 				},
 				"material": "minecraft:end_stone",
-				"cluster-size": 12
+				"cluster-size": 4
 			},
-			"cluster-count": 5,
+			"cluster-count": 3,
 			"min-height": 10,
 			"max-height": 255,
 			"retrogen": "false",
@@ -72,7 +72,7 @@
 					"metadata": 3
 				},
 				"material": "minecraft:end_stone",
-				"cluster-size": 18
+				"cluster-size": 12
 			},
 			"cluster-count": 8,
 			"min-height": 20,
@@ -94,7 +94,7 @@
 					"metadata": 4
 				},
 				"material": "minecraft:end_stone",
-				"cluster-size": 19
+				"cluster-size": 12
 			},
 			"cluster-count": 8,
 			"min-height": 30,
