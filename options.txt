@@ -15,7 +15,7 @@ difficulty:0
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["hopefully this isnt copyrighted.zip","Factoriocraft Tweaks","Modern Netherending"]
+resourcePacks:["hopefully this isnt copyrighted.zip","Factoriocraft Tweaks","Factoriocraft Server","Modern Netherending"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
