@@ -62,4 +62,4 @@ Brought to you by:
   > ![](.docs/4_prism.png)
 6. Paste in the folders from the ZIP into the `minecraft` folder
   > ![](.docs/5_prism.png)
-4. Launch the Game
+7. Launch the Game
