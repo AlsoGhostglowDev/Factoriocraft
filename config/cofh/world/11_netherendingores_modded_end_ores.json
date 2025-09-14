@@ -1,0 +1,267 @@
+{
+	"dependencies": "netherendingores",
+	"populate": {
+		"end-aluminum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "netherendingores:ore_end_modded_1",
+				"material": "minecraft:end_stone",
+				"cluster-size": 16
+			},
+			"cluster-count": 6,
+			"min-height": 5,
+			"max-height": 255,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"end-copper": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_end_modded_1",
+					"metadata": 1
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 18
+			},
+			"cluster-count": 8,
+			"min-height": 5,
+			"max-height": 255,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"end-lead": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_end_modded_1",
+					"metadata": 3
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 16
+			},
+			"cluster-count": 7,
+			"min-height": 5,
+			"max-height": 255,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+        "end-mithril": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_end_modded_1",
+					"metadata": 4
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 15
+			},
+			"cluster-count": 5,
+			"min-height": 5,
+			"max-height": 255,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"end-platinum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_end_modded_1",
+					"metadata": 6
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 13
+			},
+			"cluster-count": 6,
+			"min-height": 5,
+			"max-height": 255,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"end-silver": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_end_modded_1",
+					"metadata": 7
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 15
+			},
+			"cluster-count": 6,
+			"min-height": 5,
+			"max-height": 255,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"end-tin": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_end_modded_1",
+					"metadata": 8
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 18
+			},
+			"cluster-count": 6,
+			"min-height": 5,
+			"max-height": 255,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"end-certus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_end_modded_1",
+					"metadata": 9
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 17
+			},
+			"cluster-count": 6,
+			"min-height": 5,
+			"max-height": 255,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"end-charged-certus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_end_modded_1",
+					"metadata": 10
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 13
+			},
+			"cluster-count": 4,
+			"min-height": 5,
+			"max-height": 255,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"end-osmium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_end_modded_1",
+					"metadata": 11
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 16
+			},
+			"cluster-count": 7,
+			"min-height": 5,
+			"max-height": 255,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"end-uranium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_end_modded_1",
+					"metadata": 12
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 14
+			},
+			"cluster-count": 6,
+			"min-height": 5,
+			"max-height": 255,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+
+        "end-cobalt": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_other_1",
+					"metadata": 5
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 14
+			},
+			"cluster-count": 5,
+			"min-height": 5,
+			"max-height": 255,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		}
+	}
+}
