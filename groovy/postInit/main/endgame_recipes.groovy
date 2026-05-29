@@ -313,7 +313,7 @@ tcrafting.shapedBuilder() // Creative Energy Source
         L: item('draconicevolution:reactor_core'),
         M: item('draconicevolution:energy_storage_core'),
         N: item('mekanismgenerators:reactor'), // Reactor Controller
-        O: item('advancedrocketry:nuclearcore'), // Nuclear Thermal Fission Core
+        O: item('hbm:rbmk_pellet_ra226be'), // Ra226Be Neutron Source Pellet
     ])
     .tierUltimate()
     .register()
@@ -541,8 +541,8 @@ tcrafting.shapelessBuilder() // Ultimate Ingot
         // -- Row 1 -- //
         item('minecraft:iron_ingot'),
         item('minecraft:gold_ingot'),
-        item('advancedrocketry:productingot'),
-        item('advancedrocketry:productingot:1'),
+        ore('ingotTitanium'),
+        ore('ingotSchrabidium'),
         item('draconicevolution:draconium_ingot'),
         item('draconicevolution:draconic_ingot'),
         item('enderio:item_alloy_ingot'),
