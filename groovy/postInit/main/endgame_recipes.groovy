@@ -281,21 +281,21 @@ tcrafting.shapedBuilder() // Creative Capactior Bank
         H: item('draconicevolution:draconic_energy_core'),
         I: item('draconicevolution:energy_storage_core'),
         J: item('draconicevolution:chaotic_core'),
-        K: item('ic2:te:86'), // Creative Generator
+        K: item('extrautils2:creativeenergy'), // Creative Energy Source
         L: item('draconicevolution:draconium_capacitor:2') // Creative Flux Capacitor
     ])
     .tierUltimate()
     .register()
 
-tcrafting.shapedBuilder() // Creative Generator
-    .output(item('ic2:te:86'))
+tcrafting.shapedBuilder() // Creative Energy Source
+    .output(item('extrautils2:creativeenergy'))
     .matrix('OADEEEDAO',
             'AADBCBDAA',
-            'PQIGHGIQP',
+            'ONIGHGINO',
             'DDCFJFCDD',
             'ENMFKFMNE',
             'DDCFLFCDD',
-            'RQIGHGIQR',
+            'ONIGHGINO',
             'AADBCBDAA',
             'OADEEEDAO')
     .key([
@@ -312,11 +312,8 @@ tcrafting.shapedBuilder() // Creative Generator
         K: item('draconicevolution:chaotic_core'),
         L: item('draconicevolution:reactor_core'),
         M: item('draconicevolution:energy_storage_core'),
-        N: item('ic2:te:24'), // Reactor Chamber
-        O: item('ic2:te:22'), // Nuclear Reactor
-        P: item('ic2:te:9'), // Stirling Generator
-        Q: item('ic2:te:5'), // Kinetic Generator
-        R: item('ic2:te:4') // Geothermal Generator
+        N: item('mekanismgenerators:reactor'), // Reactor Controller
+        O: item('advancedrocketry:nuclearcore'), // Nuclear Thermal Fission Core
     ])
     .tierUltimate()
     .register()
@@ -350,7 +347,7 @@ tcrafting.shapedBuilder() // Creative Vending Upgrade
 
         '1': item('mekanism:machineblock2:11').withNbt([tier: 4]), // Creative Fluid Tank
         '2': item('mekanism:gastank').withNbt([tier: 4]), // Creative Gas Tank
-        '3': item('ic2:te:86'), // Creative Generator
+        '3': item('extrautils2:creativeenergy'), // Creative Energy Source
         '4': item('enderio:block_cap_bank').withNbt(['enderio:energy': 50000000]), // Creative Capacitor Bank
     ])
     .tierUltimate()

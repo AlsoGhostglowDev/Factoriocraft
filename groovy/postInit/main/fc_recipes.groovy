@@ -1,5 +1,23 @@
 import mods.draconicevolution
 import mods.extendedcrafting
+import mods.mekanism
+import nc.recipe.NCRecipes
+
+// Coal --> Graphite
+furnace.recipeBuilder()
+    .output(item('nuclearcraft:ingot:8'))
+    .input(ore('gemCoal'))
+    .exp(0.1f)
+    .register()
+
+furnace.recipeBuilder()
+    .output(item('nuclearcraft:ingot:8'))
+    .input(ore('itemCharcoal'))
+    .exp(0.1f)
+    .register()
+
+// NuclearCraft Infuser Recipe
+NCRecipes.infuser.addRecipe(ore('ingotTitanium'), fluid('neutron') * 1000, item('avaritia:resource', 4), 1d, 1d)
 
 // Tinkers Construct
 crafting.removeByOutput(item('tconstruct:materials:14'))
@@ -13,6 +31,30 @@ crafting.shapedBuilder() // Reinforced Modifier (buffed)
         R: item('mekanism:ingot'), // Refined Obsidian Ingot
         P: item('tconstruct:cast').withNbt([PartType:'tconstruct:large_plate']) // Large Plate Cast
     ])
+    .register()
+
+// Mekanism
+def infuser = mekanism.metallurgic_infuser
+infuser.removeByInput(ore('ingotSteel'), infusionType('redstone'))
+infuser.recipeBuilder()
+    .input(ore('ingotIron'))
+    .infuse(infusionType('redstone'))
+    .amount(10)
+    .output(item('mekanism:enrichedalloy'))
+    .register()
+
+infuser.removeByInput(ore('itemSilicon'), infusionType('redstone'))
+infuser.recipeBuilder()
+    .input(ore('ingotOsmium'))
+    .infuse(infusionType('redstone'))
+    .amount(10)
+    .output(item('mekanism:controlcircuit'))
+    .register()
+
+def crusher = mekanism.crusher
+crusher.recipeBuilder()
+    .input(ore('ingotGraphite'))
+    .output(item('nuclearcraft:dust:8'))
     .register()
 
 // SRParasites
@@ -199,9 +241,7 @@ ccrafting.recipeBuilder()
         item('minecraft:iron_helmet'),
         item('minecraft:golden_helmet'),
         item('minecraft:diamond_helmet'),
-        item('ic2:nano_helmet'),
-        item('ic2:quantum_helmet'),
-        item('netherex:wither_bone_helmet'),
+        item('hbm:envsuit_helmet'),
         item('nuclearcraft:helm_tough'),
         item('nuclearcraft:helm_hard_carbon'),
         item('enderio:item_dark_steel_helmet'),
@@ -223,9 +263,7 @@ ccrafting.recipeBuilder()
         item('minecraft:iron_chestplate'),
         item('minecraft:golden_chestplate'),
         item('minecraft:diamond_chestplate'),
-        item('ic2:nano_chestplate'),
-        item('ic2:quantum_chestplate'),
-        item('netherex:wither_bone_chestplate'),
+        item('hbm:envsuit_plate'),
         item('nuclearcraft:chest_tough'),
         item('nuclearcraft:chest_hard_carbon'),
         item('enderio:item_dark_steel_chestplate'),
@@ -247,9 +285,7 @@ ccrafting.recipeBuilder()
         item('minecraft:iron_leggings'),
         item('minecraft:golden_leggings'),
         item('minecraft:diamond_leggings'),
-        item('ic2:nano_leggings'),
-        item('ic2:quantum_leggings'),
-        item('netherex:wither_bone_leggings'),
+        item('hbm:envsuit_legs'),
         item('nuclearcraft:legs_tough'),
         item('nuclearcraft:legs_hard_carbon'),
         item('enderio:item_dark_steel_leggings'),
@@ -271,9 +307,7 @@ ccrafting.recipeBuilder()
         item('minecraft:iron_boots'),
         item('minecraft:golden_boots'),
         item('minecraft:diamond_boots'),
-        item('ic2:nano_boots'),
-        item('ic2:quantum_boots'),
-        item('netherex:wither_bone_boots'),
+        item('hbm:envsuit_boots'),
         item('nuclearcraft:boots_tough'),
         item('nuclearcraft:boots_hard_carbon'),
         item('enderio:item_dark_steel_boots'),

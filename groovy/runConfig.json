@@ -1,8 +1,8 @@
 {
   "packName": "FactorioCraft",
   "packId": "factoriocraft",
-  "author": "Execute, OrangeLeaf36, TBar, GhostglowDev",
-  "version": "1.0.0",
+  "author": "El, OrangeLeaf36, TBar, GhostglowDev",
+  "version": "2.5.0",
   "debug": false,
   "loaders": {
     "preInit": [
