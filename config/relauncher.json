@@ -1,0 +1,14 @@
+{
+  "selectedVersion": "0.7.7-alpha",
+  "latestVersion": "0.7.7-alpha",
+  "targetJavaVersion": 25,
+  "targetVendor": "Azul Zulu",
+  "javaPath": "",
+  "args": "-XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent\u003d28 -XX:G1ReservePercent\u003d28 -XX:MaxGCPauseMillis\u003d200 -XX:G1HeapRegionSize\u003d8M -XX:+AlwaysPreTouch -XX:+UseStringDeduplication  -XX:+UseCompactObjectHeaders -Xmx6G",
+  "autoSetup": true,
+  "enableRelauncher": true,
+  "fetchUpdates": true,
+  "clearCleanroomFolder": false,
+  "clearJavaProvisionFolder": false,
+  "darkMode": true
+}
