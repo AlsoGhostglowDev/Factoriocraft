@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    17
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Enderium§r is an alloy that §eisn\u0027t made like the others§r we\u0027ve seen so far, as in order to make it, you need an §6Alloy Smelter§r and need to §amix 3 materials together§r.\n\nTo make Enderium, you will need §6Lead Ingot§r (§7Which can be found underground§r), §P§6Platinum Ingot§r (§7Which can be found around §eY: 2§r§7, near §eBedrock§r) and §6Ender Pearl§6§rs (§7Which can be collected by defeating Endermen§r). \n\nThrow §e3 Lead, 1 Platinum, and 4 Ender Pearls into the Alloy Smelter§r and you will be gifted an §aingot of Enderium§r, which can then be used like any other ingot.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 167,
+        "id:8": "thermalfoundation:material"
+      },
+      "name:8": "Obtain Enderium"
+    }
+  },
+  "questID:3": 69,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 167,
+          "id:8": "thermalfoundation:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

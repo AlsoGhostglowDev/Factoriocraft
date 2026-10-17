@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    759492377
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Serves the same functionality as the §6Redstone Energy Fluxduct§r. Has a §etransfer rate of 16k§cRF/t§r per connection.\n\nTo craft one, you\u0027ll need three §6Signalum Nugget§rs, a §6Redstone Energy Fluxduct§r, and §6Redstone Dust§r. It can also be made using three Redstone Energy Fluxducts, three Redstone Dust, and an §6Signalum Ingot§r to obtain more.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "thermaldynamics:duct_0"
+      },
+      "name:8": "Signalum Fluxduct"
+    }
+  },
+  "questID:3": 300628278,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 6,
+          "Damage:2": 3,
+          "id:8": "thermaldynamics:duct_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

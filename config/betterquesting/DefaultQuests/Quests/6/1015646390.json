@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    174,
+    1843640930
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This is useful if you want to §eget resources from other places but you\u0027re not interested in travelling§r. The §6Void Resource Miner§r allows you to get common resources you\u0027d find across the world, ranging from plain ol\u0027 Stone to some other §ePlanet\u0027s unique blocks§r.\n\nTo build one, refer to the §6Digital Guide§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "environmentaltech:void_res_miner_cont_1"
+      },
+      "name:8": "Void Resource Miner"
+    }
+  },
+  "questID:3": 1015646390,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {}
+}

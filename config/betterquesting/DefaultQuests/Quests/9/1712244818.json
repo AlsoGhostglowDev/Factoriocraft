@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    2131509688
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Crafter§r is an §eupgraded version of its predecessor§r: the §6Simple Crafter§r, with a few new additions, including:\n\n - §eRedstone Control§o to §eenable/disable§r the machine\n - ability to Configure IO (§7Input / Output§r)\n - Item Buffering control (§7Single / Stack§r)\n\nIf you already have the Simple Crafter, you can use that in place of the §6Industrial Machine Chassis§r. Otherwise, you\u0027ll need an §6Industrial Machine Chassis§r, and two §6Infinity Bimetal Gear§rs.\nYou can also craft it using a §6Crafting Table§r, an Industrial Machine Chassis, two Infinity Bimetal Gears, two §6Iron Ingot§rs, and three §6Silicon§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_crafter"
+      },
+      "name:8": "Crafter"
+    }
+  },
+  "questID:3": 1712244818,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_crafter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

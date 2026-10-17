@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    184452152
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Simple SAG Mill§r is used to §egrind items into their crushed variants§r like Ores and Dusts. It has §efour output slots as recipes§r that can have 1-4 different outputs with each §edifferent chances of obtaining those said outputs§r. The Simple variant §ccannot use the Grinding Balls, so you cannot boost the chances of the outputs§r.\n\nTo craft one, you\u0027ll need a §6Simple Machine Chassis§r, 3 §6Flint§rs, 2 §6Iron Ingot§rs,  2 §6Stone Compound Gear§rs, and a §6Piston§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_simple_sag_mill"
+      },
+      "name:8": "Simple SAG Mill",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1856374944,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_simple_sag_mill"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

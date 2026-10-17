@@ -1,0 +1,77 @@
+{
+  "preRequisites:11": [
+    2029465388
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Orbital Laser Drill§r is capable of §emining the planet below the Space Station for resources§r... or better yet, §cfor your own personal gain, power, and destruction§r.\n§4Think about the consequences of doing this and use with caution§r. \n\nThe machine is a §aMultiblock Structure§r; §eThe multiblock\u0027s materials are in the task itself§r.\n\nTo craft the Orbital Laser Drill, you\u0027ll need two §6Advanced Circuit§rs, a §6Tracking Circuit§r, a Battery (§7in §eJEI§7, as §6item.battery.0.name§r), a §6Control Circuit Board§r, two §6Titanium Gear§rs, and a §6Machine Structure§r.",
+      "frame:8": "SKULL",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:spacelaser"
+      },
+      "name:8": "§4Doomsday."
+    }
+  },
+  "questID:3": 870444918,
+  "rewards:9": {
+    "0:10": {
+      "amount:3": 150,
+      "index:3": 0,
+      "isLevels:1": 0,
+      "rewardID:8": "bq_standard:xp"
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:spacelaser"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 1,
+          "id:8": "libvulpes:hatch"
+        },
+        "2:10": {
+          "Count:3": 13,
+          "id:8": "libvulpes:structuremachine"
+        },
+        "3:10": {
+          "Count:3": 36,
+          "id:8": "libvulpes:advstructuremachine"
+        },
+        "4:10": {
+          "Count:3": 48,
+          "id:8": "advancedrocketry:vacuumlaser"
+        },
+        "5:10": {
+          "Count:3": 14,
+          "id:8": "advancedrocketry:blocklens"
+        },
+        "6:10": {
+          "Count:3": 8,
+          "id:8": "libvulpes:forgepowerinput"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

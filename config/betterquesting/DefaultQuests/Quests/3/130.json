@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    57
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Steel Ingots can be made by using a §6Metallurgic Infuser§r§e by infusing §6Coal§r§e into an §6Iron Ingot§r to make §6Enriched Iron§r, then §einfuse Coal into the Enriched Iron to make §6Steel Dust§r, and then it\u0027s as simple as §esmelting the Steel Dust§r to recieve an Ingot of steel.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 160,
+        "id:8": "thermalfoundation:material"
+      },
+      "name:8": "Steel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 130,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 160,
+          "id:8": "thermalfoundation:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

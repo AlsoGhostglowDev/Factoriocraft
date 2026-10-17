@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    892899340,
+    174
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Erodium Crystal§r is a material that can only be found with the §6Tier 1 Void Miner§e and higher§r. Can be used in §amaking machine upgrades§r and can be used in §5Tinkers\u0027 Construct§r tools, which has the §etrait of gaining back health on attack, chance to light the target on fire, and bonus damage§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "environmentaltech:erodium_crystal"
+      },
+      "name:8": "Erodium"
+    }
+  },
+  "questID:3": 177,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "environmentaltech:erodium_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

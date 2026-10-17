@@ -1,0 +1,57 @@
+{
+  "preRequisites:11": [
+    49
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Simple Machine Chassis§r is a §estaple in §5EnderIO§e machines§r and is very important in crafting §emost of the machines here§r. But first, you will need §6Grains of Infinity§r (§7Not to be confused with the §6Infinity Ingot§r), which can be collected by §esetting §6Bedrock§e on fire§r.\n\nTo craft the Simple Machine Chassis, you will need four §6Iron Bar§rs, four §6Iron Ingot§rs, and a Grain of Infinity.\n\nNow would be a good time to tell you about §ethe energy that §6EnderIO§e uses§r. §5EnderIO§r uses a energy unit of §cMicro Infinity§r (§cµI§r), but, not to worry since you can still use §cRF§r and it\u0027s 1:1 to each other. Also note that Some machines that uses energy may need a §6Capacitor§r to work.",
+      "frame:8": "JAGGED",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:item_material"
+      },
+      "ismain:1": 1,
+      "name:8": "Simple Machine Chassis",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 184452152,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 20,
+          "id:8": "enderio:item_material"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        },
+        "2:10": {
+          "Count:3": 2,
+          "id:8": "enderio:item_material"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

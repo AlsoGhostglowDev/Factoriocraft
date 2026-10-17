@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    46
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Certus Quartz is an ore that spawns between §eY level 74 to 12§r and it can be mined with §eCopper level tools or higher§r. It is super useful in §5Applied Energistics§r, so it is §erecommended to collect it when you find it§r! \n\nThere also exists a §echarged variant§r, which glows in the dark.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Certus Quartz",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1705357114,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

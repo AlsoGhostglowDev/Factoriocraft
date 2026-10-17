@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    18,
+    15
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Manyullyn§r isn\u0027t an ore that can be found. Instead, it is an §ealloy created by mixing §6Cobalt §eand §6Ardite§e in the §3Smeltery§r.\n\nOnce mixing the two, you can then §euse it like any other material§r, like make an ingot of it from an §6Ingot Cast§r, or §amake a tool§r!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "tconstruct:ingots"
+      },
+      "name:8": "Obtain Manyullyn"
+    }
+  },
+  "questID:3": 16,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "tconstruct:ingots"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

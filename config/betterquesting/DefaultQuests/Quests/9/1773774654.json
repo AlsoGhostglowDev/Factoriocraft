@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    1166991187
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Energy Conduit§r is able to §eflow energy§r through it\u0027s cables. This one has a §emaximum output§r of 640 µI/t.\n\nTo make Energy Conduits, you\u0027ll need six §6Conduit Binder§rs and three §6Conductive Iron Ingot§rs.\nTo make Conductive Iron Ingots, you\u0027ll need to throw in §6Redstone Dust§r and an §6Iron Ingot§r into an §6Induction Smelter§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:item_power_conduit"
+      },
+      "name:8": "Energy Conduit",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1773774654,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "enderio:item_power_conduit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

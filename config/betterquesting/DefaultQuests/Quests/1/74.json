@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    78,
+    72,
+    26
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Awakened Core§r is the one of the first instance of an artifact that can §aonly be made using §aFusion Crafting§r.\n\n§aFusion Crafting§r may seem intimidating at first (§7Even I thought so until §9NeoTechnologies§7 forced me into documenting it§r), but it\u0027s nothing more than §eblocks placed in a particular setup with cables connecting them together§r. The Fusion Crafter is a §emulti-block structure§r, refer to the §5Draconic Evolution§r questline for information on how to construct it.\n\nTo fusion craft the Awakened Core, you will need to §eput two §6Wyvern Core§r§es on both sides, with one side containing 3 §6Awakened Draconium Ingot§r§es and 2 on the other side§r. Then simply place a §6Nether Star§r in the §6Fusion Crafting Core§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:awakened_core"
+      },
+      "name:8": "Obtain Awakened Core"
+    }
+  },
+  "questID:3": 74,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:awakened_core"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    51
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Redstone Fluxduct§r is used to §etransport §cRedstone Flux§e throughout your machineries§r. It\u0027s transfer speed is up to §e9k§cRF/t§r per connection.\n\nTo craft it, you\u0027ll need an §6Energy Fluxduct§r. To make a Energy Fluxduct, you\u0027ll need §6Fused Quartz§r and two §6Electrum Ingot§rs. You can then throw the Redstone Energy Fluxduct into the §6Fluid Transposer§r along with §9Destabilized Redstone§r to fill the Fluxduct.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "thermaldynamics:duct_0"
+      },
+      "name:8": "Redstone Fluxduct"
+    }
+  },
+  "questID:3": 759492377,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 6,
+          "Damage:2": 2,
+          "id:8": "thermaldynamics:duct_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

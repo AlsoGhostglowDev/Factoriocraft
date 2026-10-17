@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [
+    54
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Thermal Evaporation Plant§r (§7TEP§r) is a §emultiblock structure§r that consists of §6Thermal Evaporation Block§r, §6Thermal Evaporation Valve§r and §6Thermal Evaporation Controller§r. The structure would need a §econsistent production of heat§r, so you can either put 4 §6Advanced Solar Generator§e on the corners of the top layer§r or §emanually input the heat by powering §6Resistive Heater§e and pipe the heat into TEP\u0027s valve§r using the §6Thermodynamic Conductor§rs.\n\nThis multiblock is mostly used to turn §6Water§r into §6Brine§r and Brine into §6Lithium§r. Lithium is a crucial step into getting §6Tritium§r which is the chemical needed to §epower the §6Fusion Reactor§r.\n\nTo make one, refer to this link: {Embed}TypeLink;https://wiki.aidancbrady.com/wiki/Thermal_Evaporation_Plant;300;15;Mekanism Wiki: Thermal Evaporation Plant{Embed}",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 14,
+        "id:8": "mekanism:basicblock"
+      },
+      "name:8": "Thermal Evaporation Plant (TEP)"
+    }
+  },
+  "questID:3": 64,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "id:8": "mekanism:basicblock"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 15,
+          "id:8": "mekanism:basicblock"
+        },
+        "2:10": {
+          "Count:3": 37,
+          "id:8": "mekanism:basicblock2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

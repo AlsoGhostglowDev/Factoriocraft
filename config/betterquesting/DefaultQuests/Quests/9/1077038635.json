@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    1658836330
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Killer Joe§r is used in Mob Farms to §eautomatically kill mobs with a specialized weapon§r. It does consume any energy. However, it instead §econsumes §9Nutrient Distillation§r which is a Fluid from §5EnderIO§r. It must have the §eappropriate tool in the weapon slot in order for it to work§r.\n\nTo craft the Killer Joe, you\u0027ll need you\u0027ll need five §6Fused Quartz§r, three §6Dark Steel Ingot§rs, and a §6Frank\u0027n\u0027Zombie§r.\n\nTo make the Nutrient Distillation, you\u0027d need §6The Vat§r.\nIn The Vat, you\u0027ll need to §aput raw matter on the left slot§r. This includes §eraw meats, §6Rotten Flesh§e, zombie brains and mob heads§r. In the right slot, you\u0027ll need either §6Sugar§r, §6Mushroom§r, §6Nether Wart§r or §6Fermented Spider Eye§r. These items §ediffer by their multiplier rates§r. Each would give from 75% yield to 200% the original amount. Lastly, the §eleft tank would need §9Water§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_killer_joe"
+      },
+      "name:8": "Killer Joe"
+    }
+  },
+  "questID:3": 1077038635,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_killer_joe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

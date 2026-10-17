@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    14,
+    13
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "While you\u0027re in the Nether, it\u0027s a good idea to §esearch for §6Cobalt Ore§r, which is a Nether Ore that can, once again, be used in tool forging.\n\nCobalt Ore can spawn in §eany Y level in the Nether§r, and you need an §6Obsidian Pickaxe§r to mine it (§7Which you can make by following the §5§3§3Smeltery§r §7quest§r).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:ingots"
+      },
+      "name:8": "Obtain Cobalt"
+    }
+  },
+  "questID:3": 15,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:ingots"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

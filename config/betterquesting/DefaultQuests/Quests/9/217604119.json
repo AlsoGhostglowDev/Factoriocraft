@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    765052547,
+    517953273
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Enhanced Alloy Smelter§r has the same functionality as it\u0027s last tier with the advantage of it having §afaster processing rate than the Industrial tier§r.\n\nTo craft it, you\u0027ll need three §6Furnace§rs, two §6End Steel Ingot§rs, two §6Vibrant Bimetal Gear§rs, a §6Cauldron§r, and an §6Enhanced Machine Chassis§r.\nIf you already have the regular §6Alloy Smelter§r, you just need an Alloy Smelter, two End Steel Ingots, two Vibrant Bimetal Gears, and an Enhanced Machine Chassis.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_enhanced_alloy_smelter"
+      },
+      "name:8": "Enhanced Alloy Smelter"
+    }
+  },
+  "questID:3": 217604119,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_enhanced_alloy_smelter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

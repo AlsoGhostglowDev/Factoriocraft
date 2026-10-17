@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    224121871
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Launch Pad§r is part of the §emultiblock in the Rocket\u0027s Assembly§r. You\u0027d need to place these on the ground with a §arecommended size of 5x5§r in area.\n\nTo craft the Launch Pad block, you\u0027ll need §6Concrete§r, §6Yellow Dye§r, an an I§6nk Sac§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:launchpad"
+      },
+      "name:8": "Launch Pad"
+    }
+  },
+  "questID:3": 577300123,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 25,
+          "id:8": "advancedrocketry:launchpad"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

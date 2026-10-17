@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    927102538
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Enhanced Machine Chassis§r is a crafting ingredient used in §amaking the Enhanced tier of the machines§r. These machines includes the §6Alloy Smelter§r, §6SAG Mill§r, §6Combustion Generator§r, §6Wired Charger§r and §6The Vat§r. The Enhanced Tier offers §aincreased energy storage and power usage§r. This results in §ahigher processing speed§r, making it §emore efficient and faster§r. \n\nHowever, there is a §cdownside to these machines§r: the machines are §e1.5 blocks high§r, so §cpipes and other automation cannot interact with the top half§r.\n\nTo craft one, you can throw an §6End Steel Chassis§r and §6Enhanced Dye Blend§r into the Alloy Smelter.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 54,
+        "id:8": "enderio:item_material"
+      },
+      "name:8": "Enhanced Machine Chassis"
+    }
+  },
+  "questID:3": 517953273,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 54,
+          "id:8": "enderio:item_material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

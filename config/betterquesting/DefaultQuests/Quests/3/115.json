@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    58,
+    61
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This is Tier 1 of Ore Processing which produces §edouble the amount inputted§r.\n\nThis is now something different, this is the first level of ore processing. To process your ore, you\u0027ll need to §eput your ore into a §6Enrichment Chamber§e to get 2 of it\u0027s dust§r. This dust would now be §esmelted and then turn into the ingot§r (§7or other, if exists§r) form.\n\n§n§lProsedure:§r\n1. Ore  \u003e  §6Enrichment Chamber§r  \u003e  Dust\n2. Dust  \u003e  §6Energized Smelter§r  \u003e  Ingot",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermalfoundation:material"
+      },
+      "name:8": "Ore Processing T1 (2x)"
+    }
+  },
+  "questID:3": 115,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

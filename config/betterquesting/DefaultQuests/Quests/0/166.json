@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    44
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Infusion Crystal§r is an §eunknown property-wielding material§r that can be used in crafting the §adifferent tier Essences§r. To craft one, you will need four §6Prosperity Shard§rs, four §6Inferium Essence§rs, and a §6Diamond§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mysticalagriculture:infusion_crystal"
+      },
+      "name:8": "Infusion Crystal"
+    }
+  },
+  "questID:3": 166,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mysticalagriculture:infusion_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

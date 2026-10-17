@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    65,
+    115
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This is Tier 2 of Ore Processing which produces §atriple the amount inputted§r.\n\nThis is one of the §echeap and easy early-game ore-processing steps§r. To do this, you\u0027ll have to §eput the Ore in a §6Purification Chamber§r that is supplied with §6Oxygen§r. This will give you 3 clumps which then would go into the §6Crusher§r to be turned into dust. The §edust can now be smelted to turn into their ingot form§r.\n\n§n§lProsedure:§r\n1. Ore + Oxygen  \u003e  §6Purification Chamber§r  \u003e  Clump\n2. Clump  \u003e  §6Crusher§r  \u003e  Dust\n3. Dust  \u003e  §6Energized Smelter§r  \u003e  Ingot\n\n§7TIP: I recommend getting the Gas Upgrade for the Purification Chamber so you can save on spending too much oxygen. §r",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mekanism:clump"
+      },
+      "name:8": "Ore Processing T2 (3x)"
+    }
+  },
+  "questID:3": 116,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "mekanism:tierinstaller"
+        }
+      }
+    }
+  },
+  "tasks:9": {}
+}

@@ -1,0 +1,58 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    114,
+    57
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Hohlraum§r is a §ecritical tool for igniting the §6Fusion Reactor§r.\n\nPlace the §6Hohlraum§r in the §ecenter slot of the §6Chemical Infuser§r of which has the §6D-T Fuel§r previously which has §eatleast 10 units§r of. Then, put it in the §6Fusion Reactor Controller§r when ready to fuse.\n\nTo obtain one, you must put §e4 §6Gold Dust§r in a §6Metallurgic Infuser§r together with §e10 units of Carbon§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mekanismgenerators:hohlraum",
+        "tag:10": {
+          "mekData:10": {
+            "stored:10": {
+              "amount:3": 10,
+              "gasName:8": "fusionfuel"
+            }
+          }
+        }
+      },
+      "name:8": "Hohlraum"
+    }
+  },
+  "questID:3": 146,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mekanismgenerators:hohlraum"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

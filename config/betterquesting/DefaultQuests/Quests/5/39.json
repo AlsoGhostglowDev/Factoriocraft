@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    27,
+    33
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The T8 §6Energy Core§r is capable of §estoring nearly infinite amount of energy§r. As such, it is considered the §ebest and last task§r in the §5Draconic Evolution§r questline.\n\nTo craft the Energy Core, you will need two §6Wyvern Energy Core§rs, six §6Draconium Ingot§rs, and one §6Wyvern Core§r. To craft the §6Energy Core Stabilizer§r, you will need a §6Particle Generator§r and four §6Diamond§rs. To craft an §6Energy Pylon§r, you will need four Draconium Ingots, two §6Emerald§rs, one Diamond, one §6Eye of Ender§r, and a §6Draconic Core§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:energy_storage_core"
+      },
+      "name:8": "T8 Energy Core"
+    }
+  },
+  "questID:3": 39,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 786,
+          "id:8": "draconicevolution:draconium_block"
+        },
+        "1:10": {
+          "Count:3": 378,
+          "id:8": "draconicevolution:draconic_block"
+        },
+        "2:10": {
+          "Count:3": 27,
+          "Damage:2": 2,
+          "id:8": "draconicevolution:particle_generator"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:energy_storage_core"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:energy_pylon"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:glass"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

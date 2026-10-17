@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    71
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Now that you\u0027ve obtained a §6Supremium Ingot§r, you can now use it §elike any other ingot§r. You can throw it in the §b§3Smeltery§r or use it in §etool forging§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:sharpening_kit",
+        "tag:10": {
+          "Material:8": "ma.supremium"
+        }
+      },
+      "name:8": "Supremium Tool"
+    }
+  },
+  "questID:3": 72,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:sharpening_kit",
+          "tag:10": {
+            "Material:8": "ma.supremium"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

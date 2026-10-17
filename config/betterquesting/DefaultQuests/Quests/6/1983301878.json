@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    1757341028,
+    40
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Tier 6 Solar Array§r gives you access to the §emost environmentally friendly power source§r yet the §amost efficient §rat it\u0027s job. It outputs a §clarge amount of energy§r from just the Sun\u0027s energy. \n\nIt is also used in §ecrafting the §6Creative Capactior Bank§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "environmentaltech:solar_cont_6"
+      },
+      "name:8": "T6 Solar Array"
+    }
+  },
+  "questID:3": 1983301878,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "environmentaltech:solar_cont_6"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

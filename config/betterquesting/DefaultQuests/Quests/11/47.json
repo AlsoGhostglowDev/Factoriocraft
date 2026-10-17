@@ -1,0 +1,35 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    50
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "IndustrialCraft2 (IC2) is the start of technology minecraft mods. It provides various amounts of machines used to process items, harvest energy and many more. It is a big independent technology mod that is interesting to explore!\n\n§cThe IndustrialCraft2 Questline is not yet available for FactorioCraft Season 6§r. ",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 13,
+        "id:8": "ic2:resource"
+      },
+      "name:8": "Gate: IndustrialCraft 2",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 47,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "id:8": "ic2:resource"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

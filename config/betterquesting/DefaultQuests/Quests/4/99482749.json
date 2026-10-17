@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    1974240037,
+    949311917
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Inscriber§r is a machine that gives you the §eability to obtain variants of the processors used in crafting the other important AE2 components§r. This includes the §6Engineering, Logic and Calculation Processor§rs that are often used in making the §eME Storage System§r.\n\nTo craft it, you\u0027ll need five §6Iron Ingot§rs, two §6Sticky Piston§rs, and a §6Fluix Crystal§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:inscriber"
+      },
+      "name:8": "Inscriber",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 99482749,
+  "rewards:9": {
+    "0:10": {
+      "amount:3": 30,
+      "index:3": 0,
+      "isLevels:1": 0,
+      "rewardID:8": "bq_standard:xp"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:inscriber"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "preRequisites:11": [
+    11
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "While making stone tools is cool n\u0027 all, §anot all materials can be turned into tool parts with just the §6Part Builder§r. For example, §7Iron§r. To make iron into tool parts, we need to use the\n§6§3§8§7§3Smeltery§r. To make one, refer to the §6Materials and You§6§r book on how to §a§ebuild the structure§r itself.\n\nWith the §3Smeltery§r in place, you can now throw in smeltable ores and melt them down.\nIt really makes you say \"§b§d§k§f§l§c§c§r§l§n§n§o§r§o§lI feel good§r §b§k§8§k§9§kad§6§kud§ca§kd§a§ku§e§kad§f§k§c§3§ka§kd§8§kuh§r\". :O\n\nNow to use the molten ores in tool forging, you will need a §6Blank Cast§r molded into the parts you want to use. To do this, §amake a tool part from the pre-existing §6Tool Station§r§a, put that part on the §6Casting Table§a, put §6Clay §aor §6Gold§a into the Smeltery for use, and pour the §6Clay§a/§6G§G§6old§a onto the tool part to make a cast for it§r (§7Please note that this will use up the tool part!§r). While §1§2§0§6Clay Casts§r can only be used once, the §eGold Cast§r (§6Blank Cast§r) can be §eused more than once§r.\n\nFrom there, you can begin making §a§ecasts of all of your tool parts§r!\n\n(§7Also note that putting an ingot in place of the tool part can make the §6Ingot Cast§r§7, which will allow you to obtain the standard ingot version of the ore if the ore is not a gem. Useful for repairing your tools since those still take ingots to repair§r)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:smeltery_controller"
+      },
+      "name:8": "Smeltery",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 32,
+          "id:8": "tconstruct:materials"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "claybucket:claybucket"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {}
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 3,
+          "id:8": "tconstruct:seared"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:smeltery_io"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:faucet"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:casting"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:seared_tank"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:smeltery_controller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

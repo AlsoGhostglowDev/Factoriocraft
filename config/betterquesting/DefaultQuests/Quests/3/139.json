@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    137
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "While §6Heat Generator§rs are cool and all, it\u0027s much better to have an §erenewable energy supply§r to §econstantly feed your machines§r. That is where the generators like the §6Advanced Solar Generator§r comes in. It\u0027s similar to a §6Daylight Sensor§r, only it §etakes in sunlight and converts it into an energy source§r.\n\nTo craft one, you will need two §6Enriched Alloy§rs, three §6Iron Ingot§rs, and four §6Solar Generator§rs.\n\nThe only downside to this generator is that it will only work in the daytime (§7At least in the overworld, §o*wink* *wink*§r).",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "mekanismgenerators:generator"
+      },
+      "name:8": "Everlasting Energy I"
+    }
+  },
+  "questID:3": 139,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "mekanismgenerators:generator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "preRequisites:11": [
+    76
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You should know the drill by now. Place the §6Chaotic Core§r in the §6Part Builder§r §oblah blah blah§r §eChaotic Tool of your choice§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "plustic::10": {
+            "Items:9": {},
+            "Size:3": 1
+          },
+          "plustic:fruitsalad_cap:10": {
+            "Items:9": {},
+            "Size:3": 5
+          },
+          "plustic:musicofthespheres_cap:10": {
+            "Items:9": {},
+            "Size:3": 1
+          }
+        },
+        "id:8": "tconstruct:pickaxe",
+        "tag:10": {
+          "EvolvedEnergy:3": 64000000,
+          "Modifiers:9": {
+            "0:10": {
+              "color:3": -7444965,
+              "identifier:8": "ecological",
+              "level:3": 1
+            },
+            "1:10": {
+              "CanonicalTraitLevel:3": 3,
+              "color:3": -10066330,
+              "identifier:8": "tconevo.evolved",
+              "level:3": 3
+            },
+            "2:10": {
+              "color:3": 43690,
+              "identifier:8": "tconevo.draconic_energy",
+              "level:3": 1
+            },
+            "3:10": {
+              "color:3": 43690,
+              "identifier:8": "tconevo.draconic_dig_speed",
+              "level:3": 1
+            },
+            "4:10": {
+              "color:3": 43690,
+              "identifier:8": "tconevo.draconic_dig_aoe",
+              "level:3": 1
+            },
+            "5:10": {
+              "CanonicalTraitLevel:3": 3,
+              "color:3": -10066330,
+              "identifier:8": "tconevo.soul_rend",
+              "level:3": 3
+            },
+            "6:10": {
+              "color:3": 16777215,
+              "identifier:8": "toolleveling",
+              "level:3": 1
+            }
+          },
+          "Special:10": {
+            "Categories:9": {
+              "0:8": "aoe",
+              "1:8": "harvest",
+              "2:8": "tool"
+            }
+          },
+          "Stats:10": {
+            "Attack:5": 64.0,
+            "AttackSpeedMultiplier:5": 1.0,
+            "Durability:3": 6700,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 11,
+            "MiningSpeed:5": 22.0
+          },
+          "StatsOriginal:10": {
+            "Attack:5": 64.0,
+            "AttackSpeedMultiplier:5": 1.0,
+            "Durability:3": 6700,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 11,
+            "MiningSpeed:5": 22.0
+          },
+          "TinkerData:10": {
+            "Materials:9": {
+              "0:8": "wood",
+              "1:8": "chaotic_metal",
+              "2:8": "wood"
+            },
+            "Modifiers:9": {
+              "0:8": "toolleveling",
+              "1:8": "tconevo.draconic_energy",
+              "2:8": "tconevo.draconic_dig_speed",
+              "3:8": "tconevo.draconic_dig_aoe"
+            }
+          },
+          "Traits:9": {
+            "0:8": "ecological",
+            "1:8": "tconevo.evolved3",
+            "2:8": "tconevo.draconic_energy",
+            "3:8": "tconevo.draconic_dig_speed",
+            "4:8": "tconevo.draconic_dig_aoe",
+            "5:8": "tconevo.soul_rend3",
+            "6:8": "toolleveling"
+          },
+          "Unbreakable:1": 1
+        }
+      },
+      "name:8": "Chaotic Tool."
+    }
+  },
+  "questID:3": 77,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:pick_head",
+          "tag:10": {
+            "Material:8": "chaotic_metal"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

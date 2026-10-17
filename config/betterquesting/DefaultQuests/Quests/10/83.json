@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    84,
+    80
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§eCollect all the Singularities§r to form the §6Ultimate Singularity§r. This will be used in §efuture crafting recipes§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "extendedcrafting:singularity_ultimate"
+      },
+      "name:8": "All the Singularities"
+    }
+  },
+  "questID:3": 83,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extendedcrafting:singularity_ultimate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

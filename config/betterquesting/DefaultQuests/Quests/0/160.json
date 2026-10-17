@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    159,
+    156
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6T5 Crafting Seeds§r allows you to §ecraft the §6Tier 5 Resource Seeds§r\n\nTo obtain the Tier 5 Resource Seed, you\u0027ll need to use §5Draconic Evolution§e\u0027s Fusion Crafting§r. You\u0027d also need §e8 §6Supremium Essence §rto put in the Fusion Injectors and the §6Tier 4 Crafting Seed§r in the Core. You would also need §c1MRf§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 21,
+        "id:8": "mysticalagriculture:crafting"
+      },
+      "name:8": "T5 Seed"
+    }
+  },
+  "questID:3": 160,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 21,
+          "id:8": "mysticalagriculture:crafting"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

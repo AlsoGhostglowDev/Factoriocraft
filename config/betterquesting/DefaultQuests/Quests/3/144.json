@@ -1,0 +1,36 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    112
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Heavy Water §r(§7D₂O§r) is a fluid that §econtains a heavier Hydrogen Isotope which is §cDeuterium§r.\n\nYou can obtain Heavy Water by using a §6Water Pump§r with a §eFilter Upgrade§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "heavywater"
+        }
+      },
+      "name:8": "Heavy Water"
+    }
+  },
+  "questID:3": 144,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "heavywater"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    1658836330
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Farming Station§r is a way to §aautomate farming your crops§r. However, it is §egated behind §5Advanced Rocketry§r to encourage you to use §5OpenComputers§r\u0027 robots to automate your farms.\n\nIn order to get the Farming Station to work, you\u0027d need §ean axe§r, a §ehoe§r and §6Shears§r to get it started up. The axe is used to §ecut down trees§r, the hoes is to §etill and break the crops§r. The Shears is used to §eshear nearby sheep§r. Giving the Farming Station will §agive it a greater effect radius§r, making your farm §elarger and more efficient§r. It also needs §9Water§r piped into it to work so it can water the crops for you. This means you §edo not need water nearby for your crops to grow§r!\n\nTo craft it, you\u0027ll need two §6Soularium Ingot§rs, two §6Energized Bimetal Gear§rs, a §6Pulsating Crystal§r, two §6Vibrant Crystal§rs, a §6Z-Logic Controller§r, and a §6Soul Machine Chassis§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_farm_station"
+      },
+      "name:8": "Farming Station"
+    }
+  },
+  "questID:3": 134982412,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_farm_station"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

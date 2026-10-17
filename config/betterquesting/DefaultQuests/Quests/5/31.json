@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    34
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Wyvern Fusion Crafting Injector§r is §eanother tier of the Fusion Injector block§r that §eallows for better crafting capabilities§r. Each tier can make §emore powerful items and upgrades§r.\n\nTo make one on the §6Fusion Crafter§r, you will need four §6Diamond§rs on the right, One §6Wyvern Core§r, §6Draconium Block§r, and two §6Draconium Core§rs on the left, and a §6Basic Fusion Crafting Injector§r in the Fusion Core.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "draconicevolution:crafting_injector"
+      },
+      "name:8": "Wyvern Fusion Crafting"
+    }
+  },
+  "questID:3": 31,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 1,
+          "id:8": "draconicevolution:crafting_injector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

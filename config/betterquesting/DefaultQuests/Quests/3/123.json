@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    60
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Refined Obsidian§r is a §erefined item§r that can be made with the §6Osmium Compressor§r. It is a key material in the Tinkers\u0027 \"refined\" modifier.\n\nTo make a §6Refined Obsidian Ingot§r, put §6Obsidian§r into the §6Enrichment Chamber§r to make §6Pulverized Obsidian§r, then place the Pulverized Obsidian into the §6Metallurgic Infuser§r along with §6Diamond Dust§r to create §6Refined Obsidian Dust§r, then place the Dust into the Osmium Compressor to make an ingot of Refined Obsidian.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mekanism:ingot"
+      },
+      "name:8": "Refined Obsidian"
+    }
+  },
+  "questID:3": 123,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mekanism:ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

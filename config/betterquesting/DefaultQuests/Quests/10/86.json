@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    1011523065
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§eThis is it§r, we\u0027re halfway there but §athere\u0027s more to come§r. You already have the §euniverse at the palm of your hand§r. Why stop now?",
+      "frame:8": "STAR4_ON_HEXAGON",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 6,
+        "id:8": "avaritia:resource"
+      },
+      "ismain:1": 1,
+      "name:8": "§cInfinity Ingot"
+    }
+  },
+  "questID:3": 86,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "avaritia:resource"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

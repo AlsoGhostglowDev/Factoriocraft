@@ -1,0 +1,50 @@
+{
+  "preRequisites:11": [
+    163,
+    160
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This is the §efinal tier§r of the Resource Seeds. It allows you to §ecraft the §6Tier 6 Resource Seeds§r\n\nSimilar to the §6Tier 5 Crafting Seed§r. You\u0027d also need the §eFusion Crafting§r. The ingredients are §e4 §6Blocks of Supremium Essence§r and §e4 §6Blocks of Insanium Essence §rto put in the Fusion Injectors and the §6Tier 5 Crafting Seed§r in the Core. You would also need §c5MRf§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "mysticalagradditions:insanium"
+      },
+      "ismain:1": 1,
+      "name:8": "T6 Seed"
+    }
+  },
+  "questID:3": 164,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "mysticalagradditions:insanium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

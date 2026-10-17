@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    80
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This machine\u0027s usage is to and ONLY to §ecollect §6Piles of Neutron§r to later be produced into a §6Neutronium Ingot§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "avaritia:neutron_collector"
+      },
+      "name:8": "Neutron Collector"
+    }
+  },
+  "questID:3": 81,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "avaritia:neutron_collector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

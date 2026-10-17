@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    6
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "HAHA GET IT BECAUSE IT\u0027S COPPER AND IT\u0027S CONDUCTIVE IM SO FUNNY!!!!111!!!!11!\n\nBut seriously, §6Copper Ingot§rs are used in §amaking electrical related stuff§r, but we can also use it in Copper tools, which has the trait of giving more XP when used.\n\n§6Copper Ore§r normally generates §earound the same Y level as §6Iron Ore§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 128,
+        "id:8": "thermalfoundation:material"
+      },
+      "name:8": "Is it going to shock me?",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 9,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 128,
+          "id:8": "thermalfoundation:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

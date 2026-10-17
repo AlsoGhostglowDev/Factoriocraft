@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    166
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Master Infusion Crystal§r is an §eupgraded version§r of the normal §6Infusion Crystal§r that can be crafted using four §6Prosperity Shard§rs, four §6Supremium Essence§rs, and a §6Diamond§r. It can be §eused just like it\u0027s normal counterpart§r (§7making the tier essences§r). What the normal one can\u0027t do that the Master can is §amake a block of the respective essence§r. It also has an §cunlimited§e amount of uses§r unlike the normal variant which can only be used for 1000 times.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mysticalagriculture:master_infusion_crystal"
+      },
+      "ismain:1": 1,
+      "name:8": "Master Infusion Crystal"
+    }
+  },
+  "questID:3": 165,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mysticalagriculture:master_infusion_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

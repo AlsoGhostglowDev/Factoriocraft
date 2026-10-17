@@ -1,0 +1,26 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Holo-Projector§r allows you to §ecast a hologram of the multiblock structures used in §5Advanced Rocketry§r. To use, §eclick the button of which multiblock you want§r and [§7R-Click§r] to cast the hologram. Weirdly, you §ccannot scroll down with your scroll wheel§r. You need to instead §edrag up/down while holding [§7L-Click§e] to scroll through the GUI§r. \nYou would also need to use [§7Shift + R-Click§r] while holding the Holo-Projector to §escroll through the hologram\u0027s layers§r.\n\nTo craft one, you\u0027ll need three §6Redstone Dust§r, an §6Iron Plate§r, and two §6Optical Sensor§rs.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "libvulpes:holoprojector"
+      },
+      "name:8": "Holo-Projector"
+    }
+  },
+  "questID:3": 820520081,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "libvulpes:holoprojector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

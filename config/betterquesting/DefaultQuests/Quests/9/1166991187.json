@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    49
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Conduit Binder§r is the §ekey ingredient in making §5EnderIO§e conduits§r that can transport various types of things, like §eenergy§r, §egas§r, §eitems§r, §efluids§r, etc.\n\nConduits can also be §emerged with the other types of conduits§r! e.g. you can save space by putting your §6Gas Conduit§r on the same block as your other conduit (§7like the item conduit§r) to together transport the needed materials to the same path. This is useful for §ecompacting your machines in small spaces§r.\n\n(§7TIP: [Extract Redstone Mode] is \"Always Disabled\" by default, so be sure to always set it to the desired mode if you are looking to extract the element. This rule does not apply to Energy Conduits.§r)\n\nTo make the Conduit Binder, you will need to smelt down the §6Conduit Binder Composite§r.\nTo make the Conduit Binder Composite, you\u0027ll need five §6Gravel§r, two §6Sand§r, and two §6Clay§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "enderio:item_material"
+      },
+      "name:8": "Conduit Binder",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1166991187,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 6,
+          "Damage:2": 4,
+          "id:8": "enderio:item_material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

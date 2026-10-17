@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    50
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Mekanism§r is a Machinery mod that adds plenty of blocks that help with loads of tasks, like §eproducing energy§r and §ecreating new materials from existing ones§r.\n\nFrom the §6Electrolytic Seperator§r to the §6Osmium Compressor§r to the §6Metallurgic Infuser§r, you\u0027ll be sure to have a fun time making your base §einto a factory of mass production§r!\n\n§eCollect an §6Osmium Ingot§e to begin this questline§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mekanism:atomicalloy"
+      },
+      "name:8": "Gate: Mekanism",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 45,
+  "rewards:9": {
+    "0:10": {
+      "command:8": "#Script Comment\nsay VAR_NAME has unlocked the gate to Mekanism!",
+      "description:8": "Run a command script",
+      "index:3": 0,
+      "rewardID:8": "bq_standard:command"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "mekanism:ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

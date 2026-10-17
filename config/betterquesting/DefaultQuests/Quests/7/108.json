@@ -1,0 +1,58 @@
+{
+  "preRequisites:11": [
+    109
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§a§rServers are even more powerful computers that §acan store and use a lot more components§r, even having buses to §aincrease the component cap§r.\n\nYou can insert up to §e4 servers into a single rack§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 15,
+        "id:8": "opencomputers:component"
+      },
+      "name:8": "More Powerful Computers"
+    }
+  },
+  "questID:3": 108,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 13,
+          "OreDict:8": "oc_server",
+          "id:8": "opencomputers:component"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": "oc_compBus",
+          "id:8": "opencomputers:component"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "opencomputers:rack"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

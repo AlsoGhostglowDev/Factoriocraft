@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    1167259382,
+    1367991928
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Space Station ID Chip§r is used for the §6Guidance Computer§r on a rocket to §eguide the said rocket to the target Space Station§r based on the §6ID Chip§r. These ID Chips can also be §eduplicated in a Satellite Builder§r. Learn more in it\u0027s own quest description.\n\nTo craft one, you\u0027ll simply need a §6Basic Circuit§r and a §6Linker§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:spacestationchip"
+      },
+      "name:8": "Space Station ID Chip"
+    }
+  },
+  "questID:3": 2114070141,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:spacestationchip"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

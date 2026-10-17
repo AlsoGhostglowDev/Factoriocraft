@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    1773774654
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Ender Energy Conduit§r is the §enext tier above the §6Energy Conduit§r and is capable of outputting a §emaximum of 20480 µI/t§r.\n\nTo make §6Vibrant Alloy Ingot§rs, Throw an §6Energetic Alloy Ingot§r and an §6Ender Pearl§r into the §6Induction Smelter§r.\n\nTo make the Ender Energy Conduit, you\u0027ll need six §6Conduit Binder§rs and three Vibrant Alloy Ingots.\nIf you already have a standard Energy Conduit, you only need two Vibrant Alloy Ingots and replace the middle one with the Energy Conduit.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "enderio:item_power_conduit"
+      },
+      "name:8": "Ender Energy Conduit"
+    }
+  },
+  "questID:3": 2122280596,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 2,
+          "id:8": "enderio:item_power_conduit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    1483656101
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §cparasites in this world evolve the more they infect§r. This §ecan be stopped§r and even lowered.\n\nGrab yourself some §6Rupter Viscera§r (§7that you get from killing rupters§r) and §ebuild a parasite lure§r, which §estops the parasites from evolving§r.\n\nYou may also lower points by §ekilling high level parasites§r such as §cOverseers§r or §cStage 4 Beckons§r.",
+      "frame:8": "JAGGED",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "srparasites:itemmobspawner_hostii"
+      },
+      "name:8": "Evolution"
+    }
+  },
+  "questID:3": 1228377968,
+  "rewards:9": {
+    "0:10": {
+      "amount:3": 180,
+      "index:3": 0,
+      "isLevels:1": 0,
+      "rewardID:8": "bq_standard:xp"
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {}
+}

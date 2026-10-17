@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    86
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§eAbilities:§r\n- §6Instamine Wood§r\n\nIt\u0027s a powerful axe, said to be forged by §eMother Nature herself§r. Effective in both §ecombat and deforesting§r. ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "avaritia:infinity_axe"
+      },
+      "name:8": "§5Nature\u0027s Ruin"
+    }
+  },
+  "questID:3": 92,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "avaritia:infinity_axe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

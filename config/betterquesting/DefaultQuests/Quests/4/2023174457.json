@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    1406602717
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Self-explanatory. It\u0027s the same as the §6ME Storage Cell§rs but for §efluids and strictly for fluids§r. If you\u0027re looking to §eput gas§r, then check out the §eyellow-looking ME Cell§r instead.\n\nTo craft it, refer to the §eJEI§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:fluid_storage_cell_1k",
+        "tag:10": {}
+      },
+      "name:8": "ME Fluid Cell"
+    }
+  },
+  "questID:3": 2023174457,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "meFluidCell",
+          "id:8": "appliedenergistics2:fluid_storage_cell_1k",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

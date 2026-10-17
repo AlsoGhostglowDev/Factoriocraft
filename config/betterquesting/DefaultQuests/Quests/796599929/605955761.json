@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    300628278
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Also serves the same functionality as the §6Redstone Energy Fluxduct§r but has a §etransfer rate of 25k§cRF/t§r per connection.\n\nTo craft one, you\u0027ll need three §6Enderium Nugget§rs, a §6Signalum Fluxduct§r, and §6Redstone Dust§r. It can also be made using three Signalum Fluxducts, three Redstone Dust, and an §6Enderium Ingot§r to obtain more.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "thermaldynamics:duct_0"
+      },
+      "name:8": "Resonant Fluxduct"
+    }
+  },
+  "questID:3": 605955761,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 6,
+          "Damage:2": 4,
+          "id:8": "thermaldynamics:duct_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

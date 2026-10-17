@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    1892239042
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Warp Core§r is needed §eanywhere in a Space Station§r in order to make the §6Warp Controller§e work§r.\n\nThe machine is a §aMultiblock Structure§r; §eThe multiblock\u0027s materials are in the task itself§r.\n\nTo craft the Warp Core, you\u0027ll need four §6Titanium Plate§rs, two §6Steel Plate§rs, two §6Advanced Circuit§rs, and a §6Copper Coil§r Block.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:warpcore"
+      },
+      "name:8": "Warp Core"
+    }
+  },
+  "questID:3": 1869169115,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:warpcore"
+        },
+        "1:10": {
+          "Count:3": 15,
+          "Damage:2": 7,
+          "id:8": "libvulpes:metal0"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "id:8": "libvulpes:structuremachine"
+        },
+        "3:10": {
+          "Count:3": 2,
+          "id:8": "minecraft:gold_block"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "libvulpes:hatch"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

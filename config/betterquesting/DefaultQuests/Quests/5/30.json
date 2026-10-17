@@ -1,0 +1,189 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    2
+  ],
+  "preRequisites:11": [
+    41,
+    37
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §cChaos Guardian§r is a Dragon §eguarding the §6Chaos Crystal§r. The §eChaos Island spawns throughout every 10,000 blocks§r in the End and will look like a regular End island that looks destroyed and is floating above the other islands.\n\nWe at §9NeoTechnologies§r do not know much about §cthis creature§r, but we do know that the §ecrystal is hidden inside the chaos island§r. While we don\u0027t know much about the Crystal itself, we do know that it\u0027s §cVERY unstable§r.\n\nGood luck.\n\n§4Be warned: It is recommended to have Draconic Gear when preparing to fight this beast, as calculations have shown that the beast itself is flowing with chaotic energy.§r",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:chaos_shard"
+      },
+      "ismain:1": 1,
+      "name:8": "Chaos Crystal"
+    }
+  },
+  "questID:3": 30,
+  "rewards:9": {
+    "0:10": {
+      "amount:3": 1000,
+      "index:3": 0,
+      "isLevels:1": 0,
+      "rewardID:8": "bq_standard:xp"
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "target:8": "draconicevolution:chaosguardian",
+      "targetNBT:10": {
+        "AbsorptionAmount:5": 0.0,
+        "Air:2": 300,
+        "ArmorDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085
+        },
+        "ArmorItems:9": {
+          "0:10": {},
+          "1:10": {},
+          "2:10": {},
+          "3:10": {}
+        },
+        "Attributes:9": {
+          "0:10": {
+            "Base:6": 2000.0,
+            "Name:8": "generic.maxHealth"
+          },
+          "1:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.knockbackResistance"
+          },
+          "2:10": {
+            "Base:6": 0.699999988079071,
+            "Name:8": "generic.movementSpeed"
+          },
+          "3:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.armor"
+          },
+          "4:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.armorToughness"
+          },
+          "5:10": {
+            "Base:6": 1.0,
+            "Name:8": "forge.swimSpeed"
+          },
+          "6:10": {
+            "Base:6": 16.0,
+            "Name:8": "generic.followRange"
+          }
+        },
+        "Behaviour:8": "ROAMING",
+        "CanPickUpLoot:1": 0,
+        "DeathTime:2": 0,
+        "Dimension:3": 0,
+        "FallDistance:5": 0.0,
+        "FallFlying:1": 0,
+        "Fire:2": -1,
+        "ForgeCaps:10": {
+          "nuclearcraft:capability_entity_rads:10": {
+            "consumed:1": 0,
+            "externalRadiationResistance:6": 0.0,
+            "internalRadiationResistance:6": 0.0,
+            "maxRads:6": 51200.0,
+            "poisonBuffer:6": 0.0,
+            "radXCooldown:6": 0.0,
+            "radXUsed:1": 0,
+            "radXWoreOff:1": 0,
+            "radawayBuffer:6": 0.0,
+            "radawayBufferSlow:6": 0.0,
+            "radawayCooldown:6": 0.0,
+            "radiationImmunityStage:1": 0,
+            "radiationImmunityTime:6": 0.0,
+            "radiationLevel:6": 0.0,
+            "recentPoisonAddition:6": 0.0,
+            "recentRadXAddition:6": 0.0,
+            "recentRadawayAddition:6": 0.0,
+            "setFromMaxHealth:1": 1,
+            "shouldWarn:1": 0,
+            "totalRads:6": 0.0
+          },
+          "tinkertoolleveling:entityxp:9": {}
+        },
+        "ForgeData:10": {},
+        "HandDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085
+        },
+        "HandItems:9": {
+          "0:10": {},
+          "1:10": {}
+        },
+        "Health:5": 1024.0,
+        "HomeSet:1": 0,
+        "HomeXCoord:3": 0,
+        "HomeYCoord:3": -1,
+        "HomeZCoord:3": 0,
+        "HurtByTimestamp:3": 0,
+        "HurtTime:2": 0,
+        "Invulnerable:1": 0,
+        "Leashed:1": 0,
+        "LeftHanded:1": 0,
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "OnGround:1": 0,
+        "PersistenceRequired:1": 1,
+        "PortalCooldown:3": 0,
+        "Pos:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "Rotation:9": {
+          "0:5": 3.4339254,
+          "1:5": 0.0
+        },
+        "SurgeAABB:9": {
+          "0:6": -0.30000001192092896,
+          "1:6": 0.0,
+          "2:6": -0.30000001192092896,
+          "3:6": 15.699999988079071,
+          "4:6": 8.0,
+          "5:6": 15.699999988079071
+        },
+        "UUIDLeast:4": -8408031973763750192,
+        "UUIDMost:4": -1660798901994175337,
+        "UpdateBlocked:1": 0,
+        "id:8": "draconicevolution:ChaosGuardian"
+      },
+      "taskID:8": "bq_standard:hunt"
+    },
+    "1:10": {
+      "autoConsume:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 5,
+          "id:8": "draconicevolution:chaos_shard"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

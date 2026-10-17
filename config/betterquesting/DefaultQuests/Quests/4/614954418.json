@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    183
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6ME Terminal§r allows you to §etake items in and out of your ME System§r. Though, this is §cstrictly for items only§r. You might need to take a look at the §6ME Fluid Terminal§r for §emanaging fluids in your ME Storage§r.\n\nTo craft one, you\u0027ll need an §6Illuminated Panel§r, a §6Formation Core§r, an §6Annihilation Core§r, and a §6Logic Processor§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 380,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "ME Terminal"
+    }
+  },
+  "questID:3": 614954418,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 380,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

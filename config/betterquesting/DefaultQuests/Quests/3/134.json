@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    122
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Can be made by putting §6Coal§r or §6Charcoal§r into the §6Enrichment Chamber§r.\n\nHighly recommended to use this instead of regular Coal since §6Compressed Carbon§r is worth §e80 carbon§r in the §6Metallurgic Infuser§r, as opposed to §eCoal\u0027s 10 and Charcoal\u0027s 20§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mekanism:compressedcarbon"
+      },
+      "name:8": "Compressed Carbon"
+    }
+  },
+  "questID:3": 134,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mekanism:compressedcarbon"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

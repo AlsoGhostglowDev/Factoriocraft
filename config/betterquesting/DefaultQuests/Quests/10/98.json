@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    86,
+    97
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aInfinite Gases.§r\nPut in a Crafting Grid to §cvoid the contents§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mekanism:gastank",
+        "tag:10": {
+          "tier:3": 4
+        }
+      },
+      "name:8": "Creative Gas Tank"
+    }
+  },
+  "questID:3": 98,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mekanism:gastank",
+          "tag:10": {
+            "tier:3": 4
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    86
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§eAbilities:§r\n- §6Large Mining AOE on §cDestroyer §6Mode§r\n\nA shovel that\u0027s said to have carved out the rivers, lakes, and terrain of this planet §elong ago§r...\n\n[§7Shift§r] + [§7R-Click§r] to toggle the Destroyer mode.\nWill drop a §6Matter Cluster§r if there\u0027s too much items dropped. [§7R-Click§r] it to get them out.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "avaritia:infinity_shovel"
+      },
+      "name:8": "§5Planet Eater"
+    }
+  },
+  "questID:3": 94,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "avaritia:infinity_shovel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

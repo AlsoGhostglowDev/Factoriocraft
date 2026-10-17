@@ -1,0 +1,19 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§n§l§l§r§7§l§n§r§o§7§oThe contents below is a list of every single mod book found in the game, which contains information about their respective mod and can aid in teaching you about different aspects of the game. Refer to these if you are having trouble with a certain mod\u0027s features.\n\n§l§7§l§nIndustrial Foregoing\u0027s Manual§r §l§6§l/§r Goes over every block, item, and material from the §5Industrial§o§o§r§n§r §5Foregoing§r mod.\n\n§1§8§l§nExtended Crafting Guide§r §l§6§l/§r Goes over extra crafting items that you can craft with the §d§5Extended Crafting§r new crafting tables (§7take a shot for each time crafting was said§r).\n\n§5§l§nDraconic Evolution Information Tablet§r §l§6§l/§r A tablet that allows for downloading pages of mod documentation from Github. This includes pages for mods outside of §5Draconic Evolution§r too, making it a global documentation tablet!\n\n§1§l§nExtra Utilities 2 Manual§r §l§6§l/§r Goes over §5Extra Utilities§r mod content and goes over how grid power can be obtained and used in the game.\n\n§8§l§nDigital Guide§r §c§4§5§6§7§8§9§a§b§c§k§f§e§d§c§b§9§1§1§2§2§4§6§8§7§9§a§6§l/§r Goes over §5Environmental Technologies§r, like the §6Void Miner§r.\n\n§a§l§nMaterials and You§r §6§l/§r Goes over §5Tinkers\u0027 Construct§r tools, blocks, and features while also documenting them with detail.\n\n§7§l§nMaterials and You - Armory Addendum§r §6§l/§r An extension to the §6Materials and You§r book that goes over §5Tinkers\u0027 Construct§r Armors and documents them with detail.\n\n§9§l§9§l§n§b§3§l§nForge Lexicon§r §l§l§r§6§l/§r Goes over every single Ore Dictionary in the game with small descriptions.\n\n§9§l§nRFTools Manual§r §6§l/§r Goes over items, blocks, and features from the §5RFTools§r mod. ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:writable_book"
+      },
+      "name:8": "Read the Guidebooks!"
+    }
+  },
+  "questID:3": 20,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

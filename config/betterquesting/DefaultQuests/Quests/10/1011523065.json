@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    85
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§cEvery ingot in the game, compressed into one§r!\n\nOne of the basic Endgame recipes.",
+      "frame:8": "HEXAGON",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32,
+        "id:8": "extendedcrafting:material"
+      },
+      "ismain:1": 1,
+      "name:8": "The Ultimate Ingot"
+    }
+  },
+  "questID:3": 1011523065,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32,
+          "id:8": "extendedcrafting:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

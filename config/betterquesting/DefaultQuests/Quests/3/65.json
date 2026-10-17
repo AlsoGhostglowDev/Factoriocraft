@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    54
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "the §6Purification Chamber§r allows you to §epurify ores to get it\u0027s clumps§r. This is a crucial step to the Tier 2 Ore Processing line. The Purification Chamber often needs you to §efeed it §6Oxygen§r in order to §epurify the input§r.\n\nThis machine also has a factory variant, this means your Ore Processing line can be much faster with the help of bulk-tasking.\n\nTo craft one, you\u0027ll need four §6Enriched Alloy§rs, two §6Advanced Circuit§rs, two §6Osmium Ingot§rs, and an §6Enrichment Chamber§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 9,
+        "id:8": "mekanism:machineblock"
+      },
+      "name:8": "Purification Chamber"
+    }
+  },
+  "questID:3": 65,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "bq_standard:loot_chest",
+          "tag:10": {
+            "hideLootInfo:1": 1
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9,
+          "id:8": "mekanism:machineblock"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

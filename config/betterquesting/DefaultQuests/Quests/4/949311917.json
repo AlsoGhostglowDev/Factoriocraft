@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    1287765621
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§l§oE-GADDS!!§r\n\nIt seems that the §emeteorite had a chests in it\u0027s middle, containing a weird §6Inscriber Press§r. It seems to have writing §cfrom an unknown language§r on it.\n\nWhatever it is, it might become §euseful§r later on, it\u0027s best to keep it with you and §etry to find more of it§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 19,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Inscriber Press",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 949311917,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 13,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "id:8": "appliedenergistics2:material"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 15,
+          "id:8": "appliedenergistics2:material"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 19,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
